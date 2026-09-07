@@ -28,9 +28,11 @@ const { $page } = useSlideContext()
 <style scoped>
 .ds-moldura {
   position: absolute;
-  top: 2.4rem;
-  bottom: 1.5rem;
-  left: 2.1rem;
+  top: 1.9rem;
+  bottom: 1.2rem;
+  /* Acompanha o `--ds-pad-slide`, que encolheu para pagar o corpo maior:
+     a lombada tem de continuar folgada em relação ao conteúdo. */
+  left: 1.6rem;
   width: 1.4rem;
   pointer-events: none;
 }

@@ -91,9 +91,18 @@ headmatter. É uma escolha de projeção em sala com luz acesa.
 
 ### A escala de tipo
 
-Sete tamanhos, começando em **14 px**. Nada abaixo disso entra num slide — o texto é lido do
+Sete tamanhos, começando em **16 px**. Nada abaixo disso entra num slide — o texto é lido do
 fundo do auditório, não da mesa. Quando um slide parece precisar de um corpo menor, o problema
 é conteúdo demais, e a solução é outro slide.
+
+O piso era 14 px e subiu para 16 px; o título de slide desceu de 38 px para 35 px, fechando a
+distância entre título e corpo (era de 2,4×). O espaço saiu da entrelinha, da margem do slide
+e do respiro interno de `Criterios`, `comparacao`, `Grade`, `Cartao` e `Nota` — **nenhum slide
+perdeu conteúdo**.
+
+Esse é o teto sem reescrever aula. Acima dele, os slides densos — `Grade` de seis cartões,
+`Criterios` de cinco itens, `comparacao` de cinco linhas — passam a estourar, e aí vale a
+regra do parágrafo anterior: o problema é conteúdo demais.
 
 ### Fontes
 

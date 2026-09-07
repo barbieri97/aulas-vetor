@@ -83,12 +83,13 @@ const colunas = props.colunas ?? []
   flex: none;
 }
 
-/* A tabela flutua no meio do que sobra: com quatro linhas ela encostaria no
-   título e deixaria meio slide vazio embaixo. */
+/* A tabela começa logo abaixo do título: com quatro linhas (ou um slot
+   depois dela), centralizar faria a tabela crescer para cima e encostar
+   no título — melhor sobrar espaço embaixo do que sobrepor o de cima. */
 .tabela-caixa {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   flex: 1;
   min-height: 0;
 }
@@ -98,7 +99,10 @@ const colunas = props.colunas ?? []
    alturas diferentes. */
 .tabela {
   display: grid;
-  grid-template-columns: 9.5rem repeat(var(--ds-colunas, 2), minmax(0, 1fr));
+  /* 9.2rem é o mínimo que ainda cabe "COMPORTAMENTO" — o rótulo mais longo
+     das aulas — numa linha só, no corpo maior. Abaixo disso a palavra quebra
+     no meio. */
+  grid-template-columns: 9.2rem repeat(var(--ds-colunas, 2), minmax(0, 1fr));
   margin-top: var(--ds-space-2);
 }
 
@@ -112,7 +116,9 @@ const colunas = props.colunas ?? []
    quebra tem lugar certo, escreva um `&shy;` no próprio texto. */
 .celula {
   min-width: 0;
-  padding: var(--ds-space-3) var(--ds-space-4);
+  /* Mesma razão do `Criterios`: cinco linhas de tabela pagam o corpo maior
+     encurtando o respiro vertical, não o texto. */
+  padding: 0.55rem var(--ds-space-4);
   border-top: var(--ds-border) solid var(--ds-rule);
   font-size: var(--ds-text-sm);
   line-height: var(--ds-leading-normal);

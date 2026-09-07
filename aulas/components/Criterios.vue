@@ -49,7 +49,9 @@ const itens = (props.itens ?? []).map((item, i) => ({
   align-items: flex-start;
   gap: var(--ds-space-4);
   margin: 0;
-  padding: var(--ds-space-3) 0;
+  /* 0.55rem, e não `--ds-space-3`: com cinco itens na tela, o respiro entre
+     eles é o que paga o corpo maior do texto. */
+  padding: 0.55rem 0;
   border-top: var(--ds-border) solid var(--ds-rule);
 }
 

@@ -23,9 +23,9 @@ withDefaults(defineProps<{ cols?: number }>(), { cols: 2 })
 <style scoped>
 .ds-grade {
   display: grid;
-  gap: var(--ds-space-4);
+  gap: var(--ds-space-3);
   grid-template-columns: repeat(var(--ds-cols, 2), minmax(0, 1fr));
   align-items: stretch;
-  margin: var(--ds-space-5) 0;
+  margin: var(--ds-space-4) 0;
 }
 </style>

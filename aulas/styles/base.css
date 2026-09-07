@@ -40,6 +40,18 @@ body,
    entre os dois mora a marca-d'água da Giunti que `slide-bottom.vue` desenha.
    Um layout que precise de outro campo — a `pergunta`, por exemplo — pinta o
    seu por cima, e aí usa uma cor translúcida para a marca continuar aparecendo. */
+/* `<Fonte>` fica em `position: absolute` no pé do slide — não ocupa lugar no
+   fluxo, então nada impede o conteúdo de descer por cima dele. Era o que
+   acontecia em 16 slides da aula 02: o último item da lista imprimia em cima
+   do crédito. Aqui o slide que tem um `<Fonte>` reserva a faixa dele.
+
+   `:has()` é o que permite reservar só quando o crédito existe — slide sem
+   `<Fonte>` continua usando o slide inteiro. A reserva cobre um crédito de
+   duas linhas, que é o maior que aparece nas aulas. */
+.slidev-layout:has(.ds-fonte) {
+  padding-bottom: 4rem;
+}
+
 .slidev-layout {
   padding: var(--ds-pad-slide);
   background: transparent;
@@ -64,7 +76,7 @@ body,
 
 .slidev-layout h1 {
   position: relative;
-  margin: 0 0 var(--ds-space-5);
+  margin: 0 0 var(--ds-space-4);
   padding-bottom: var(--ds-space-3);
   font-size: var(--ds-text-2xl);
   line-height: var(--ds-leading-tight);

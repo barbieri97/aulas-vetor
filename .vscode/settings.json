@@ -2,6 +2,7 @@
     "slidev.include": [
         "**/slides.md",
         "aulas/aula-01-avaliacao-dos-transtornos-neurocognitivos.md",
-        "aulas/aula-01-neuropsicologia-tnc.md"
+        "aulas/aula-01-neuropsicologia-tnc.md",
+        "aulas/aula-02-avaliacao-tea-tdah.md"
     ]
 }

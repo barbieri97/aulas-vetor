@@ -33,8 +33,8 @@ withDefaults(defineProps<{
   --cor: var(--ds-marinho);
   --fundo: var(--ds-pastel-azul);
   max-width: 46rem;
-  margin: var(--ds-space-5) 0;
-  padding: var(--ds-space-3) var(--ds-space-5);
+  margin: var(--ds-space-4) 0;
+  padding: 0.65rem var(--ds-space-5);
   border-left: var(--ds-border-thick) solid var(--cor);
   background: var(--fundo);
 }

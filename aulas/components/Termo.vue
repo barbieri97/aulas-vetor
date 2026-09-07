@@ -33,7 +33,7 @@ defineProps<{
    turma vai procurar depois no caderno. */
 .ds-termo {
   max-width: 46rem;
-  margin: var(--ds-space-5) 0;
+  margin: var(--ds-space-4) 0;
   padding: var(--ds-space-4) var(--ds-space-5);
   border: var(--ds-border) solid var(--ds-rule-forte);
   border-top: var(--ds-border-thick) solid var(--ds-ouro);
