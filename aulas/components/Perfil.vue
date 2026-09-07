@@ -114,7 +114,7 @@ const barras = dominios.map((dominio, i) => {
 
 .regua text {
   fill: var(--ds-muted);
-  font-size: 15px;
+  font-size: var(--ds-text-xs);
   font-variant-numeric: tabular-nums;
 }
 
@@ -125,7 +125,7 @@ const barras = dominios.map((dominio, i) => {
 
 .nome {
   fill: var(--ds-ink);
-  font-size: 16px;
+  font-size: var(--ds-text-sm);
 }
 
 .barra.ok { fill: var(--ds-ok); }
@@ -133,7 +133,7 @@ const barras = dominios.map((dominio, i) => {
 .barra.danger { fill: var(--ds-danger); }
 
 .valor {
-  font-size: 15px;
+  font-size: var(--ds-text-xs);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }

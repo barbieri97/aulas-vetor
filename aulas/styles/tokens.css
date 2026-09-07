@@ -63,23 +63,30 @@
      Serifa nos títulos (Newsreader), sans humanista no corpo (Source Sans 3).
      Os arquivos são servidos pelo próprio site — ver styles/fontes.css.
 
-     A escala começa em 14px e não desce: slide é para ser lido do fundo do
-     auditório. Se um slide "precisa" de um corpo menor, ele tem texto demais. */
+     A escala começa em 16px e não desce: slide é para ser lido do fundo do
+     auditório. Se um slide "precisa" de um corpo menor, ele tem texto demais.
+
+     O piso subiu de 14px para 16px, e o título de slide desceu de 38px para
+     35px, para fechar a distância entre título e corpo — que era de 2,4x. O
+     espaço saiu da entrelinha, da margem do slide e do respiro interno de
+     `Criterios` e `comparacao`; nenhum slide perdeu conteúdo. Esse é o teto
+     sem reescrever aula: acima disto, os slides densos (Grade de 6 cartões,
+     Criterios de 5 itens, comparacao de 5 linhas) passam a estourar. */
   --ds-font-sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
   --ds-font-serif: "Newsreader", "Iowan Old Style", Palatino, Georgia, serif;
   --ds-font-mono: "JetBrains Mono", "Cascadia Code", ui-monospace, monospace;
 
-  --ds-text-xs: 0.9rem; /* 14px — kicker, crédito, rótulo */
-  --ds-text-sm: 1rem; /* 16px — legenda, corpo de cartão */
-  --ds-text-base: 1.2rem; /* 19px — o corpo do slide */
-  --ds-text-lg: 1.45rem; /* 23px — abertura, item de lista longa */
+  --ds-text-xs: 0.98rem; /* 16px — kicker, crédito, rótulo */
+  --ds-text-sm: 1.07rem; /* 17px — legenda, corpo de cartão */
+  --ds-text-base: 1.24rem; /* 20px — o corpo do slide */
+  --ds-text-lg: 1.5rem; /* 24px — abertura, item de lista longa */
   --ds-text-xl: 1.9rem; /* 30px — título de bloco */
-  --ds-text-2xl: 2.4rem; /* 38px — título de slide */
+  --ds-text-2xl: 2.2rem; /* 35px — título de slide */
   --ds-text-3xl: 3.4rem; /* 54px — capa, destaque, pergunta */
 
   --ds-leading-tight: 1.12;
-  --ds-leading-normal: 1.45;
-  --ds-leading-loose: 1.62;
+  --ds-leading-normal: 1.38;
+  --ds-leading-loose: 1.5;
   --ds-tracking-kicker: 0.18em;
 
   /* --- espaço ------------------------------------------------------------ */
@@ -93,7 +100,7 @@
   --ds-space-8: 4rem;
   /* A margem do slide. A esquerda é maior: é nela que mora a lombada
      (o fio vertical que a moldura desenha em todo slide de miolo). */
-  --ds-pad-slide: 2.4rem 3.2rem 3rem 4.4rem;
+  --ds-pad-slide: 1.9rem 2.6rem 2.4rem 3.8rem;
 
   /* --- forma -------------------------------------------------------------
      Cantos quase retos e fio de cabelo. O que separa dois blocos aqui é uma

@@ -36,7 +36,9 @@ withDefaults(defineProps<{
   display: flex;
   flex-direction: column;
   gap: var(--ds-space-1);
-  padding: var(--ds-space-3) var(--ds-space-4);
+  /* 0.6rem no eixo vertical: numa Grade de seis cartões, o respiro
+     interno é o que decide se o corpo cabe no tamanho legível. */
+  padding: 0.6rem var(--ds-space-4);
   border: var(--ds-border) solid var(--ds-rule-forte);
   background: var(--ds-surface);
 }
