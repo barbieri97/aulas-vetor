@@ -1,15 +1,16 @@
 ---
 theme: none
 title: "TEA e TDAH: avaliação neuropsicológica"
-info: Neurodesenvolvimento, critérios diagnósticos, domínios cognitivos, instrumentos
-  e diagnóstico diferencial do transtorno do espectro autista e do TDAH
+info: Neurodesenvolvimento, critérios diagnósticos, domínios cognitivos,
+  instrumentos e diagnóstico diferencial do transtorno do espectro autista e do
+  TDAH
 date: "2026-09-02"
 colorSchema: light
 download: true
 layout: capa
 kicker: Minicurso · Psicologia
-subtitle: Do desenvolvimento típico ao diagnóstico diferencial — o que se investiga, com o quê, e por quê.
-meta: 3 horas · turma de graduação
+subtitle: Do desenvolvimento típico ao diagnóstico diferencial — o que se
+  investiga, com o quê, e por quê.
 ---
 
 <!--
@@ -44,8 +45,7 @@ layout: default
 <Termo palavra="Avaliação neuropsicológica" origem="no contexto do neurodesenvolvimento">
 
 Exame do funcionamento cognitivo e comportamental de uma criança **em comparação com o
-esperado para a sua idade**, feito para descrever um perfil e sustentar hipóteses — não
-para produzir um veredito.
+esperado para a sua idade**, feito para descrever um perfil e sustentar hipóteses.
 
 </Termo>
 
@@ -80,8 +80,7 @@ layout: default
 
 <Termo palavra="Transtornos do neurodesenvolvimento" origem="DSM-5">
 
-Grupo de condições com **início no período do desenvolvimento**, que se manifestam cedo —
-em geral antes da entrada na escola — e se caracterizam por **déficits no desenvolvimento**
+Grupo de condições com **início no período do desenvolvimento**, que se manifestam cedo e se caracterizam por **déficits no desenvolvimento**
 que acarretam prejuízo pessoal, social, acadêmico ou profissional.
 
 </Termo>
@@ -104,10 +103,11 @@ Prejuízo funcional: consequência do déficit na vida diária — não é o dé
 layout: esquema
 kicker: Bloco 1
 title: O sistema nervoso não fica pronto de uma vez
-legenda: "Cada etapa tem o seu tempo, e as etapas se sobrepõem: enquanto a poda começa, a mielinização ainda está longe do fim."
+legenda: "Cada etapa tem o seu tempo, e as etapas se sobrepõem: enquanto a poda
+  começa, a mielinização ainda está longe do fim."
 ---
 
-<img src="/nd-etapas.svg" alt="Linha do tempo do neurodesenvolvimento, da concepção à vida adulta, com proliferação e migração neuronal na gestação, sinaptogênese no primeiro biênio, poda sináptica até a adolescência e mielinização até a vida adulta" class="w-full max-h-full object-contain">
+<img src="/Neurodesenvolvimento.png" alt="Linha do tempo do neurodesenvolvimento, da concepção à vida adulta, com proliferação e migração neuronal na gestação, sinaptogênese no primeiro biênio, poda sináptica até a adolescência e mielinização até a vida adulta" class="w-full max-h-full object-contain">
 
 <!--
 Proliferação neuronal (neurogênese): produção dos neurônios a partir de células precursoras.
@@ -147,13 +147,50 @@ T1: um dos modos de aquisição da ressonância magnética; nele a substância b
 layout: comparacao
 title: Típico e atípico não são duas coisas diferentes
 colunas:
-  - { titulo: Neurodesenvolvimento típico, sub: a trajetória esperada, cor: verde }
-  - { titulo: Neurodesenvolvimento atípico, sub: a trajetória desviada, cor: terra }
+  - {
+      titulo: Neurodesenvolvimento típico,
+      sub: a trajetória esperada,
+      cor: verde
+    }
+  - {
+      titulo: Neurodesenvolvimento atípico,
+      sub: a trajetória desviada,
+      cor: terra
+    }
 linhas:
-  - { criterio: Etapas, valores: ["as mesmas etapas, na mesma ordem", "as mesmas etapas — com <b>ritmo</b>, <b>intensidade</b> ou <b>coordenação</b> alterados"] }
-  - { criterio: Variação, valores: ["ampla: crianças chegam em tempos diferentes", "sai da faixa de variação esperada para a idade"] }
-  - { criterio: Consequência, valores: ["a função se instala e sustenta o passo seguinte", "a função falha, e o passo seguinte se apoia numa base incompleta"] }
-  - { criterio: Leitura clínica, valores: ["não pede investigação", "pede investigação — <b>não</b> equivale a diagnóstico"] }
+  - {
+      criterio: Etapas,
+      valores:
+        [
+          "as mesmas etapas, na mesma ordem",
+          "as mesmas etapas — com <b>ritmo</b>, <b>intensidade</b> ou
+            <b>coordenação</b> alterados"
+        ]
+    }
+  - {
+      criterio: Variação,
+      valores:
+        [
+          "ampla: crianças chegam em tempos diferentes",
+          "sai da faixa de variação esperada para a idade"
+        ]
+    }
+  - {
+      criterio: Consequência,
+      valores:
+        [
+          "a função se instala e sustenta o passo seguinte",
+          "a função falha, e o passo seguinte se apoia numa base incompleta"
+        ]
+    }
+  - {
+      criterio: Leitura clínica,
+      valores:
+        [
+          "não pede investigação",
+          "pede investigação — <b>não</b> equivale a diagnóstico"
+        ]
+    }
 ---
 
 <!--
@@ -295,7 +332,9 @@ mais tempo, mais esforço e raramente chega ao mesmo lugar.
 layout: esquema
 kicker: Bloco 1
 title: "Não há uma janela: há várias"
-legenda: "As curvas ilustram a forma, não idades exatas. O que a literatura sustenta é que cada domínio tem o seu período — e que nenhum se fecha bruscamente."
+legenda: "As curvas ilustram a forma, *não idades exatas*. O que a literatura
+  sustenta é que cada domínio tem o seu período — e que nenhum se fecha
+  bruscamente."
 ---
 
 <img src="/janelas-oportunidade.svg" alt="Curvas de sensibilidade à experiência ao longo da idade para visão binocular, linguagem, processamento de faces e funções executivas" class="w-full max-h-full object-contain">
@@ -474,7 +513,7 @@ layout: secao
 numero: "02"
 kicker: Bloco 2 · 45 minutos
 title: Avaliação do transtorno do espectro autista
-note: Cinco perguntas, na mesma ordem para os dois transtornos — o quadro, o perfil, os domínios, a anamnese e os instrumentos.
+note: O quadro, o perfil, os domínios, a anamnese e os instrumentos.
 ---
 
 ---
@@ -496,19 +535,11 @@ layout: default
 
 <Termo palavra="Transtorno do espectro autista" origem="DSM-5">
 
-Prejuízo **persistente** na comunicação social recíproca e na interação social, somado a
+Prejuízo persistente na **comunicação social recíproca** e na interação social, somado a
 **padrões restritos e repetitivos** de comportamento, interesses ou atividades, presentes
 desde o início da infância.
 
 </Termo>
-
-<Grade :cols="2">
-
-<Dado numero="1%" rotulo="frequência relatada nos EUA e em outros países" nota="estimativas semelhantes em amostras de crianças e de adultos (APA, DSM-5)" />
-
-<Dado numero="12–24 meses" rotulo="idade em que os sintomas costumam ser reconhecidos" nota="antes, se os atrasos forem graves; depois, se os sintomas forem sutis" />
-
-</Grade>
 
 <Fonte>APA, <em>DSM-5</em> · seções de características diagnósticas, prevalência e desenvolvimento e curso.</Fonte>
 
@@ -556,8 +587,6 @@ layout: default
   { letra: 'B3', titulo: 'Interesses fixos e restritos', texto: 'Anormais em <b>intensidade</b> ou em <b>foco</b> — apego forte a objetos incomuns, interesses excessivamente circunscritos ou perseverativos.' },
   { letra: 'B4', titulo: 'Reatividade sensorial atípica', texto: 'Hiper ou hiporreatividade a estímulos, ou interesse incomum por aspectos sensoriais: indiferença à dor, reação a sons ou texturas, fascínio por luzes e movimento.' },
 ]" />
-
-<Fonte>APA, <em>DSM-5</em> · critério B. Basta que <b>dois</b> se manifestem, atualmente ou por história prévia.</Fonte>
 
 <!--
 Flapping: movimento repetitivo de bater ou agitar as mãos.
@@ -1340,13 +1369,7 @@ ambientes.
 
 </Termo>
 
-<Grade :cols="2">
 
-<Dado numero="5%" rotulo="prevalência estimada em <b>crianças</b>" nota="levantamentos populacionais, na maioria das culturas (APA, DSM-5)" />
-
-<Dado numero="2,5%" rotulo="prevalência estimada em <b>adultos</b>" nota="a hiperatividade motora recua; desatenção, desorganização e impulsividade persistem" />
-
-</Grade>
 
 <Fonte>APA, <em>DSM-5</em> · características diagnósticas e prevalência do TDAH.</Fonte>
 
@@ -1768,8 +1791,7 @@ MFFT-BR, aos **12**. Todos terminam aos 59.
 <Nota tipo="alerta" titulo="O que fazer com a criança de 7 anos">
 
 Para essa faixa é preciso recorrer a outros instrumentos: o **TAVIS-4** começa aos 6 anos e
-cobre atenção. Quais escalas de função executiva com normas brasileiras cobrem a faixa
-**abaixo dos 10 anos** não consta dos manuais consultados nesta aula — **⚠︎ verificar**.
+cobre atenção e o **FDT** cobre funções executivas.
 
 </Nota>
 
@@ -1812,8 +1834,9 @@ configuração-alvo.
 ---
 layout: esquema
 kicker: Bloco 2 · TDAH
-title: CPT-Flex · a regra que vira do avesso
-legenda: "É a inversão que separa este teste do CPT clássico: além de atenção e inibição, ele exige que o avaliado abandone uma regra recém-consolidada."
+title: CPT-Flex
+legenda: "É a inversão que separa este teste do CPT clássico: além de atenção e
+  inibição, ele exige que o avaliado abandone uma regra recém-consolidada."
 ---
 
 <img src="/cpt-flex-regra.svg" alt="A regra do CPT-Flex: figuras azuis exigem resposta a triângulo, círculo e X e inibição ao quadrado; figuras laranjas invertem a regra" class="w-full max-h-full object-contain">
@@ -2071,31 +2094,51 @@ linhas:
   - { criterio: A pergunta que decide, valores: ["a história de cuidado foi suficiente?", "pode ser preciso <b>observação prolongada</b> para distinguir", "havia evidência clara de TDAH <b>antes</b> do uso ou da medicação?"] }
 ---
 
-<Nota tipo="alerta" titulo="E o mais banal de todos">
-
-Privação de sono, apneia obstrutiva, luto, mudança de escola, violência doméstica e
-ambiente caótico produzem desatenção e agitação. Nenhum deles aparece no teste — todos
-aparecem na anamnese, se ela for feita.
-
-</Nota>
-
 <!--
 Acatisia: inquietude motora intensa, com necessidade subjetiva de se movimentar, induzida
 por alguns medicamentos.
 -->
 
 ---
-layout: esquema
-kicker: Bloco 3
-title: TEA e TDAH · o que é de cada um, e o que é dos dois
-legenda: "O território compartilhado é grande — e é justamente nele que o encaminhamento costuma ser feito: queixa escolar, agitação, dificuldade com os pares."
+layout: default
 ---
 
-<img src="/tea-tdah-sobreposicao.svg" alt="Diagrama de sobreposição entre TEA e TDAH, com o que é próprio de cada quadro nas extremidades e o que é compartilhado na intersecção" class="w-full max-h-full object-contain">
+# E o mais banal de todos: o ambiente
+
+<Grade :cols="3">
+
+<Cartao rotulo="sono" titulo="Dormir mal imita TDAH" cor="terra">
+
+
+
+</Cartao>
+
+<Cartao rotulo="eventos de vida" titulo="Luto, mudança, violência" cor="terra">
+
+
+
+</Cartao>
+
+<Cartao rotulo="rotina e demanda" titulo="Casa e sala sem previsibilidade" cor="terra">
+
+</Cartao>
+
+</Grade>
+
+<Nota tipo="alerta" titulo="O que decide, quando o ambiente explica parte do quadro">
+
+Nenhum deles aparece no teste; todos aparecem na anamnese, se ela for feita. Duas perguntas
+separam contexto de transtorno: os sintomas são **anteriores ao evento**, com início antes
+dos 12 anos, e **atravessam dois ou mais ambientes**?
+
+</Nota>
 
 <!--
-Endofenótipo: característica mensurável, situada entre o gene e o quadro clínico, que pode
-ser compartilhada por transtornos distintos.
+Apneia obstrutiva do sono: pausas respiratórias durante o sono por obstrução das vias aéreas
+superiores — na infância, com frequência por hipertrofia de adenoides e amígdalas.
+
+Ambiente adverso e TDAH não são alternativas excludentes: eles coexistem com frequência, e
+reconhecer um não dispensa investigar o outro.
 -->
 
 ---
@@ -2143,7 +2186,7 @@ critério clínico.
 
 </Nota>
 
-<Fonte>Townes P. et al., 2023 · Ceruti C. et al., <em>Children</em>, 2024, que encontram diferença apenas em <b>questionários</b>, não em testes.</Fonte>
+<Fonte>Ceruti et al., 2024: diferença só em <b>questionários</b>, não em testes.</Fonte>
 
 <!--
 Comparação direta: estudo que inclui, na mesma amostra, os dois grupos clínicos e um grupo
