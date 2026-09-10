@@ -345,52 +345,6 @@ modificável pela experiência. Muitos autores preferem "período sensível" a "
 crítico" porque o fechamento não é absoluto (Johnson, 2005).
 -->
 
----
-layout: default
----
-
-# Uma janela por área, com um exemplo
-
-<Grade :cols="2">
-
-<Cartao rotulo="linguagem" titulo="A gramática da primeira língua" cor="azul">
-
-O atraso no acesso à língua de sinais, em pessoas surdas, altera a proficiência alcançada
-**e a própria organização cerebral** da linguagem — o que a exposição posterior não desfaz
-(Cheng et al., 2020).
-
-</Cartao>
-
-<Cartao rotulo="visão" titulo="A visão binocular" cor="terra">
-
-O exemplo clássico da privação monocular, de Hubel e Wiesel: obstruir um olho durante o
-período crítico produz perda funcional **com a retina intacta**, e a correção tardia não
-recupera a acuidade (Sengpiel, 2007).
-
-</Cartao>
-
-<Cartao rotulo="socioemocional" titulo="O vínculo" cor="verde">
-
-No ensaio randomizado de Bucareste, crianças institucionalizadas colocadas em família
-**antes dos 20 meses** tinham 79% de funcionamento adaptativo aos 12 anos, contra 46% das
-colocadas depois (Humphreys et al., 2018).
-
-</Cartao>
-
-<Cartao rotulo="motor e social" titulo="O reconhecimento de faces" cor="ouro">
-
-A sensibilidade à experiência aparece já no primeiro ano, mas o sistema permanece flexível
-**até os 10 a 12 anos** — uma janela longa, não um portão (Pascalis et al., 2020).
-
-</Cartao>
-
-</Grade>
-
-<!--
-Privação monocular: procedimento experimental em que a entrada visual de um olho é
-bloqueada durante o desenvolvimento.
-Funcionamento adaptativo: o que a pessoa efetivamente faz sozinha no dia a dia.
--->
 
 ---
 layout: comparacao
@@ -468,37 +422,6 @@ legenda: "A herdabilidade é alta e, ainda assim, o desfecho não está escrito:
 Herdabilidade: proporção da variação de uma característica, em uma população específica,
 atribuível à variação genética. Não é "quanto do transtorno é genético" em um indivíduo.
 Poligênico: influenciado por muitos genes de pequeno efeito, e não por um gene único.
--->
-
----
-layout: default
----
-
-# O que os estudos de gêmeos mostram
-
-<Grade :cols="2">
-
-<Dado numero="64–91%" rotulo="herdabilidade estimada do <b>TEA</b>" nota="metanálise de estudos de gêmeos; o intervalo varia com a prevalência assumida (Tick et al., 2015)" />
-
-<Dado numero="79%" rotulo="herdabilidade estimada do <b>TDAH</b>" nota="coorte de gêmeos suecos de 9 e 12 anos; TEA, no mesmo estudo: 80% (Lichtenstein et al., 2010)" />
-
-</Grade>
-
-<Nota tipo="alerta" titulo="Três leituras erradas que essas cifras produzem">
-
-**Não** significa que o ambiente não importa: significa que, nas populações estudadas, a
-variação ambiental medida explicou pouco da variação restante. **Não** significa
-determinismo: a herdabilidade descreve populações, não pessoas. E **não** significa gene
-único — a arquitetura é poligênica, com contribuição de variantes raras e *de novo*.
-
-</Nota>
-
-<Fonte>Tick B. et al., <em>J Child Psychol Psychiatry</em>, 2015 · Lichtenstein P. et al., <em>Am J Psychiatry</em>, 2010.</Fonte>
-
-<!--
-Variante de novo: alteração genética presente na criança e ausente nos pais.
-Estudo de gêmeos: compara a concordância entre gêmeos monozigóticos e dizigóticos para
-estimar a contribuição genética à variação de uma característica.
 -->
 
 ---
