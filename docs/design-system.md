@@ -133,7 +133,8 @@ Vão no campo `layout:` do frontmatter do slide. Os campos de cada um viram prop
 | `comparacao` | a tabela de diferencial: 2 ou 3 colunas, linha a linha | `title` `colunas[]` `linhas[]` |
 | `esquema` | o slide cujo conteúdo é um desenho | `kicker` `title` `legenda` |
 | `figura` | quando a imagem **é** o argumento e o texto comenta | `imagem` `legenda` `lado` `ajuste` |
-| `fecho` | o último slide | `kicker` `title` `pontos[]` `proximo` |
+| `fecho` | o que fica da aula: os pontos para levar | `kicker` `title` `pontos[]` `proximo` |
+| `agradecimento` | o obrigado e o contato, depois das referências | `kicker` `title` `nome` `contatos[]` `nota` |
 
 Os layouts do próprio Slidev continuam valendo (`center`, `two-cols`, `image-right`, `full`,
 `none`…), mas eles não desenham a lombada — quem quiser a moldura usa os daqui.
@@ -319,7 +320,9 @@ O lint lê o headmatter do mesmo jeito que o build lê e aponta o erro antes.
 
 - **Todo frontmatter é cercado por `---` em cima e embaixo.** Entre dois slides sem corpo
   aparecem duas linhas `---` seguidas — está certo. Compartilhar um `---` entre dois blocos
-  quebra o parse do arquivo inteiro.
+  quebra o parse do arquivo inteiro. E os três hifens **dentro de um valor** fecham o bloco
+  ali mesmo — o resto do frontmatter vaza para o corpo do slide e a compilação falha com
+  `Invalid end tag`. Para escrevê-los num campo, use a entidade: `&#45;&#45;&#45;`.
 - **O bloco de abertura é headmatter e frontmatter do primeiro slide ao mesmo tempo.** O
   `title:` dele é o título do deck **e** o título que a `capa` mostra: não repita o campo.
 - **CSS solto num slide é sinal de que falta um layout ou um componente.** A exceção honesta
