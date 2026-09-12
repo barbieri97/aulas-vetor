@@ -25,7 +25,7 @@ kicker: O que tem aqui
 title: O catálogo
 itens:
   - { tema: Tokens, desc: cor, tipo e espaço — o vocabulário }
-  - { tema: Layouts, desc: "11 locais, incluindo o `default`" }
+  - { tema: Layouts, desc: "12 locais, incluindo o `default`" }
   - { tema: Componentes, desc: "13 peças para usar dentro do slide" }
   - { tema: Markdown puro, desc: como texto sem enfeite se parece }
 atual: 1
@@ -405,9 +405,32 @@ layout: fecho
 kicker: Antes de escrever
 title: As regras que sobrevivem a tudo
 pontos:
-  - "<code>src:</code> no frontmatter apaga o slide. Use outro nome de campo."
-  - Caminho de imagem que chega por prop passa por <code>asset()</code>.
-  - Todo frontmatter é cercado por <code>---</code> em cima e embaixo.
-  - Markdown dentro de componente precisa de linha em branco.
+  - "<code>src:</code> apaga o slide. Use outro nome."
+  - Imagem que chega por prop passa por <code>asset()</code>.
+  # Os três hifens vão como entidade HTML: escritos literalmente, dentro de um valor de
+  # frontmatter, eles encerram o bloco ali mesmo e derrubam o resto do slide.
+  - Frontmatter é cercado por <code>&#45;&#45;&#45;</code> em cima e embaixo.
+  - Markdown em componente pede linha em branco.
 proximo: <code>npm run lint</code> pega as três primeiras. Rode antes de commitar.
 ---
+
+---
+layout: agradecimento
+kicker: Obrigado
+title: E o slide que fecha a aula.
+nome: Quem deu a aula
+contatos:
+  - { rotulo: Instagram, valor: "@fulana", href: "https://instagram.com/fulana" }
+  - { rotulo: E-mail, valor: "fulana@exemplo.com", href: "mailto:fulana@exemplo.com" }
+nota: Campos — kicker · title · nome · contatos[] · nota.
+---
+
+<!--
+O layout `agradecimento` é a contracapa da `capa`: mesma coluna, mesmo corpo de título. Vem
+depois das referências, e é a tela que fica projetada enquanto a turma copia o contato — por
+isso o valor do contato é grande e em tinta cheia, sem cara de link.
+
+Em `contatos`, `rotulo` é o nome do canal e `valor` é o que se copia; `href` é opcional e
+serve ao PDF, onde o contato vira link clicável. Valor que começa com `@` precisa de aspas:
+`@` é caractere reservado do YAML.
+-->

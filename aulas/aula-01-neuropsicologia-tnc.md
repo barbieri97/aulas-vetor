@@ -1189,4 +1189,13 @@ os biomarcadores dos corpos de Lewy e o mecanismo da conversão priônica.
 doi: identificador digital de objeto — o endereço permanente de um artigo científico.
 -->
 
-
+---
+layout: agradecimento
+kicker: Obrigado
+title: Vamos continuar a conversa.
+nome: André Barbieri
+contatos:
+  - { rotulo: Instagram, valor: "@barbieri.psi", href: "https://instagram.com/barbieri.psi" }
+  - { rotulo: E-mail, valor: "andrepb636@gmail.com", href: "mailto:andrepb636@gmail.com" }
+nota: As dúvidas que ficaram desta aula cabem em qualquer um dos dois.
+---

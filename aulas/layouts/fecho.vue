@@ -1,6 +1,7 @@
 <!--
-  fecho — o último slide: o que fica e o que vem. Papel, como a capa,
-  fechando o deck do jeito que ele abriu.
+  fecho — o que fica e o que vem. Papel, como a capa, fechando o conteúdo
+  do jeito que ele abriu. Depois dele ainda podem vir as referências e o
+  `agradecimento`.
 
   ---
   layout: fecho
