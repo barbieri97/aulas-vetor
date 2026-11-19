@@ -56,6 +56,20 @@ Escolha o `layout:` que casa com a forma do conteúdo e preencha o frontmatter d
 vai dentro do slide, use os componentes. `<style>` num slide é sinal de que falta um layout ou
 um componente — a exceção honesta é o desenho que só existe naquele slide.
 
+### Conteúdo técnico das aulas
+
+- **Dado de instrumento psicológico só entra com fonte** (manual ou página oficial da editora),
+  citada em `<Fonte>`. O que não foi confirmado fica marcado `[conferir no manual]` na
+  referência e **fora do slide** — nunca preenchido por dedução.
+- Raciocínio clínico do autor (o que o instrumento *sugere* no diagnóstico) é separado do que o
+  fabricante afirma: se a página do produto não associa o teste a um quadro, o slide diz isso.
+- Sigla e termo técnico recebem glosa no comentário de notas do slide, e a aula traz o
+  aviso de que nenhum instrumento diagnostica sozinho (padrão das aulas 01 e 02).
+- Material de apoio de cada aula (prompt, roteiro, fontes) fica em `referencias/aula-NN/`,
+  fora de `aulas/`: o site não o publica.
+- Capa de manual e outras imagens de terceiros são fornecidas pelo autor, em `aulas/public/`;
+  não se baixa imagem de loja nem se gera uma no lugar.
+
 ## Convenções
 
 | | |
