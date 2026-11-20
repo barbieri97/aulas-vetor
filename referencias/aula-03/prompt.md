@@ -80,14 +80,7 @@ pelo funcionamento adaptativo, não pelo QI. Daí o peso das escalas adaptativas
 
 Tempo estimado: 15 a 17 minutos (~2,5 minutos por instrumento).
 
-Para cada instrumento:
-
-- Nome + capa do manual + faixa etária de aplicação
-- O que avalia + resumo da fundamentação teórica
-- Estrutura do teste + forma de aplicação e correção (escala, tarefas etc.): informar
-  superficialmente, sem ensinar a aplicar
-- Resultados possíveis de extrair
-- Importância na avaliação do TEA e do TDI
+Para cada instrumento seguir o que foi descrito no tópico de Instrumentos
 
 **Orçamento de slides.** Cerca de 3 slides por instrumento (ficha com capa e faixa etária ·
 estrutura e resultados · papel na avaliação), perto de 18 slides no bloco. PROTEA-R, BINAUT e
@@ -105,10 +98,6 @@ Tempo estimado: 2 a 3 minutos.
 Últimas considerações, meus contatos e agradecimento.
 
 ## Instrumentos
-
-Editora de todos: Vetor Editora (grupo Giunti Psychometrics). Uso restrito a psicólogos, salvo
-indicação em contrário. Situação no SATEPSI: `[conferir no manual]` para todos, antes de
-afirmar "aprovado" em slide.
 
 ### RIAS-2 · Escala Reynolds de Avaliação da Inteligência, 2ª edição
 
@@ -169,84 +158,225 @@ afirmar "aprovado" em slide.
 - Battelle 3 · Inventário de Desenvolvimento Infantil. Autor: Jean Newborg. Adaptação
   brasileira: Leandro Fernandes Malloy-Diniz e Débora Marques de Miranda. Validação brasileira
   com mais de 2 mil crianças.
-- **Do nascimento a 7 anos e 11 meses** (blog da Vetor).
+- Publico alvo: **Do nascimento a 7 anos e 11 meses**.
 - Capa: `aulas/public/capa-battelle-3.*` (a fornecer).
 
-**O que avalia + resumo da fundamentação teórica**
+**Aplicações e objetivos da Battelle**
 
-- Cinco domínios: **adaptativo, socioemocional, comunicação, motor (grosso e fino) e
-  cognitivo**. Mapeia as habilidades já consolidadas e as áreas que se beneficiam de estímulo.
-  Segundo a Vetor, **não tem caráter classificatório**.
-- Fundamentação teórica (marcos do desenvolvimento, modelo de domínios) e número de itens:
-  `[conferir no manual]`. A Vetor não os informa.
+A Battelle pode ser usado para uma variedade de contextos, desde de propóstitos clinicos a escolares, alguns destes objetivos são:
 
-**Estrutura do teste + forma de aplicação e correção**
+- Avaliação da criança com desenvolvimento típico
+- Avaliação e identificação de crianças com deficiência ou atrasos no desenvolvimento
+- Planejamento e fornecimento de instruções e intervenções
+- Monitoração de progresso
+- Avaliação de programas que atendem crianças.
 
-- Individual e presencial. Cada item indica o método: **tarefa estruturada, observação ou
-  entrevista** com pais e cuidadores. Duração de **10 a 90 minutos**, conforme a idade e a
-  extensão (aplicar todos os domínios ou só alguns).
-- Um Livro de Aplicação por domínio (Vols. 2 a 6), Cartões de Apresentação, Caderno do Aluno,
-  Formulários de Registro e kit de manipuláveis. Valor de tabela da coleção, na página da
-  Vetor: R$ 6.700 (útil para explicar por que é um instrumento de serviço, não de consultório
-  pequeno; opcional).
-- Correção manual ou pela VOL: soma os brutos e gera escores escalonados e **quociente de
-  desenvolvimento**.
+**Dominios e subdominios avaliados pela Battelle**
 
-**Resultados possíveis de extrair**
+Para os slides desse dominio eu penso em um slide para cada dominio. Com um titulo e uma descrição breve para o dominio e abaixo o mesmo padrão com cards diferentes para cada subdominio, acrescentando bullets com os exemplos nos subdominios.
 
-- Resultado por domínio e total, escores escalonados, quociente de desenvolvimento e
-  **intervalos de confiança**. O perfil entre os cinco domínios é a leitura central.
-- Triagem breve (BDI-3 Screening): a página não a menciona. `[conferir no manual]`.
+1. Domínio Adaptativo (ADP)
+
+Este dominio avalia a capacidade da criança utilzar as informações e habilidades adquiridas nos outros dominios como instrumento de adaptação ao seu cotidiano. Inclui habilidades de Autocuidado e Responsabilidade Social
+
+1.1 Autocuidado
+Capacidade da criança de realizar as tarefas associadas a rotina diária com autonomia.
+
+envolvem:
+
+- Alimentação
+- Vestir
+- Uso do banheiro
+- Higiene Pessoal
+- Sono
+
+1.2 Responsabilidade Pessoal
+Os itens desse subdominio avaliam a capacidade da criança de usar comportamentos apropriados, cuidar de pertences pessoais e lidar com dinheiro.
+
+2. Dominio Socioemocional (SE)
+As habilidades socioemocionais permitem que uma criança se envolva em interações sociais significativas com pares e adultos e desenvolva o seu autoconceito e senso de papel social, avalia habilidades como: autoconsciência, autogestão, consciência social, relacionamentos positivos, tomada de decisão
+
+
+2.1 Interação com adultos
+Nesse subdominio se avalia o a qualidade e frequencia da interação com adultos como: Apego infantil, interação com adultos, resposta e inicio de contato, uso do adulto como recuros para resolver problemas.
+
+Exemplos:
+
+- Reage à atenção positiva de adultos e à retirada de atenção;
+- Imita as expressões faciais de um adulto familiar;
+- Segue as instruções de um adulto.
+
+2.2 Interação com pares
+Este subdominio avaliam a qualidade e frequência das interações de uma criança com seus pares, envolve capacidade de formar amizades, responder e iniciar contatos sociais, interagir em pequenos grupos, cooperação.
+
+Exemplos
+
+- Reveza e compartilha voluntáriamente;
+- Envolve-se em brincadeiras de faz de conta coordenadas;
+- Usa colegas apropriadamente como recursos.
+
+2.3 Autoconceito e Papel Social
+Esse subdominio avalia a capacidade da criança em: Autoconsciência, conhecimento pessoal, autoestima e orgulho, moral, sensibilidade a necessidade dos outros, Habilidades de enfrentamento
+
+Exemplos:
+
+- Expressa emoções;
+- Transita de um ambiente ou atividade para outro;
+- Faz comparações sociais.
+
+
+3. Dominio Comunicação (COM)
+Mensura a eficácia com que crianças recebem e expressam informações e ideias por meios verbais e não verbais
+
+3.1 Comunicação receptiva
+Na comunicação receptiva avalia-se a capacidade de discriminar, reconhecer e entender sons e palavras
+
+Exemplos:
+
+- Responde a diferentes tons de voz;
+- Responde a um "Não";
+- Segue comandos verbais de duas etapas;
+- Lê dicas não verbais de outras pessoas.
+
+3.2 Comunicação Expressiva 
+Avalia a habilidade de de produzir sons, palavras ou gestos para transmitir informações a outras pessoas.
+
+Exemplo:
+
+- Estabelece sons labiais;
+- Usa gestos para indicar desejos ou necessidades;
+- Comunica-se usando frases simples;
+- Fala sobre coisas que podem ser.
+
+4. Dominio Motor (MOT)
+Avalia a capacidade da criança em usar os musculos grandes e pequenos do corpo
+
+4.1 Motricidade Grossa
+Avalia o desenvolvimento dos grandes sistemas musculares em habilidades de locomoção, como andar, correr e pular, e movimentos coordenados, como arremessar.
+
+Exemplos:
+
+- Junta as mãos na linha média;
+- Sobre e desce as escadas, alternando os pés, sem ajuda;
+- Salta para a frente em um pé sem apoio;
+- Pega uma bola de tênis.
+
+4.2 Motricidade Fina
+Avalia o desenvolvimento e controle da coordenação muscular fina que permitem a execução de tarefas cada vez mais complexas.
+
+Exemplos:
+
+- Pega um objeto pequneo com vários dedos opostos ao polegar;
+- Vira páginas de um livro;
+- Corta papel com tesoura;
+- Dá um único nó simples.
+
+4.3 Percepção motora
+Mensura a habilidade de coordenar habilidades motoras e perceptuais para executar tarefas como empilhar blocos, colocar argolas em um suporte, copiar formas.
+
+Exemplos:
+
+- Coloca dois objetos em um frasco;
+- Empilha blocos verticalmente;
+- Copia letras, palavras e números.
+
+5. Dominio Cognitivo (COG)
+Este dominio mensura as habilidades e capacidades comumentes chamadas de mentais ou intelectuais. Envolvem atividades como atender, perceber, processar informações, lembrar, pensar e saber.
+
+5.1 Atenção e Memória
+Avalia a capacidade da criança em atender visual e auditivamente a estimulos do ambiente e recuperar informações de curto e longo prazo.
+
+Exemplos:
+
+- Segue estimulos auditivos e visuais;
+- Olha, aponta, nomeia imagens em um livro;
+- Localiza itens ocultos em uma imagem complexa;
+- Classifica, mediante comando, por cor, forma e tamanho.
+
+5.2 Raciocínio e Habilidades Acadêmicas
+Avalia componenentes do raciocínio critico para perceber, identificar e resolver problemas; analisar e avaliar elementos de um contexto; Identificar ausências, contradições e inconsistências; julgamento de ideias, processos e produtos. Além também de avaliar habilidades acadêmicas básicas.
+
+Exemplos:
+
+- Nomeia e combina cores;
+- Demonstra habilidades nas 4 operações matemáticas;
+- Lê palavras com grafia irregular;
+- Identifica letras.
+
+5.3 Percepção e Conceitos
+Avalia as interações sensoriais e motoras de uma criança com o seu ambiente e a capacidade de conceituar e discriminar caracteristicas de objetos como tamanho, forma e cor; desenhar relações entre eles e responder seletivamente entre eles.
+
+Exemplos: 
+
+- Compara objetos com base nas suas caracteristicas físicas;
+- Identifica diversos tipos de texturas;
+- Conhece o lado direito e esquerdo do corpo;
+- Diferencia papéis sociaispresentes e futuros.
+
+**3 procedimentos de aplicação**
+
+O Battelle oferece 3 procedimentos de aplicação: Estruturado, Observação e Entrevista.
+
+- Cada item tem pelo menos um desses tipos de aplicação.
+- O Profissional é responsável por decidir quando usar cada um.
+- é permitido realizar mais de um procedimento para o mesmo item.
+- Mas é recomendado a utilizar, sempre que disponível o estruturado.
+
+1. Estruturado
+Neste o profissional faz a pontuação através da observação em ambiente controlado, com a utilização de estimulação e materiais padronizados pela Battelle.
+
+2. Observação
+Quando não for possivel a observação de um comportamento no ambiente estruturado, é possivel fazer a observação em ambiente natural da criança. 
+
+- Recomenda-se que a observação se extenda ao longo de uma semana.
+- Se não puder ter esse contato, recomenda-se usar a entrevista.
+
+3. Entrevista
+Para muitos itens da area adaptativa e/ou sócioemocional a informação só fica acessivel através de entrevistas.
+
+- Pode ser realizada com os pais, responsáveis ou professores.
+
 
 **Importância na avaliação do TEA e do TDI**
 
-- A página do produto cita uso em **avaliação de autismo e atraso global**, acompanhamento de
-  **deficiência intelectual**, intervenção precoce e PEI.
-- Argumento de aula: é o instrumento que dá o **desenvolvimento global** do item 2.3, em
-  crianças pequenas demais ou com linguagem insuficiente para testes de QI. O perfil
-  desigual entre domínios (socioemocional e comunicação abaixo do cognitivo) é o que diferencia
-  TEA; o perfil **uniformemente rebaixado**, o que sugere TDI. Isso é raciocínio clínico, não
-  afirmação do fabricante.
+O Battelle nos permite ter uma ótima compreensaão do desenvolvimento da criança, principalmente quando utilizamos as diversas fontes de informações. Com esses dados, conseguimos comparar as areas de desenvolvimento e avaliar se trata-se de um atraso global no desenvolvimento ou de algumas areas específicas, auxiliando na nossa compreensão das potencialidades e dificuldades.
 
 ### EFA · Escala de Funcionamento Adaptativo, e EIFE · Escala de Independência Funcional e Expressiva
 
+O foco será no EFA, o EIFE será comentado como a versão de adolescentes, adultos e idosos.
+
 Mesma dupla de papel: o que a pessoa faz sozinha. Divididas por idade. **EFA: reutilizar o
 slide da aula 02** (6 a 15 anos, relato parental, 50 itens, ~30 min, domínios conceitual,
-social e prático, correção na VOL). Falta só o EIFE.
+social e prático, correção na VOL).
 
 **Nome + capa do manual + faixa etária de aplicação**
 
-- **EIFE**: Escala de Independência Funcional e Expressiva. Autora: Sabrina Martins Barroso.
-  **12 a 98 anos** (adolescentes, adultos e idosos), a partir da percepção de **cuidadores ou
-  responsáveis**. Capa: `aulas/public/capa-eife.*` e `capa-efa.*` (a fornecer).
-- A sobreposição entre EFA (até 15) e EIFE (a partir de 12) é de 12 a 15 anos: dizer à turma.
+- **EFA**: Escala de Funcionamento Adaptativo. Autoras: Thais Selau; Mônia Aparecida da Silva e Denise Ruschel Bandeira.
+- **6 a 15 anos** (adolescentes, adultos e idosos), a partir da percepção de **cuidadores ou responsáveis**. 
+- Capa: `aulas/public/aula-03/capa-eife.png` e `aulas/public/aula-03/capa-efa.png`.
 
 **O que avalia + resumo da fundamentação teórica**
 
-- EIFE: duas dimensões, **autonomia nas atividades de vida diária** e **capacidade de
-  expressão e comunicação funcional**. Fundamentação teórica: `[conferir no manual]`.
-- EFA: funcionamento adaptativo nos três domínios do DSM-5 (aula 02).
+(Nesse tópico não é para transcrever direto para o slide, mas use esse texto como base para produzir o conteúdo de fundamentação teórica.)
+
+O funcionamento adaptativo é entendido como um conjunto de habilidades práticas, conceituais e sociais que são aprendidas e executadas pelas pessoas em suas vidas diárias. Corresponde a capacidade da pessoa atingir o padrão da sua comunidade em termos de autonomia, independência pessoas e responsabilidade social em comparação com os seus pares de mesma idade e antecedentes socioculturais. Ou seja, trata-se de realizar as tarefas cotidianas sem avisos, suportes ou lembretes.
+
+1. Dominio conceitual
+Habilidades cognitivas essenciais, como a compreensão relacionada a conceitos acadêmicos e a capacidade de resolver problemas complexos.
+
+2. Dominio social
+abrange aspectos sociais da inteligência, incluindo a habilidade de se relacionar e interpretar sinais sociais de maneira adequada.
+
+3. Dominio Prático
+Capacidade de autogerenciamento e aprendizagem aplicado em atividades cotidianas, envolvem o autocuidado e a independência.
 
 **Estrutura do teste + forma de aplicação e correção**
 
-- EIFE: respondida por cuidador, em papel ou on-line pela VOL, individual ou coletiva,
-  **~10 minutos**. Pode ser feita como entrevista se o cuidador tiver baixa escolaridade. Correção
-  manual (soma dos itens) ou digital, com relatório. Número de itens: `[conferir no manual]`.
-
-**Resultados possíveis de extrair**
-
-- EIFE: **níveis** de independência funcional e expressiva. EFA: escore z, padronizado,
-  percentil e classificação por domínio e global (aula 02).
+É um instrumento de heterorelato respondido pelo responsável (em formulário impresso ou online). A correção é online e traz como resultado o desempenho em cada uma das esferas mais um resultado geral do funcionamento adaptativo.
 
 **Importância na avaliação do TEA e do TDI**
 
-- Para o TDI, o DSM-5 exige o déficit adaptativo, e a gravidade é dada por ele. Por isso o
-  EFA, descrito pela Vetor como apoio ao diagnóstico de DI e TEA, é o ponto central.
-- Para o TEA, o prejuízo adaptativo costuma ficar abaixo do QI (aula 02).
-- EIFE: a página **não associa o instrumento a TEA nem a TDI** (cita doenças crônicas, sequelas
-  neurológicas, trauma e degenerativas). Apresentá-lo como a opção de **funcionalidade para
-  adolescentes e adultos** e dizer que o uso em TDI e TEA adulto depende de evidência no
-  manual.
+Funciona como uma medida rápida e complementar do funcionamento adaptativo da criança, ou seja, o quanto consegue aproveitar de seus recursos que possui para gerar adaptação ao seu contexto e realidade. No caso específico do TDI, a avaliação do funcionamento adaptativo faz parte dos critérios diagnósticos e o EFA nos auxilia na identificação do nível de comprometimento.
 
 ### TriC / TriA · triagens de psicopatologia
 

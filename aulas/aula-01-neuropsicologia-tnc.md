@@ -80,7 +80,7 @@ title: Três marcas separam o TNC
 legenda: "A terceira marca é a mais incomum no manual: em nenhuma outra categoria do DSM-5 a investigação da patologia subjacente faz parte da estrutura do diagnóstico."
 ---
 
-<img src="/tnc-tres-marcas.svg" alt="As três marcas do TNC: déficit primário na cognição, caráter adquirido e etiologia determinável" class="w-full max-h-full object-contain">
+<img src="/aula-01/tnc-tres-marcas.svg" alt="As três marcas do TNC: déficit primário na cognição, caráter adquirido e etiologia determinável" class="w-full max-h-full object-contain">
 
 <!--
 Patologia subjacente: a alteração de tecido ou de circuito que produz o quadro — placas e
@@ -147,7 +147,7 @@ title: O que o tempo mostra
 legenda: O delirium é o único quadro deste capítulo em que a <b>atenção</b> é a marca obrigatória — e o único cuja gravidade muda entre a visita da manhã e a da noite.
 ---
 
-<img src="/curso-delirium-tnc.svg" alt="À esquerda o delirium oscilando ao longo de um dia; à direita o TNC declinando ao longo de anos" class="w-full max-h-full object-contain">
+<img src="/aula-01/curso-delirium-tnc.svg" alt="À esquerda o delirium oscilando ao longo de um dia; à direita o TNC declinando ao longo de anos" class="w-full max-h-full object-contain">
 
 <!--
 Delirium sobreposto a TNC é frequente na internação: os dois diagnósticos coexistem, e o
@@ -281,7 +281,7 @@ title: Primeiro a síndrome, depois a causa
 legenda: "O diagnóstico completo tem três partes — <b>nível</b> (leve ou maior), <b>etiologia</b> e <b>grau de certeza</b>. Por exemplo: \"TNC maior devido a provável doença de Alzheimer\"."
 ---
 
-<img src="/sindrome-e-etiologia.svg" alt="A síndrome de TNC no centro, as etiologias em ramos e o par provável ou possível" class="w-full max-h-full object-contain">
+<img src="/aula-01/sindrome-e-etiologia.svg" alt="A síndrome de TNC no centro, as etiologias em ramos e o par provável ou possível" class="w-full max-h-full object-contain">
 
 <!--
 Provável e possível: no DSM-5 o grau depende de evidência genética, de neuroimagem ou do
@@ -353,7 +353,7 @@ Afasia: perda adquirida da linguagem. Parkinsonismo: rigidez, bradicinesia e tre
 
 ---
 layout: figura
-imagem: /alois-alzheimer.jpg
+imagem: /aula-01/alois-alzheimer.jpg
 legenda: Alois Alzheimer (1864–1915). Em 1906 descreveu o caso de Auguste Deter, 51 anos. Retrato em <b>domínio público</b>, Wikimedia Commons.
 lado: esquerda
 ajuste: contain
@@ -381,7 +381,7 @@ etiologias — a doença do príon inclusive — só é possível por biópsia o
 
 ---
 layout: figura
-imagem: /hist-alzheimer.jpg
+imagem: /aula-01/hist-alzheimer.jpg
 legenda: "Hipocampo, hematoxilina-eosina. No painel grande, a <b>placa neurítica</b> entre as setas; abaixo, à esquerda, o <b>emaranhado neurofibrilar</b> em chama, dentro do neurônio. Mikael Häggström e brainmaps.org, <b>CC BY 3.0</b>, Wikimedia Commons."
 lado: direita
 ajuste: contain
@@ -411,7 +411,7 @@ usadas na necropsia.
 
 ---
 layout: figura
-imagem: /pet-amiloide-alzheimer.jpg
+imagem: /aula-01/pet-amiloide-alzheimer.jpg
 legenda: "PET com composto B de Pittsburgh. À esquerda, doença de Alzheimer; à
   direita, controle cognitivamente saudável. Vermelho e amarelo marcam alta
   ligação ao <b>beta-amiloide</b>. Klunk e Mathis, University of Pittsburgh,
@@ -477,7 +477,7 @@ Cognição social: reconhecer emoção no outro, ajustar o comportamento ao cont
 
 ---
 layout: figura
-imagem: /rm-frontotemporal.png
+imagem: /aula-01/rm-frontotemporal.png
 legenda: "Ressonância em T2, T1 e FLAIR na doença de Pick. Os sulcos frontais estão alargados e os cornos frontais dilatados: a atrofia é anterior, e poupa o território posterior. Mikhail Kalinin, <b>CC BY-SA 3.0</b>, Wikimedia Commons."
 lado: direita
 ajuste: contain
@@ -548,7 +548,7 @@ Perceptomotor: o domínio que reúne percepção visual, práxis e coordenação
 
 ---
 layout: figura
-imagem: /rm-vascular-leucoaraiose.jpg
+imagem: /aula-01/rm-vascular-leucoaraiose.jpg
 legenda: "Ressonância em FLAIR, corte coronal. As setas marcam a <b>leucoaraiose</b> — o hipersinal confluente da substância branca periventricular — em paciente com atrofia associada. Jmarchn, <b>CC BY-SA 3.0</b>, Wikimedia Commons."
 lado: direita
 ajuste: contain
@@ -617,7 +617,7 @@ idosos com doença isquêmica de pequenos vasos.
 
 ---
 layout: figura
-imagem: /hist-lewy-sinucleina.jpg
+imagem: /aula-01/hist-lewy-sinucleina.jpg
 legenda: "Neocórtex, imuno-histoquímica para <b>alfa-sinucleína</b>. Em
   castanho, os <b>corpos de Lewy</b> — os grumos arredondados — e as <b>neuritas
   de Lewy</b>, os filamentos finos. Movalley, <b>CC0</b>, Wikimedia Commons."
@@ -684,7 +684,7 @@ Sensibilidade neuroléptica: reação grave a antipsicóticos, em até metade do
 
 ---
 layout: figura
-imagem: /hist-prion-espongiforme.jpg
+imagem: /aula-01/hist-prion-espongiforme.jpg
 legenda: "Córtex em hematoxilina-eosina na variante da doença de Creutzfeldt-Jakob. Os vacúolos claros dão ao tecido o aspecto de esponja, sem sinal de inflamação. Zaki e Shieh, CDC / Public Health Image Library #10131, <b>domínio público</b>."
 lado: direita
 ajuste: contain
@@ -715,7 +715,7 @@ Kuru, síndrome de Gerstmann-Sträussler-Scheinker e insônia fatal completam o 
 
 ---
 layout: figura
-imagem: /rm-prion-flair.jpg
+imagem: /aula-01/rm-prion-flair.jpg
 legenda: "Ressonância na doença de Creutzfeldt-Jakob. <b>A</b> e <b>B</b>: hipersinal nos núcleos da base em FLAIR e em DWI. <b>C</b>: a fita cortical. <b>D</b>: o tálamo. <i>Practical Neurology</i>, <b>CC BY 4.0</b>, Wikimedia Commons."
 lado: esquerda
 ajuste: contain
@@ -856,7 +856,7 @@ title: Os seis domínios
 legenda: O DSM-5 define os domínios em uma tabela de três colunas — o nome, os exemplos de sintomas e os exemplos de avaliação. Os dois próximos slides a condensam.
 ---
 
-<img src="/seis-dominios.svg" alt="Os seis domínios neurocognitivos do DSM-5 dispostos ao redor de um centro" class="w-full max-h-full object-contain">
+<img src="/aula-01/seis-dominios.svg" alt="Os seis domínios neurocognitivos do DSM-5 dispostos ao redor de um centro" class="w-full max-h-full object-contain">
 
 <!--
 Tabela 1 do capítulo, "Domínios neurocognitivos". Os mesmos seis nomes aparecem, na mesma
@@ -997,7 +997,7 @@ title: Duas perguntas, não uma
 legenda: "As duas metades vêm de fontes diferentes: a primeira, da testagem padronizada; a segunda, da entrevista com quem convive com a pessoa."
 ---
 
-<img src="/cognicao-e-funcionalidade.svg" alt="À esquerda a medida da cognição por domínio; à direita a checagem das atividades instrumentais" class="w-full max-h-full object-contain">
+<img src="/aula-01/cognicao-e-funcionalidade.svg" alt="À esquerda a medida da cognição por domínio; à direita a checagem das atividades instrumentais" class="w-full max-h-full object-contain">
 
 <!--
 O critério A do TNC exige as duas evidências: preocupação (do próprio, de informante ou do
@@ -1071,7 +1071,7 @@ title: Livre, com pista, reconhecimento
 legenda: Grober e Buschke mostraram que a evocação com pista, depois de uma codificação controlada, separa o déficit genuíno de memória do prejuízo aparente produzido por atenção ou por busca ineficiente.
 ---
 
-<img src="/memoria-com-dica.svg" alt="Dois padrões de recuperação: um paciente melhora com a pista, o outro não" class="w-full max-h-full object-contain">
+<img src="/aula-01/memoria-com-dica.svg" alt="Dois padrões de recuperação: um paciente melhora com a pista, o outro não" class="w-full max-h-full object-contain">
 
 <!--
 Grober E. e Buschke H. Genuine memory deficits in dementia. Developmental Neuropsychology,
@@ -1148,7 +1148,7 @@ pontos:
 layout: default
 ---
 
-<img src="/oqueachamoquee.jpg" alt="As três marcas do TNC: déficit primário na cognição, caráter adquirido e etiologia determinável" class="w-full max-h-full object-contain">
+<img src="/aula-01/oqueachamoquee.jpg" alt="As três marcas do TNC: déficit primário na cognição, caráter adquirido e etiologia determinável" class="w-full max-h-full object-contain">
 
 ---
 layout: default
