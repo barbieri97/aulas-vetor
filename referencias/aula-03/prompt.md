@@ -12,7 +12,7 @@ também não ser superficial: apresentar o que cada instrumento mede, como é mo
 devolve e **onde entra no raciocínio clínico**.
 
 Arquivo da aula: `aulas/aula-03-testes-tea-tdi.md`. Convenções, layouts, componentes e
-armadilhas do Slidev estão no `CLAUDE.md` e em `docs/design-system.md`; este arquivo só trata
+armadilhas do Slidev estão no `AGENTS.md` e em `docs/design-system.md`; este arquivo só trata
 do conteúdo.
 
 ## Regras de conteúdo desta aula

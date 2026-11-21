@@ -65,10 +65,58 @@ um componente — a exceção honesta é o desenho que só existe naquele slide.
   fabricante afirma: se a página do produto não associa o teste a um quadro, o slide diz isso.
 - Sigla e termo técnico recebem glosa no comentário de notas do slide, e a aula traz o
   aviso de que nenhum instrumento diagnostica sozinho (padrão das aulas 01 e 02).
-- Material de apoio de cada aula (prompt, roteiro, fontes) fica em `referencias/aula-NN/`,
-  fora de `aulas/`: o site não o publica.
+- Material de apoio de cada aula fica em `referencias/aula-NN/`, fora de `aulas/`: o site não
+  o publica. A estrutura é a de [Referências por aula](#referências-por-aula): um `AGENTS.md`
+  (mapa e regras) e uma pasta `docs/` (o conteúdo, como um livro).
 - Capa de manual e outras imagens de terceiros são fornecidas pelo autor, em `aulas/public/`;
   não se baixa imagem de loja nem se gera uma no lugar.
+
+## Referências por aula
+
+Cada aula tem, em `referencias/aula-NN/`, duas camadas que não se misturam:
+
+```
+referencias/aula-NN/
+├── AGENTS.md          # mapa: regras da aula, tabela de blocos, protocolo de trabalho
+└── docs/
+    ├── index.md       # sumário do "livro": capítulo → arquivo → resumo de uma linha
+    ├── NN-bloco.md    # um capítulo por bloco da aula
+    ├── glossario.md   # siglas e termos (alimenta as notas dos slides)
+    └── fontes.md      # referências, data da consulta, lacunas [conferir no manual]
+```
+
+- **`AGENTS.md` da aula** é produção, não conteúdo: contexto e público, regras de conteúdo, a
+  **tabela de blocos** (nº · bloco · primeiro slide no deck · tempo · orçamento de slides · visão geral
+  em 2–3 linhas · capítulo em `docs/` · status no deck) e o protocolo: para trabalhar um bloco,
+  leia só o capítulo dele em `docs/` mais o glossário; mexa só no trecho daquele bloco; rode
+  `npm run lint`; ao fim liste slides criados, lacunas `[conferir no manual]` e imagens que
+  faltaram.
+- **`docs/NN-bloco.md`** é conteúdo, em prosa de livro já revisada, sem instrução a agente e
+  sem menção a slide — é o que permite reaproveitá-lo como produto (apostila, e-book) sem
+  retrabalho. Frontmatter: `bloco`, `instrumentos`, `status` (`rascunho` · `revisado` ·
+  `conferido-no-manual`), `fontes`. O raciocínio clínico do autor fica separado do que o
+  fabricante afirma. `docs/` é a fonte da verdade; o slide só resume.
+- **Posição no deck:** o `AGENTS.md` da aula aponta cada bloco pelo **título do primeiro slide**
+  dele (e do último), nunca por número de slide, que muda a cada inserção. Não use comentário
+  HTML como âncora: o Slidev lê o último comentário de cada slide como notas do apresentador.
+- **Aula em construção:** a tabela de blocos tem coluna de status (pronto no deck · pendente ·
+  em revisão). Migrar do formato antigo (um arquivo por etapa) é por bloco: o antigo só sai
+  quando o capítulo novo o cobre, e o `AGENTS.md` da aula diz qual vale para cada bloco.
+
+## Neutro quanto a agente
+
+O repositório não depende de nenhum produto de agente específico. Para isso:
+
+- Instrução a agente vive **só** em `AGENTS.md` (este, e os de `referencias/aula-NN/`); skills
+  em `.agents/skills/`.
+- **Não** versionar `CLAUDE.md`, `GEMINI.md`, `.claude/`, `.cursor/` e equivalentes, e não
+  citar produto ou modelo de agente em docs, referências, prompts ou comentários — escreva
+  "agente". `CLAUDE.md` e `.claude/` estão no `.gitignore` para a regra ser mecânica.
+- Quem usa uma ferramenta que só lê o arquivo com o nome dela (Claude Code, por exemplo, lê
+  `CLAUDE.md`, não `AGENTS.md`) configura isso **localmente**, num arquivo não versionado que
+  aponte para este — nunca no repositório.
+- `.agents/skills/` é cópia de terceiros (`skills-lock.json` guarda o hash): fica intocada,
+  mesmo que o texto de lá cite um produto.
 
 ## Convenções
 

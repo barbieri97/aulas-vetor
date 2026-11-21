@@ -1,5 +1,8 @@
 # Aula 03 · Contexto geral (ler antes de qualquer etapa)
 
+> **Aviso:** o mapa e as regras gerais desta aula agora estão em `AGENTS.md`, e fontes em
+> `docs/fontes.md`. Este arquivo vale só até os capítulos 01, 03 e 04 serem convertidos.
+
 Este arquivo vale para **todas** as etapas. Cada etapa (`01-…` a `07-…`) traz só o seu
 conteúdo e pressupõe que este aqui foi lido.
 
@@ -15,7 +18,7 @@ também não ser superficial: apresentar o que cada instrumento mede, como é mo
 devolve e **onde entra no raciocínio clínico**.
 
 Arquivo da aula: `aulas/aula-03-testes-tea-tdi.md`. Convenções, layouts, componentes e
-armadilhas do Slidev estão no `CLAUDE.md` e em `docs/design-system.md`; os arquivos desta
+armadilhas do Slidev estão no `AGENTS.md` e em `docs/design-system.md`; os arquivos desta
 pasta só tratam do conteúdo.
 
 ## Regras de conteúdo (valem para todas as etapas)
@@ -51,9 +54,7 @@ Tempo total: 25 a 35 minutos.
 | 2 | `02-rias-2.md` | RIAS-2 | |
 | 3 | `03-battelle-3.md` | Battelle 3 | |
 | 4 | `04-efa-eife.md` | EFA e EIFE | 15 a 17 min no bloco de instrumentos |
-| 5 | `05-protea-r-binaut.md` | PROTEA-R e BINAUT (retomadas) | (~2,5 min por instrumento) |
-| 6 | `06-tric-tria.md` | TriC e TriA | |
-| 7 | `07-encerramento-e-revisao.md` | Aviso do fim do bloco, encerramento, revisão geral | 2 a 3 min |
+| 5–8 | já migrados para `docs/05` a `docs/08` | PROTEA-R, BINAUT, TriC/TriA, encerramento | ver `AGENTS.md` |
 
 **Orçamento de slides do bloco de instrumentos.** Cerca de 3 slides por instrumento (ficha com
 capa e faixa etária · estrutura e resultados · papel na avaliação), perto de 18 slides no

@@ -52,7 +52,7 @@ vira a URL.
 
 Antes de escrever slides, leia [`docs/design-system.md`](docs/design-system.md) — layouts,
 componentes, tokens e as armadilhas do Slidev que fazem um slide sumir sem erro nenhum.
-Resumo das convenções em [`CLAUDE.md`](CLAUDE.md).
+Resumo das convenções em [`AGENTS.md`](AGENTS.md).
 
 ## O que tem dentro
 
@@ -75,7 +75,7 @@ site.config.json                  a identidade do curso
 
 **A pasta do deck é a raiz do projeto para o Slidev.** As aulas estão em `aulas/`, então
 `public/`, `layouts/`, `components/` e `styles/` só valem lá dentro; os mesmos nomes na raiz do
-repositório são ignorados em silêncio. Detalhes em [`CLAUDE.md`](CLAUDE.md).
+repositório são ignorados em silêncio. Detalhes em [`AGENTS.md`](AGENTS.md).
 
 ## Primeira publicação
 
