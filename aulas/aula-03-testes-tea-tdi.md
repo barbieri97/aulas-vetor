@@ -734,3 +734,364 @@ A página da Vetor não associa a EIFE a um quadro diagnóstico. Retomamos isso 
 EIFE — Escala de Independência Funcional e Expressiva.
 [conferir no manual] Faixa etária exata, autoria e formato da EIFE: ainda não confirmados, por isso não estão no slide.
 -->
+
+---
+layout: default
+---
+
+# PROTEA-R · de onde vem a observação
+
+<Grade :cols="2">
+
+<Cartao rotulo="preditor" titulo="Atenção compartilhada" cor="azul">
+
+Entre os preditores do TEA, a **atenção compartilhada** tem grande peso nas pesquisas e no
+**diagnóstico diferencial**. Imitação, jogo simbólico e habilidades pragmáticas também
+aparecem com frequência.
+
+</Cartao>
+
+<Cartao rotulo="base teórica" titulo="Abordagem sociopragmática" cor="azul">
+
+Para Tomasello, o humano atribui **intencionalidade** ao outro e compartilha metas. A atenção
+compartilhada é uma das precursoras dessa habilidade.
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="O avaliador também entra no instrumento">
+
+Crianças com TEA têm dificuldade de entender o outro como agente com intenções. O PROTEA-R
+transpõe essa literatura para a relação avaliador-criança: o avaliador adota um **estilo de
+interação** que favoreça o engajamento dela.
+
+</Nota>
+
+<Fonte>Bosa e Salles (orgs.), <em>Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista</em> · fundamentação teórica, Vetor Editora.</Fonte>
+
+<!--
+PROTEA-R — Sistema de observação clínica sistematizada para rastreio do TEA (já visto na aula 02).
+AC — atenção compartilhada: coordenar o olhar entre o outro e um objeto para compartilhar interesse.
+Sociopragmática: o uso social da comunicação; compreender e expressar intenções comunicativas no contexto.
+Resumo da fundamentação; o detalhe está em referencias/aula-03/docs/05-protea-r.md.
+-->
+
+---
+layout: default
+---
+
+# PROTEA-R · a observação clínica sistematizada
+
+<Grade :cols="2">
+
+<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+
+**Sistematiza a observação clínica** de comportamentos pré-linguísticos em situação de
+brincadeira. Os autores são explícitos: é um sistema de **rastreamento**, não de
+diagnóstico.
+
+</Cartao>
+
+<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
+
+Crianças de **24 a 60 meses**, especialmente as **não verbais**, com suspeita de TEA ou de
+outros transtornos da comunicação.
+
+</Cartao>
+
+<Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
+
+**Três sessões, em dias diferentes**, de ~45 minutos — tempo para a criança se ambientar e o
+avaliador notar mudanças. Cada sessão tem dois contextos: brincadeira livre (≈15 min) e
+semiestruturada (≈30 min).
+
+</Cartao>
+
+<Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
+
+17 itens em três áreas, cada um com **Escala de Qualidade** (A a E) e **Escala de
+Frequência** (1 a 3), mais o escore compilado das três sessões.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Bosa C. A. e Salles J. F. (orgs.), <em>Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+<!--
+Pré-linguístico: anterior à linguagem verbal — olhar, gesto, imitação, turno.
+Os três eixos do sistema: entrevista de anamnese, o protocolo de observação PROTEA-R-NV e a
+entrevista devolutiva com os responsáveis.
+Retomada da aula 02: mesmos números.
+-->
+
+---
+layout: default
+---
+
+# Os cinco itens críticos do PROTEA-R
+
+<Criterios :itens="[
+  { letra: 'IAC', titulo: 'Iniciativa de atenção compartilhada', texto: 'A criança <b>convida</b> o avaliador — mostra, aponta, traz o objeto — com o olhar coordenado ao gesto, para compartilhar e não para pedir.' },
+  { letra: 'RAC', titulo: 'Resposta de atenção compartilhada', texto: 'A criança <b>responde</b>: segue o apontar, aceita o convite, troca turnos — atendendo à pessoa, e não só ao objeto.' },
+  { letra: 'IM', titulo: 'Imitação', texto: 'Reprodução de ações do avaliador, incluindo a imitação de cunho simbólico.' },
+  { letra: 'BS', titulo: 'Brincadeira simbólica', texto: 'O faz de conta: fingir servir o chá, embalar o bebê, dar a um objeto uma função que não é a dele.' },
+  { letra: 'MRC', titulo: 'Movimentos repetitivos de outras partes do corpo', texto: 'Estereotipias que não sejam de mãos: balanceio, girar no eixo, bater os pés, pular.' },
+]" />
+
+<Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+<!--
+As três áreas do protocolo: comportamentos sociocomunicativos, qualidade da brincadeira e
+movimentos repetitivos e estereotipados do corpo.
+IAC / RAC — iniciativa / resposta de atenção compartilhada. IM — imitação. BS — brincadeira simbólica. MRC — movimentos repetitivos de outras partes do corpo.
+Estereotipia: movimento repetido de forma rígida, sem finalidade aparente.
+-->
+
+---
+layout: default
+---
+
+# E o escore que sai dos cinco
+
+<Termo palavra="Escore total dos itens críticos" origem="PROTEA-R, Tabela 5.6">
+
+Soma dos códigos de qualidade convertidos dos cinco itens (A = 0 · B = 1 · C = 2 · D = 3):
+**9 a 15** indica **risco** para TEA; **1 a 8**, risco **relativo**; **0**, ausência de risco.
+
+</Termo>
+
+<Nota tipo="alerta" titulo="O escore não é o resultado">
+
+O manual insiste que o valor **não pode ser lido isolado**: a leitura é qualitativa, apoiada
+na codificação global das três sessões, na anamnese e em outras fontes. Soma abaixo de 9
+**não descarta** risco — apenas torna o critério menos acurado.
+
+</Nota>
+
+<Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · instruções para codificação. Reavaliação sugerida em intervalo mínimo de <b>6 meses</b>.</Fonte>
+
+<!--
+Codificação global: o escore compilado das três sessões, e não o de uma sessão isolada.
+-->
+
+---
+layout: default
+---
+
+# O que o PROTEA-R acrescenta ao TEA e ao TDI
+
+<Nota titulo="Olha como a criança se relaciona, e não o quanto ela sabe">
+
+Atenção compartilhada, imitação e brincadeira simbólica **não dependem de fala**. Por isso o
+PROTEA-R alcança a criança não verbal e complementa o nível cognitivo, o perfil de
+desenvolvimento e o funcionamento adaptativo vistos até aqui.
+
+</Nota>
+
+<Nota tipo="alerta" titulo="Raciocínio clínico, e com limite">
+
+É sistema de **rastreamento**, como dizem os autores. Organiza a observação; quem integra
+com a anamnese e as outras fontes é o clínico.
+
+</Nota>
+
+<!--
+Raciocínio clínico do autor, separado do que o fabricante afirma: o ponto de partida do TEA é a reciprocidade social desproporcional ao nível geral (slide da introdução), e é isso que a observação sistematizada busca ver.
+[conferir no manual] Se o manual orienta a leitura pela idade de desenvolvimento, e não pela cronológica: não está no slide.
+-->
+
+---
+layout: default
+---
+
+# BINAUT · de onde vem o modelo binário
+
+<Grade :cols="2">
+
+<Cartao rotulo="eixo 1" titulo="Atipia comportamental" cor="azul">
+
+Não é só comportamento fora da norma: são **padrões permanentes** que interferem de modo
+significativo no desenvolvimento da criança.
+
+</Cartao>
+
+<Cartao rotulo="eixo 2" titulo="Falhas no desenvolvimento" cor="ouro">
+
+Comportamentos que **não ocorrem nos momentos cruciais**. Só compõem um quadro atípico se o
+atraso se mantém e se soma a outras falhas.
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="Quadro de risco desenvolvimental">
+
+O BINAUT não reproduz o DSM-5 nem a CID-11. Propõe olhar para o **risco desenvolvimental**, em
+vez de falar em "diagnóstico precoce" de TEA.
+
+</Nota>
+
+<Fonte>Jorge L. M., <em>BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças</em> · Manual técnico, Vetor Editora.</Fonte>
+
+<!--
+BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças (já visto na aula 02).
+Binário: o quadro é lido por duas grandes áreas, a atipia comportamental e as falhas do desenvolvimento.
+QDR — quadro de risco desenvolvimental.
+CID-11 — Classificação Internacional de Doenças, 11ª revisão.
+Resumo da fundamentação; o detalhe está em referencias/aula-03/docs/06-binaut.md.
+-->
+
+---
+layout: default
+---
+
+# BINAUT · a entrevista com os responsáveis
+
+<Grade :cols="2">
+
+<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+
+Investiga a **sintomatologia autística** em crianças, descrevendo **frequência** e
+**intensidade** dos comportamentos e situando o resultado nas áreas do desenvolvimento
+infantil.
+
+</Cartao>
+
+<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
+
+Crianças de **2 a 12 anos**, com normas construídas para a população brasileira.
+
+</Cartao>
+
+<Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
+
+**Entrevista semiestruturada com os pais ou responsáveis**: o profissional lê cada item,
+esclarece os termos e registra as respostas. O material **nunca** vai para casa — o processo,
+não o questionário, é o instrumento.
+
+</Cartao>
+
+<Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
+
+Pontuação de frequência e de intensidade, **percentil** agrupado e detalhado, **escore T** e
+classificação. Correção manual ou pela plataforma VOL Vetor Online.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Jorge L. M., <em>BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças</em> · Manual técnico, Vetor Editora.</Fonte>
+
+<!--
+Escore T: escala padronizada com média 50 e desvio-padrão 10.
+Percentil: posição do avaliado em relação à amostra normativa, de 0 a 100.
+VOL — Vetor Online, plataforma de aplicação e correção da editora.
+-->
+
+---
+layout: comparacao
+title: Duas escalas, dois momentos
+colunas:
+  - { titulo: Escala I, sub: a triagem sintomática, cor: azul }
+  - { titulo: Escala II, sub: o aprofundamento desenvolvimental, cor: ouro }
+linhas:
+  - { criterio: O que investiga, valores: ["<b>12 itens gerais</b> de sintomatologia autística, cada um com subitens e derivações", "itens mais finos, organizados do mais novo para o mais velho, com descrições de nível <b>leve, moderado e severo</b>"] }
+  - { criterio: Pontuação, valores: ["<b>frequência</b> (0 a 12 itens gerais) e <b>intensidade</b> (soma dos pesos dos subitens)", "grau de comprometimento por item (1 leve · 2 moderado · 3 severo)"] }
+  - { criterio: Tempo, valores: ["30 a 40 minutos", "o restante das cerca de <b>2h30</b> da aplicação completa"] }
+  - { criterio: Quando usar, valores: ["sempre primeiro — conclui sobre o potencial autístico dos dados", "criança <b>menor de 5 anos</b>: detalha áreas e intervenções; separa atípico de falha desenvolvimental"] }
+---
+
+<!--
+Derivação: exemplo concreto de comportamento listado sob cada subitem; assinalar uma
+derivação já compromete o subitem, e um subitem comprometido já pontua o item geral.
+Escala I olha sobretudo a atipia comportamental; Escala II, sobretudo a perspectiva desenvolvimental.
+-->
+
+---
+layout: destaque
+kicker: BINAUT
+title: A regra do ponto de corte
+---
+
+De **7 a 8** itens gerais pontuados: probabilidade de TEA com caracterização moderada a
+forte, considerando o percentil detalhado. De **9 a 12**: caracterização forte. Nos dois
+casos, o manual **sugere aplicar a Escala II**.
+
+---
+layout: default
+---
+
+# As cinco áreas do desenvolvimento no BINAUT
+
+<Grade :cols="3">
+
+<Cartao rotulo="área 1" titulo="Social/Afetiva" cor="azul">
+
+Isolamento e alheamento que comprometem a reciprocidade; autoagressão e comportamento
+disruptivo por desregulação.
+
+</Cartao>
+
+<Cartao rotulo="área 2" titulo="Psicomotricidade" cor="azul">
+
+Estereotipias motoras, incluindo *flapping*; dispraxias; andar na ponta dos pés.
+
+</Cartao>
+
+<Cartao rotulo="área 3" titulo="Comunicação e Linguagem" cor="azul">
+
+Alterações na comunicação pré-verbal e na fala, com estereotipias verbais e ecolalias.
+
+</Cartao>
+
+<Cartao rotulo="área 4" titulo="Processamento Cognitivo I" cor="ouro">
+
+A entrada sensorial e a reação a ela: contato visual, olhar lateral, hiper e
+hiporresponsividade, fixação no detalhe.
+
+</Cartao>
+
+<Cartao rotulo="área 5" titulo="Processamento Cognitivo II" cor="ouro">
+
+Pensamento e simbolização: rituais, interesses restritos, inflexibilidade, jogo simbólico,
+habilidades mnêmicas.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Jorge L. M., <em>BINAUT</em> · quadros de correspondência entre itens e áreas do desenvolvimento infantil.</Fonte>
+
+<!--
+Dispraxia: dificuldade de planejar e executar sequências motoras aprendidas.
+Flapping: bater das mãos. Ecolalia: repetição de falas.
+Habilidades mnêmicas: relativas à memória.
+-->
+
+---
+layout: default
+---
+
+# O que o BINAUT acrescenta ao TEA e ao TDI
+
+<Nota titulo="A história, contada por quem convive">
+
+O PROTEA-R **observa** a criança; o BINAUT **escuta** o responsável. A entrevista traz o
+que o consultório não mostra: a **frequência** e a **intensidade** dos comportamentos no
+dia a dia, e quando as falhas começaram.
+
+</Nota>
+
+<Nota tipo="alerta" titulo="Nenhum dos dois diagnostica">
+
+Os dois apontam **risco** e organizam a investigação. A integração com o nível cognitivo, o
+desenvolvimento e o funcionamento adaptativo é clínica.
+
+</Nota>
+
+<!--
+Raciocínio clínico do autor, separado do que o fabricante afirma. Ecoa o aviso do início da aula.
+[conferir no manual] Se "BINAUT-II" é a Escala II ou uma edição do instrumento: o slide diz "Escala II".
+-->

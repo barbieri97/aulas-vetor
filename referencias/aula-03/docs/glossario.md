@@ -51,3 +51,9 @@ significado estabelecido; o que depende do manual fica em [fontes.md](fontes.md)
 - **BINAUT** — entrevista semiestruturada com os responsáveis.
 - **TriC / TriA** — triagens de psicopatologia, em crianças de 2 a 5 anos e em adultos.
 - **VOL** — plataforma on-line de correção usada pelos instrumentos da Vetor.
+- **AC** — atenção compartilhada: coordenar o olhar entre o outro e um objeto para compartilhar interesse.
+- **IAC / RAC** — iniciativa / resposta de atenção compartilhada.
+- **IM / BS / MRC** — imitação · brincadeira simbólica · movimentos repetitivos de outras partes do corpo (itens críticos do PROTEA-R).
+- **QDR** — quadro de risco desenvolvimental (termo do BINAUT, em lugar de "diagnóstico precoce").
+- **Atipia comportamental** — padrão de comportamento permanente que interfere de modo significativo no desenvolvimento (BINAUT).
+- **Ecolalia / *flapping* / dispraxia** — repetição de falas · bater de mãos · dificuldade de planejar e executar sequências motoras.

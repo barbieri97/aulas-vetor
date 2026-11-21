@@ -2,36 +2,43 @@
 bloco: PROTEA-R
 instrumentos: [PROTEA-R]
 status: rascunho
-fontes: Aula 02 (aulas/aula-02-avaliacao-tea-tdah.md)
 ---
 
-# PROTEA-R · retomada
+# Resumo da fundamentação teórica
 
-O instrumento já foi apresentado na aula 02. Os dados abaixo são os de lá, sem alteração; o
-que muda é o ângulo: aqui, a pergunta é **TEA × atraso ou TDI**.
+Os autores indicam que existem inumeros preditores para o TEA, mas defendem que a Atenção Compartilhada é uma das que vem demonstrando grande relevância nas pesquisas e igualmente importante para o diagnóstico diferencial. Destaca também que para a além da AC, habilidades pragmáticas, jogos simbólicos e imitação também estão comumente presente em crianças TEA.
 
-## Ficha
+Contudo, a compreensão e avaliação do TEA necessita de uma compreensão das habilidades pragmáticas do TEA, ou seja, habilidades de compreensão e expressão de comportamentos comunicativos no contexto social e para se conseguir avaliar isso, é necessário uma compreensão das habilidades sóciopragmáticas e estilos de interação destas crianças.
 
-Organização de Bosa e Salles. Crianças de **24 a 60 meses**, sobretudo não verbais. Três
-sessões de cerca de 45 minutos, em dias diferentes: brincadeira livre (≈15 min) e
-semiestruturada (≈30 min).
+## Abordagem sociopragmática de Tomasello
+A abordagem sociopragmática (Tomasello, 2003) busca explicar o que diferencia os seres humanos de outras espécies: a transmissão cultural cumulativa. Para o autor, ela só é possível porque o ser humano se identifica com seus semelhantes e lhes atribui intencionalidade, isto é, compreende o outro como alguém com metas, intenções e estados mentais como os seus. A cognição humana se distingue da dos demais primatas pela capacidade de participar de atividades orientadas ao compartilhamento de objetivos e intenções. Segundo o autor a AC tem papel fundamental na sua teoria sendo uma das precursoras desta habilidade sociopragmática.
 
-## Estrutura e resultados
+# Estilos de interação
+Crianças com TEA têm dificuldade de compreender o outro como agente intencional e mental e de participar de ações socialmente compartilhadas, o que afeta a interação social. Por isso o adulto precisa adotar estilos de interação que favoreçam o contexto interativo. No PROTEA-R, essa literatura foi transposta para a relação avaliador-criança. Conhecer os estilos orienta o manejo do clínico, de modo a favorecer o engajamento da criança na avaliação e na intervenção. Desta forma, afirma que o avaliador que utilize o PROTEA-R deve adotar um estilo de interação que favoreça, por diversas formas, a interação destas crianças.
 
-17 itens em 3 áreas, com Escala de Qualidade (A–E) e de Frequência (1–3). Cinco itens são
-críticos. Escore de 9 a 15 indica risco, de 1 a 8 risco relativo, 0 ausência. Reavaliação a
-cada 6 meses, no mínimo. É um sistema de **rastreamento**, não de diagnóstico.
+# Ficha do instrumento
 
-## Ângulo da aula 03 (raciocínio do autor)
+Fonte: Bosa e Salles (orgs.), *Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista*, livro de instruções, Vetor Editora (mesmos dados da aula 02).
 
-É o instrumento que **não depende de linguagem**. Em criança pequena com TDI e linguagem
-ausente, a atenção compartilhada, a imitação e o faz de conta ajudam a ver se a reciprocidade
-está proporcional à idade mental ou abaixo dela.
+- **O que faz:** sistematiza a observação clínica de comportamentos pré-linguísticos em situação de brincadeira. Os autores são explícitos: é um sistema de **rastreamento**, não de diagnóstico.
+- **Público:** crianças de **24 a 60 meses**, especialmente as não verbais, com suspeita de TEA ou de outros transtornos da comunicação.
+- **Aplicação:** **três sessões, em dias diferentes**, de cerca de 45 minutos. Cada sessão tem dois contextos: brincadeira livre (≈15 min) e semiestruturada (≈30 min).
+- **Resultado:** 17 itens em três áreas, cada um com Escala de Qualidade (A a E) e Escala de Frequência (1 a 3), mais o escore compilado das três sessões.
 
-Lacuna: confirmar se o manual orienta a leitura pela idade de desenvolvimento, e não pela
-cronológica. Até lá, isso não entra no slide como orientação do instrumento.
-`[conferir no manual]`
+## Os cinco itens críticos
 
-## Informações novas desta aula
+- **IAC** — iniciativa de atenção compartilhada: a criança convida o avaliador (mostra, aponta, traz o objeto), com olhar coordenado ao gesto, para compartilhar e não para pedir.
+- **RAC** — resposta de atenção compartilhada: a criança responde (segue o apontar, aceita o convite, troca turnos).
+- **IM** — imitação, incluindo a de cunho simbólico.
+- **BS** — brincadeira simbólica (faz de conta).
+- **MRC** — movimentos repetitivos de outras partes do corpo (balanceio, girar no eixo, bater os pés, pular).
 
-*A incluir pelo autor.*
+## O escore dos cinco itens
+
+Soma dos códigos de qualidade convertidos (A = 0 · B = 1 · C = 2 · D = 3): **9 a 15** indica risco para TEA; **1 a 8**, risco relativo; **0**, ausência de risco. O valor não pode ser lido isolado: a leitura é qualitativa, apoiada na codificação global das três sessões, na anamnese e em outras fontes. Soma abaixo de 9 não descarta risco. Reavaliação sugerida em intervalo mínimo de 6 meses.
+
+## Raciocínio clínico do autor
+
+O PROTEA-R observa **como a criança se relaciona**, e não o quanto ela sabe: olha atenção compartilhada, imitação e brincadeira simbólica, que independem de fala. Por isso serve a crianças não verbais e complementa a medida do nível cognitivo e do funcionamento adaptativo. Não diagnostica: organiza a observação que o clínico integra com anamnese e outras fontes.
+
+*[conferir no manual]* Se o manual orienta a leitura pela idade de desenvolvimento, e não pela cronológica.

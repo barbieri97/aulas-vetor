@@ -46,8 +46,8 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 | 2 | RIAS-2 | *(vem antes de "Battelle 3 · Inventário de Desenvolvimento Infantil")* | — | [`02`](docs/02-rias-2.md) | **pendente** |
 | 3 | Battelle 3 | "Battelle 3 · Inventário de Desenvolvimento Infantil" | — | [`03`](docs/03-battelle-3.md) | pronto (9 slides; ver nota) |
 | 4 | EFA e EIFE | "EFA · Escala de Funcionamento Adaptativo" | — | [`04`](docs/04-efa-eife.md) | pronto |
-| 5 | PROTEA-R (retomada) | depois de "EIFE · a escala para quem passou da faixa da EFA" | ~2,5 min | [`05`](docs/05-protea-r.md) | **pendente** |
-| 6 | BINAUT (retomada) | depois do slide do bloco 5 | ~2,5 min | [`06`](docs/06-binaut.md) | **pendente** |
+| 5 | PROTEA-R (retomada) | "PROTEA-R · de onde vem a observação" (último: "O que o PROTEA-R acrescenta ao TEA e ao TDI") | ~2,5 min | [`05`](docs/05-protea-r.md) | pronto (5 slides, acima do orçamento; ver nota) |
+| 6 | BINAUT (retomada) | "BINAUT · de onde vem o modelo binário" (último: "O que o BINAUT acrescenta ao TEA e ao TDI") | ~2,5 min | [`06`](docs/06-binaut.md) | pronto (6 slides, acima do orçamento; ver nota) |
 | 7 | TriC e TriA | depois do slide do bloco 6 | — | [`07`](docs/07-tric-tria.md) | **pendente** |
 | 8 | Fechamento, encerramento e revisão | depois dos slides do bloco 7 | 2–3 min | [`08`](docs/08-encerramento-e-revisao.md) | **pendente** |
 
@@ -73,6 +73,7 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
   confirmada no manual. **Referência permitida:** os slides já feitos na aula 02
   (`aulas/aula-02-avaliacao-tea-tdah.md`) podem e devem ser usados como modelo e fonte de
   estrutura e dados; os capítulos de `docs/` só acrescentam o que é novo desta aula.
+- **5 e 6 · decisão do autor** — Em vez de 1 slide por instrumento, seguiram o molde da aula 02 (ficha, estrutura, itens/escore ou escalas/áreas), mais um slide breve de fundamentação teórica e um de papel na avaliação. Cortar é decisão do autor.
 - **7 · TriC e TriA** — Os últimos do bloco de instrumentos. Não são específicos de TEA nem de
   TDI: apresentar como rastreio de comorbidade. A lacuna de **6 a 17 anos** aparece no slide,
   não só nas notas. Itens do TriA: "89 itens (Vetor)" ou fora do slide; nunca 76.
