@@ -561,3 +561,176 @@ prática clínica: descrever o perfil de desenvolvimento, não diagnosticar.
 <!--
 Ligação com a introdução: atraso global é uma semelhança entre TEA e TDI; o perfil por domínio ajuda a ver se o quadro é global ou localizado.
 -->
+
+---
+layout: figura
+imagem: /aula-03/capa-efa.png
+legenda: Capa do manual da EFA · Vetor Editora.
+lado: direita
+ajuste: contain
+---
+
+# EFA · Escala de Funcionamento Adaptativo
+
+- **Autoras:** Thais Selau; Mônia Aparecida da Silva e Denise Ruschel Bandeira
+- **Faixa etária:** de **6 a 15 anos**
+- **Informante:** cuidadores ou responsáveis, a partir da sua percepção
+- **Foco da pergunta:** o que a pessoa faz **sozinha**, no dia a dia
+
+<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em> · guia de aplicação on-line e modelos de relatório.</Fonte>
+
+<!--
+EFA — Escala de Funcionamento Adaptativo. Já apresentada na aula 02; aqui ganha o ângulo da aula 03.
+VOL — plataforma on-line da Vetor onde a EFA é corrigida.
+[conferir no manual] A grafia e a ordem das autoras, e a lista de autoria, seguem o texto do autor, sem conferência.
+-->
+
+---
+layout: default
+---
+
+# EFA · a medida do funcionamento adaptativo
+
+<Grade :cols="2">
+
+<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+
+Mede o **funcionamento adaptativo** — o que a criança executa sozinha no dia a dia — para
+auxiliar no diagnóstico de quadros com prejuízo adaptativo, sobretudo **deficiência
+intelectual** e **TEA**.
+
+</Cartao>
+
+<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
+
+Crianças e adolescentes de **6 a 15 anos**.
+
+</Cartao>
+
+<Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
+
+**Escala de relato parental**, respondida pelo cuidador. 50 itens (*Sim*, *Só com ajuda*,
+*Não*, *Não sei*), em ~30 minutos. Aplicação por link, com **correção automática on-line**
+na VOL.
+
+</Cartao>
+
+<Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
+
+Escore bruto, escore z, escore padronizado, percentil e classificação nos domínios
+**conceitual**, **social** e **prático**, mais o **global**, por faixa etária.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em> · guia de aplicação on-line e modelos de relatório.</Fonte>
+
+<!--
+Domínio conceitual: conhecimentos acadêmicos, memória, linguagem, leitura, escrita,
+raciocínio matemático, solução de problemas.
+Domínio social: empatia, percepção de estados alheios, comunicação interpessoal, amizade,
+julgamento social.
+Domínio prático: cuidados pessoais, recreação, autocontrole comportamental, organização de
+tarefas escolares.
+Heterorrelato: o informante é outra pessoa (aqui, o cuidador), não o próprio avaliado.
+-->
+
+---
+layout: default
+---
+
+# O que é funcionamento adaptativo
+
+<Termo palavra="Funcionamento adaptativo" origem="base teórica da EFA">
+
+Conjunto de habilidades **conceituais, sociais e práticas**, aprendidas e executadas na vida
+diária. É atingir o padrão da comunidade em autonomia, independência pessoal e
+responsabilidade social, **em comparação com pares da mesma idade e de antecedentes
+socioculturais semelhantes**.
+
+</Termo>
+
+<Nota titulo="O critério prático">
+
+Realizar as tarefas cotidianas **sem avisos, suportes ou lembretes**.
+
+</Nota>
+
+<Grade :cols="3">
+
+<Cartao rotulo="domínio" titulo="Conceitual" cor="azul">
+
+Habilidades cognitivas essenciais: conceitos acadêmicos e solução de problemas complexos.
+
+</Cartao>
+
+<Cartao rotulo="domínio" titulo="Social" cor="azul">
+
+Aspectos sociais da inteligência: relacionar-se e interpretar sinais sociais adequadamente.
+
+</Cartao>
+
+<Cartao rotulo="domínio" titulo="Prático" cor="azul">
+
+Autogerenciamento e aprendizagem aplicados ao cotidiano: autocuidado e independência.
+
+</Cartao>
+
+</Grade>
+
+<!--
+Esta fundamentação é a mesma que o DSM-5 usa para o TDI: os três domínios (conceitual, social, prático) organizam o critério adaptativo.
+-->
+
+---
+layout: default
+---
+
+# O que a EFA acrescenta ao TEA e ao TDI
+
+<Nota titulo="Uma medida rápida e complementar">
+
+A EFA mostra **o quanto a criança aproveita os recursos que tem** para se adaptar ao seu
+contexto e à sua realidade.
+
+</Nota>
+
+<Nota tipo="alerta" titulo="No TDI, o critério adaptativo é diagnóstico">
+
+No TDI, a avaliação do funcionamento adaptativo **faz parte dos critérios diagnósticos**, e a
+EFA ajuda a identificar o **nível de comprometimento**. Lembra a introdução: a gravidade se
+classifica pelo funcionamento adaptativo, não pelo QI.
+
+</Nota>
+
+<!--
+Raciocínio clínico do autor: a EFA complementa o nível cognitivo (RIAS-2) e o perfil por domínio (Battelle 3), respondendo a terceira peça do TDI, o déficit adaptativo.
+-->
+
+---
+layout: figura
+imagem: /aula-03/capa-eife.png
+legenda: Capa do manual da EIFE · Vetor Editora.
+lado: direita
+ajuste: contain
+---
+
+# EIFE · a escala para quem passou da faixa da EFA
+
+A **Escala de Independência Funcional e Expressiva** é comentada aqui como a versão para
+**adolescentes, adultos e idosos**: a mesma pergunta (o que a pessoa faz sozinha), em outra
+faixa de idade.
+
+<Nota tipo="alerta" titulo="Não é específica de TEA nem de TDI">
+
+A página da Vetor não associa a EIFE a um quadro diagnóstico. Retomamos isso no encerramento.
+
+</Nota>
+
+<Fonte>Vetor Editora, página da Coleção EIFE.</Fonte>
+
+<!--
+EIFE — Escala de Independência Funcional e Expressiva.
+[conferir no manual] Faixa etária exata, autoria e formato da EIFE: ainda não confirmados, por isso não estão no slide.
+-->
