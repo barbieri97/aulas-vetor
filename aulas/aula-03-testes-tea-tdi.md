@@ -1567,3 +1567,14 @@ Comorbidade: presença de outro quadro junto ao principal.
 [conferir no manual] Número de itens do TriA: 89 segundo a Vetor; revendedores citam 76. No slide, só 89, com a fonte.
 [conferir no manual] Idade mínima do TriA: o slide diz só "adultos".
 -->
+
+---
+layout: agradecimento
+kicker: Obrigado
+title: Vamos continuar a conversa.
+nome: André Barbieri
+contatos:
+  - { rotulo: Instagram, valor: "@barbieri.psi", href: "https://instagram.com/barbieri.psi" }
+  - { rotulo: E-mail, valor: "andrepb636@gmail.com", href: "mailto:andrepb636@gmail.com" }
+nota: As dúvidas que ficaram desta aula cabem em qualquer um dos dois.
+---
