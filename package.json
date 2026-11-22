@@ -6,7 +6,9 @@
     "dev": "node scripts/dev.mjs",
     "ref": "slidev aulas/_design-system.md --open",
     "build": "node scripts/build-site.mjs",
-    "lint": "node scripts/lint.mjs"
+    "lint": "node scripts/lint.mjs",
+    "refs": "vitepress dev --open",
+    "refs:build": "vitepress build"
   },
   "dependencies": {
     "@slidev/cli": "^52.19.0",
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.62.1",
+    "vitepress": "^1.6.4",
     "yaml": "^2.9.0"
   }
 }
