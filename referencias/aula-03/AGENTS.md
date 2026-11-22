@@ -76,7 +76,7 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 - **5 e 6 · decisão do autor** — Em vez de 1 slide por instrumento, seguiram o molde da aula 02 (ficha, estrutura, itens/escore ou escalas/áreas), mais um slide breve de fundamentação teórica e um de papel na avaliação. Cortar é decisão do autor.
 - **7 · TriC e TriA** — Os últimos do bloco de instrumentos. Não são específicos de TEA nem de
   TDI: apresentar como rastreio de comorbidade. A lacuna de **6 a 17 anos** aparece no slide,
-  não só nas notas. Itens do TriA: "89 itens (Vetor)" ou fora do slide; nunca 76.
+  não só nas notas. Itens do TriA: "89 itens (Vetor)" ou fora do slide; nunca 76. O foco é o TriC e o Tria mensionado como a versão para adultos.
 - **8 · Fechamento** — (1) slide de fechamento do bloco de instrumentos, com o aviso e a tabela
   da justificativa (bloco 1) retomada; (2) encerramento; (3) revisão do deck inteiro, sem
   reescrever conteúdo de outros blocos: apontar, ou corrigir só o que for de forma.

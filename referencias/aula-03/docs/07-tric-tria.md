@@ -2,61 +2,42 @@
 bloco: TriC e TriA
 instrumentos: [TriC, TriA]
 status: rascunho
-fontes: Coleções TriC e TriA (Vetor Editora, consulta em 2026-11-19)
 ---
 
-# TriC e TriA · triagens de psicopatologia
+# TriC · Triagem de problemas emocionais e comportamentais em crianças
 
-Grafia da Vetor: **TriC** e **TriA**. Nenhum dos dois é específico de TEA ou de TDI; entram na
-aula pelo que são, **rastreio de comorbidade**.
+# Resumo da fundamentação teórica
 
-## Ficha
+O instrumento defende que problemas emocionais e comportamentais em crianças são especialmente prejudiciais ao desenvolvimento infantil e ao desempenho e qualidade de vida na vida adulta. Por este motivo, defendem que a investigação destes problemas emocionais, como caracteristicas transdiagnóstica é relevante para levantar, precocemente, vulnerabilidades desta população, logo, o instrumento não tem o propósito de um diagnóstico nosológico especifico, mas sim o levantamento de sintomas emocionais e comportamentais que possam levar a prejuízos.
 
-| | TriC | TriA |
-|---|---|---|
-| Nome | Triagem de Problemas Emocionais e Comportamentais em Crianças | Triagem de Psicopatologia para Adultos |
-| Autores | Lucas de Francisco Carvalho e Tatiana Pontrelli Mecca | Lucas de Francisco Carvalho e André Pereira Gonçalves |
-| Faixa etária | 2 a 5 anos (primeira infância) | 18 a 70 anos |
+Para isso, se propõem a analisar esses aspectos baseados na teoria de Achenbach e Edelbrock (1978) os quais dividem os problemas emocionais e comportamentais em internalizantes e externalizantes. Compreendendo a definição da OMS de saúde mental, não somente como a ausência de doença, mas também a presença de habilidades e comportamentos positivos para o individuo e para a sociedade (Galderis et al. 2015; WHO, 2004) incluiram uma medida de comportamentos pró-sociais que é defendido por Goodman (1997) como indicador positivo de saúde mental na infância.
 
-**A faixa de 6 a 17 anos não tem cobertura** por nenhum dos dois. É preciso dizê-lo à turma.
+## Modelo empirico de problemas internalizantes e externalizantes
 
-## O que mede
+Com externalizantes, os autores se referem ao baixo controle sobre as emoções, pensamentos e comportamentos, levando a conflitos e rejeição de pais, professores e colegas. O baixo controle desencadeia a comportamentos agressivos, impulsivos, antisociais e desafiadores, causando impacto direto aos outros.
 
-**TriC.** Três escalas: **internalizante** (medos, tristeza, retraimento), **externalizante**
-(agitação, agressividade, desobediência) e **pró-social** (empatia, colaboração, vínculo). Quanto
-à fundamentação teórica, a página diz apenas "validado cientificamente". `[conferir no manual]`
+Por outro lado, os problemas internalizantes resultam do controle excessivo sobre as emoções, pensamentos e comportamentos, podendo impedir que a criança inicie uma interação com o ambiente. Este controle excessivo pode ser expresso através do retraimento, isolamento social, inibição, depressão e diversas formas de ansiedade. O impacto é direto a criança, limitando suas experiências sociais.
 
-**TriA.** Modelo dimensional **HiTOP**, com três fatores — **externalizante, transtornos do
-pensamento e internalizante** — e um índice de **incongruência**, que avalia a consistência das
-respostas.
+Os comportamentos pró-sociais são definidos como aqueles que se dedicam a voluntariamente beneficiar os outros, como exemplos pode-se citar a cooperação e ajuda expontânea.
 
-## Aplicação e correção
+# Aplicação, correção e interpretação
 
-**TriC.** Cerca de 10 minutos, respondido por responsáveis, profissionais ou cuidadores, em
-papel ou on-line (VOL). Pode-se aplicar só o domínio pró-social. Correção **100% pela VOL**.
+O TriC é uma escala de heterorrelato, ou seja, respondido pelos responsáveis pela criança, ou pessoas próximas que acompanham o seu desenvolvimento. 
 
-**TriA.** **Autorrelato**, 15 minutos, em papel ou on-line, com correção pela VOL. Tem **89
-itens** segundo a Vetor; alguns revendedores citam 76, divergência por conferir. Na aula, usar
-"89 itens (Vetor)" ou omitir o número.
+Para cada item o respondendo assinala em uma escala de 1 a 3 sobre a intensidade que aquele comportamento ocorre.
 
-## Resultados
+A correção é feita onlie, através da plataforma VOL e traz 4 resultados:
 
-**TriC.** Fatores de **risco** e de **proteção** por domínio, com normas brasileiras da primeira
-infância, e relatório interpretativo automático.
+- Externalizantes
+- Internalizantes
+- Pró-social
+- Geral
 
-**TriA.** Pontuação por fator, índice de incongruência e interpretação clínica. A Vetor afirma
-que o instrumento **não categoriza nem diagnostica**.
+Para a interpretação, sugerem essa classificação dos percentis: 
 
-## Papel na avaliação do TEA e do TDI
+- 0-25: Ausente(não clinico)
+- 26-40: Leve (não clinicio)
+- 41-60: Limitrofe (subclinico)
+- 61-75: Moderado (clinico)
+- 76-99: Grave (clinico)
 
-**O que o fabricante afirma.** As páginas não mencionam TEA nem deficiência intelectual.
-
-**Raciocínio clínico do autor.**
-
-- Servem para rastrear o que costuma **acompanhar** os quadros (ansiedade, agitação,
-  desregulação), para que o relatório não termine no diagnóstico principal. A comorbidade é
-  frequente; o DSM-5 a traz nos "especificadores" (ver aula 02).
-- Limite: nenhum dos dois mede sintomas do espectro. O **pró-social do TriC** é o único recorte
-  próximo da competência social, e não substitui avaliação específica.
-- O fator de pensamento do TriA pede cuidado na leitura: o instrumento não foi desenhado para o
-  espectro.
