@@ -48,7 +48,7 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 | 4 | EFA e EIFE | "EFA · Escala de Funcionamento Adaptativo" | — | [`04`](docs/04-efa-eife.md) | pronto |
 | 5 | PROTEA-R (retomada) | "PROTEA-R · de onde vem a observação" (último: "O que o PROTEA-R acrescenta ao TEA e ao TDI") | ~2,5 min | [`05`](docs/05-protea-r.md) | pronto (5 slides, acima do orçamento; ver nota) |
 | 6 | BINAUT (retomada) | "BINAUT · de onde vem o modelo binário" (último: "O que o BINAUT acrescenta ao TEA e ao TDI") | ~2,5 min | [`06`](docs/06-binaut.md) | pronto (6 slides, acima do orçamento; ver nota) |
-| 7 | TriC e TriA | depois do slide do bloco 6 | — | [`07`](docs/07-tric-tria.md) | **pendente** |
+| 7 | TriC e TriA | "TriC · Triagem de problemas emocionais e comportamentais em crianças" (último: "O que o TriC acrescenta ao TEA e ao TDI") | — | [`07`](docs/07-tric-tria.md) | pronto (4 slides) |
 | 8 | Fechamento, encerramento e revisão | depois dos slides do bloco 7 | 2–3 min | [`08`](docs/08-encerramento-e-revisao.md) | **pendente** |
 
 > **Migração em andamento.** Os capítulos 02 e 05 a 08 já estão em `docs/` (fonte da

@@ -1095,3 +1095,154 @@ desenvolvimento e o funcionamento adaptativo é clínica.
 Raciocínio clínico do autor, separado do que o fabricante afirma. Ecoa o aviso do início da aula.
 [conferir no manual] Se "BINAUT-II" é a Escala II ou uma edição do instrumento: o slide diz "Escala II".
 -->
+
+---
+layout: default
+---
+
+# TriC · Triagem de problemas emocionais e comportamentais em crianças
+
+<Grade :cols="2">
+
+<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+
+Levanta **sintomas emocionais e comportamentais** que possam levar a prejuízo. Não busca
+diagnóstico nosológico específico: é uma **triagem**.
+
+</Cartao>
+
+<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
+
+Crianças de **2 a 5 anos**.
+
+</Cartao>
+
+<Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
+
+**Heterorrelato**: responde quem acompanha a criança (responsáveis ou pessoas próximas).
+Cada item é assinalado de **1 a 3**, conforme a intensidade com que o comportamento ocorre.
+
+</Cartao>
+
+<Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
+
+Correção on-line, na plataforma VOL, com **quatro resultados**: externalizantes,
+internalizantes, pró-social e geral.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, <em>Coleção TriC — Triagem de problemas emocionais e comportamentais em crianças</em> · página do produto.</Fonte>
+
+<!--
+TriC — Triagem de problemas emocionais e comportamentais em crianças.
+Heterorrelato: o instrumento é respondido por outra pessoa que não o avaliado.
+Triagem: levanta a possibilidade de um problema; não fecha diagnóstico.
+VOL — Vetor Online, plataforma de correção da editora.
+[conferir no manual] Número de itens do TriC: não está no slide.
+-->
+
+---
+layout: default
+---
+
+# TriC · o que o instrumento defende
+
+<Grade :cols="3">
+
+<Cartao rotulo="dimensão 1" titulo="Externalizantes" cor="azul">
+
+**Baixo controle** de emoções, pensamentos e comportamentos: agressividade, impulsividade,
+condutas desafiadoras. O impacto recai sobre os outros.
+
+</Cartao>
+
+<Cartao rotulo="dimensão 2" titulo="Internalizantes" cor="azul">
+
+**Controle excessivo**: retraimento, isolamento, inibição, depressão e ansiedade. O impacto
+recai sobre a própria criança.
+
+</Cartao>
+
+<Cartao rotulo="dimensão 3" titulo="Pró-social" cor="ouro">
+
+Comportamentos que **beneficiam o outro** de forma voluntária, como cooperar e ajudar. Entram
+como indicador **positivo** de saúde mental.
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="Característica transdiagnóstica">
+
+A ideia é levantar cedo as vulnerabilidades, sem amarrar o resultado a um quadro específico.
+
+</Nota>
+
+<Fonte>Vetor Editora, <em>Coleção TriC</em> · página do produto. Modelo de Achenbach e Edelbrock (1978).</Fonte>
+
+<!--
+Internalizante / externalizante: problemas dirigidos para dentro (medo, tristeza, retraimento) / para fora (agitação, agressividade, desobediência).
+Pró-social: empatia, colaboração, vínculo.
+Transdiagnóstico: atravessa vários quadros, em vez de pertencer a um só.
+Saúde mental, para a OMS, é também a presença de habilidades e comportamentos positivos, não só a ausência de doença; daí a medida pró-social (Goodman, 1997).
+[conferir no manual] A página do produto só diz "validado cientificamente"; a fundamentação acima vem do material do autor e deve ser conferida no manual.
+-->
+
+---
+layout: comparacao
+title: TriC · como ler o percentil
+colunas:
+  - { titulo: Não clínico, sub: "percentil 0 a 40", cor: azul }
+  - { titulo: Subclínico, sub: "percentil 41 a 60", cor: ouro }
+  - { titulo: Clínico, sub: "percentil 61 a 99", cor: ouro }
+linhas:
+  - { criterio: Classificação, valores: ["<b>Ausente</b> (0–25) · <b>Leve</b> (26–40)", "<b>Limítrofe</b>", "<b>Moderado</b> (61–75) · <b>Grave</b> (76–99)"] }
+  - { criterio: Como ler, valores: ["sem sinal de problema que peça atenção", "zona de observação: vale acompanhar", "sintomas que justificam aprofundar a avaliação"] }
+---
+
+<!--
+Percentil: posição do resultado em relação ao grupo normativo.
+Faixas de classificação sugeridas pelo instrumento; a coluna "Como ler" é leitura do autor, não do fabricante.
+Resultado clínico em triagem não é diagnóstico: indica que vale investigar.
+-->
+
+---
+layout: default
+---
+
+# O que o TriC acrescenta ao TEA e ao TDI
+
+<Nota titulo="Rastreio de comorbidade, não de TEA nem de TDI">
+
+O TriC não é específico de nenhum dos dois quadros. Ele entra para ver **o que mais está
+presente**: ansiedade, retraimento, agressividade, e também o que a criança tem de preservado
+(o pró-social).
+
+</Nota>
+
+<Nota tipo="alerta" titulo="Atenção à faixa etária">
+
+O TriC cobre de **2 a 5 anos**. O **TriA**, a versão para **adultos**, tem **89 itens**
+(segundo a Vetor). **De 6 a 17 anos não há triagem equivalente nesta série**: nessa faixa, a
+triagem de comorbidade precisa de outro instrumento.
+
+</Nota>
+
+<Nota tipo="erro" titulo="Nenhum instrumento diagnostica sozinho">
+
+Uma triagem aponta por onde investigar. A integração com nível cognitivo, desenvolvimento e
+funcionamento adaptativo é clínica.
+
+</Nota>
+
+<Fonte>Vetor Editora, <em>Coleção TriC</em> e <em>Coleção TriA — Triagem de psicopatologia para adultos</em> · páginas dos produtos.</Fonte>
+
+<!--
+Raciocínio clínico do autor, separado do que o fabricante afirma: usar o TriC como rastreio de comorbidade em crianças pequenas com suspeita ou diagnóstico de TEA ou TDI.
+TriA — Triagem de Psicopatologia para Adultos.
+Comorbidade: presença de outro quadro junto ao principal.
+[conferir no manual] Número de itens do TriA: 89 segundo a Vetor; revendedores citam 76. No slide, só 89, com a fonte.
+[conferir no manual] Idade mínima do TriA: o slide diz só "adultos".
+-->
