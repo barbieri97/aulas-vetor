@@ -43,7 +43,7 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 | # | Bloco | Primeiro slide no deck | Tempo | Capítulo | Status no deck |
 |---|---|---|---|---|---|
 | 1 | Abertura e introdução do tema | capa | 7–15 min | [`01`](docs/01-abertura-e-introducao.md) | pronto |
-| 2 | RIAS-2 | *(vem antes de "Battelle 3 · Inventário de Desenvolvimento Infantil")* | — | [`02`](docs/02-rias-2.md) | **pendente** |
+| 2 | RIAS-2 | "RIAS-2 · Escala Reynolds de Avaliação da Inteligência" (último: "O que o RIAS-2 acrescenta ao TEA e ao TDI") | — | [`02`](docs/02-rias-2.md) | pronto (7 slides, versão resumida; ver nota) |
 | 3 | Battelle 3 | "Battelle 3 · Inventário de Desenvolvimento Infantil" | — | [`03`](docs/03-battelle-3.md) | pronto (9 slides; ver nota) |
 | 4 | EFA e EIFE | "EFA · Escala de Funcionamento Adaptativo" | — | [`04`](docs/04-efa-eife.md) | pronto |
 | 5 | PROTEA-R (retomada) | "PROTEA-R · de onde vem a observação" (último: "O que o PROTEA-R acrescenta ao TEA e ao TDI") | ~2,5 min | [`05`](docs/05-protea-r.md) | pronto (5 slides, acima do orçamento; ver nota) |
@@ -60,8 +60,10 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 ### Notas por bloco (orçamento e instruções de construção)
 
 - **2 · RIAS-2** — Instrumento novo para a turma: pode passar dos ~3 slides do orçamento.
-  Entra logo depois da introdução, antes do Battelle 3. Não aparecem no slide: os três
-  subtestes sem nome em português e os índices da edição brasileira.
+  Entra logo depois da introdução, antes do Battelle 3. Os 8 subtestes e os 5 índices têm nome
+  confirmado pelo relatório-modelo (`externos/`) e podem ir ao slide. Não vão ao slide: os
+  números do caso fictício do relatório, a composição exata dos índices e os pontos de corte
+  dos subtestes (`[conferir no manual]`).
 - **3 · Battelle 3** — O desenho (ficha, aplicações, um slide por domínio, procedimentos,
   importância) já deu 9 slides, acima do orçamento. Se o tempo apertar, cortar é decisão do
   autor.
@@ -80,6 +82,14 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 - **8 · Fechamento** — (1) slide de fechamento do bloco de instrumentos, com o aviso e a tabela
   da justificativa (bloco 1) retomada; (2) encerramento; (3) revisão do deck inteiro, sem
   reescrever conteúdo de outros blocos: apontar, ou corrigir só o que for de forma.
+
+## Material externo
+
+Arquivos de terceiros desta aula (manuais, artigos, capturas de página) ficam em
+[`externos/`](externos/), somente leitura: consulte para conferir um dado, mas o que se confirmar
+entra em `docs/` e é citado em `docs/fontes.md` com o nome do arquivo. Regras gerais em
+[`AGENTS.md`](../../AGENTS.md) da raiz, seção "Referências por aula". Arquivo registrado: `RIAS-2_modelo relatório completo.pdf`
+(relatório-modelo do RIAS-2, citado em `docs/fontes.md`).
 
 ## Protocolo de trabalho
 

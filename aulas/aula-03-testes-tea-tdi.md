@@ -194,7 +194,328 @@ linhas:
 Este é o mapa da aula: as próximas seções seguem esta ordem — nível cognitivo, depois desenvolvimento e funcionalidade, depois sinais do espectro e o que mais está presente.
 Em ambos os diagnósticos é preciso uma boa compreensão do desenvolvimento global; cada instrumento responde a uma destas três perguntas.
 
-[PENDENTE] Os slides do RIAS-2 (etapa 2) entram aqui, antes do Battelle 3.
+Os slides do RIAS-2 vêm a seguir, antes do Battelle 3.
+-->
+
+---
+layout: default
+---
+
+# RIAS-2 · Escala Reynolds de Avaliação da Inteligência
+
+<Grade :cols="2">
+
+<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+
+Mede a **inteligência**, com ênfase no **raciocínio** verbal e não verbal, e traz também
+medidas de **memória** e de **velocidade de processamento**.
+
+</Cartao>
+
+<Cartao rotulo="estrutura" titulo="8 subtestes, 5 índices" cor="azul">
+
+Dois subtestes por domínio: **verbal**, **não verbal**, **memória** e **velocidade**.
+
+</Cartao>
+
+<Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
+
+**Individual e presencial**, em sessão única de **40 a 45 minutos**, sem materiais
+manipuláveis. Os escores brutos entram na plataforma **VOL**.
+
+</Cartao>
+
+<Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
+
+**Pontuação T** nos subtestes; **pontuação padrão**, intervalo de confiança, percentil e
+classificação nos índices.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, página da Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
+
+<!--
+RIAS-2 — Escala Reynolds de Avaliação da Inteligência, 2ª edição.
+VOL — Vetor Online, plataforma de correção da editora.
+Pontuação T: média 50, desvio-padrão 10. Pontuação padrão: média 100.
+[conferir no manual] Faixa etária do RIAS-2: não está no relatório-modelo, por isso não entrou no slide.
+-->
+
+---
+layout: default
+---
+
+# Fundamentação teórica, em resumo
+
+<Grade :cols="2">
+
+<Cartao rotulo="definição" titulo="Inteligência como adaptação" cor="azul">
+
+Parte da definição de **Sternberg (2008)**: a capacidade de **adaptar-se, aprender,
+compreender e lidar** com o meio em que se vive.
+
+</Cartao>
+
+<Cartao rotulo="modelo" titulo="Abordagem psicométrica · CHC" cor="azul">
+
+Apoia-se no modelo **CHC**: as habilidades se organizam em **hierarquia**, das mais
+específicas às mais gerais, com o **fator *g*** no topo.
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="Memória e velocidade ficam fora do índice geral">
+
+Para o autor do RIAS-2, memória e velocidade de processamento são processos **auxiliares** da
+inteligência: importantes, mas não compõem o índice de inteligência. O raciocínio é medido
+sem elas.
+
+</Nota>
+
+<Fonte>Vetor Editora, Coleção RIAS-2 · fundamentação conforme o material do autor da aula.</Fonte>
+
+<!--
+CHC — modelo Cattell-Horn-Carroll das habilidades cognitivas.
+Fator g — fator geral de inteligência.
+Psicométrica: que estuda a inteligência por meio de testes padronizados e análise estatística.
+[conferir no manual] A fundamentação detalhada ainda não foi conferida no manual do RIAS-2; este slide resume o texto do autor (docs/02-rias-2.md).
+-->
+
+---
+layout: default
+---
+
+# O que é avaliado · raciocínio
+
+<Grade :cols="2">
+
+<Cartao rotulo="verbal · GWH" titulo="Adivinhe" cor="azul">
+
+Descobrir um objeto a partir de **pistas verbais**: vocabulário, compreensão da linguagem,
+conhecimento geral, raciocínio dedutivo.
+
+</Cartao>
+
+<Cartao rotulo="verbal · VRZ" titulo="Analogia" cor="azul">
+
+**Relações entre conceitos**. Pede linguagem básica, mas enfatiza o raciocínio, com menos
+peso do conhecimento prévio.
+
+</Cartao>
+
+<Cartao rotulo="não verbal · WHM" titulo="O Que Está Faltando?" cor="ouro">
+
+Apontar o elemento ausente numa imagem: **raciocínio perceptivo e espacial**, sem
+conhecimento especializado.
+
+</Cartao>
+
+<Cartao rotulo="não verbal · OIO" titulo="Item Diferente" cor="ouro">
+
+Achar o item que **não pertence** ao conjunto: percepção visual, raciocínio analógico,
+flexibilidade cognitiva.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
+
+<!--
+GWH — Adivinhe. VRZ — Analogia. WHM — O Que Está Faltando? OIO — Item Diferente (siglas da edição original).
+Os dois verbais se ligam à inteligência cristalizada (conhecimento acumulado); os dois não verbais, à fluida (raciocínio diante de problemas novos).
+-->
+
+---
+layout: default
+---
+
+# O que é avaliado · memória e velocidade
+
+<Grade :cols="2">
+
+<Cartao rotulo="memória · VRM" titulo="Memória Verbal" cor="verde">
+
+Recordar **informação verbal significativa**, dita em voz alta: atenção, compreensão da
+linguagem, organização semântica.
+
+</Cartao>
+
+<Cartao rotulo="memória · NVM" titulo="Memória Não Verbal" cor="verde">
+
+Recordar **estímulos visuais** por reconhecimento de imagens, minimizando estratégias
+verbais.
+
+</Cartao>
+
+<Cartao rotulo="velocidade · SNT" titulo="Tarefa de Nomeação Rápida" cor="terra">
+
+**Nomear** estímulos visuais simples sob limite de tempo: atenção, percepção visual,
+produção verbal.
+
+</Cartao>
+
+<Cartao rotulo="velocidade · SPS" titulo="Busca Rápida de Imagens" cor="terra">
+
+**Varrer e discriminar**: localizar imagens-alvo o mais rápido possível.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
+
+<!--
+VRM — Memória Verbal. NVM — Memória Não Verbal. SNT — Tarefa de Nomeação Rápida. SPS — Busca Rápida de Imagens.
+Organização semântica: agrupar a informação pelo significado, o que ajuda a lembrar.
+-->
+
+---
+layout: default
+---
+
+# Resultados · os cinco índices
+
+<Grade :cols="3">
+
+<Cartao rotulo="VIX" titulo="Inteligência Verbal" cor="azul">
+
+Inteligência **verbal**, ligada à cristalizada.
+
+</Cartao>
+
+<Cartao rotulo="NIX" titulo="Inteligência Não Verbal" cor="azul">
+
+Inteligência **não verbal**, ligada à fluida.
+
+</Cartao>
+
+<Cartao rotulo="CIX" titulo="Inteligência Composta" cor="ouro" :destaque="true">
+
+O **QI total**: a inteligência geral, o fator *g*.
+
+</Cartao>
+
+<Cartao rotulo="CMX" titulo="Memória Composta" cor="verde">
+
+Memória de curto prazo, **verbal e não verbal**.
+
+</Cartao>
+
+<Cartao rotulo="SPI" titulo="Velocidade de Processamento" cor="terra">
+
+**Eficiência geral** no processamento de informações.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Vetor Editora, Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
+
+<!--
+VIX — Índice de Inteligência Verbal. NIX — Índice de Inteligência Não Verbal. CIX — Índice de Inteligência Composta (QI Total).
+CMX — Índice de Memória Composta. SPI — Índice de Velocidade de Processamento.
+Cada índice traz pontuação padrão (média 100), intervalo de confiança de 95%, classificação, percentil e escore Z.
+[conferir no manual] Composição exata de cada índice e como o CIX os combina: fora do slide.
+-->
+
+---
+layout: default
+---
+
+# Do escore à leitura
+
+<Grade :cols="3">
+
+<Cartao rotulo="subtestes" titulo="Pontuação T" cor="azul">
+
+Média **50**, desvio-padrão 10, com classificação de "muito inferior" a "muito superior".
+
+</Cartao>
+
+<Cartao rotulo="índices" titulo="Pontuação padrão" cor="ouro">
+
+Média **100**, com intervalo de confiança de 95%, percentil, escore Z e classificação.
+
+</Cartao>
+
+<Cartao rotulo="perfil" titulo="Discrepâncias" cor="verde">
+
+Compara subtestes e índices entre si: a diferença é **significativa** e **rara** na população?
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="Faixa de 69 ou menos: muito inferior">
+
+O relatório diz que esse desempenho **pode indicar deficiência intelectual, dependendo de
+outros critérios clínicos**. A pontuação sozinha não fecha o diagnóstico.
+
+</Nota>
+
+<Fonte>Vetor Editora, Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
+
+<!--
+Discrepância — diferença entre dois escores do mesmo avaliado. A leitura usa o nível de significância e a porcentagem cumulativa (frequência, na população, de uma diferença daquele tamanho).
+Discrepância grande e rara: perfil heterogêneo; o CIX pode não valer como medida global, e vale descrever forças e fragilidades separadamente.
+Segundo a página do produto, a plataforma também calcula NCEs, stanines e mudança confiável entre aplicações; esses itens não constam do relatório-modelo.
+[conferir no manual] Pontos de corte das classificações dos subtestes: fora do slide.
+-->
+
+---
+layout: default
+---
+
+# O que o RIAS-2 acrescenta ao TEA e ao TDI
+
+<Grade :cols="3">
+
+<Cartao rotulo="TDI" titulo="Medida do potencial cognitivo" cor="azul">
+
+No TDI, uma **medida quantitativa** do funcionamento intelectual é requerida, junto ao
+critério adaptativo.
+
+</Cartao>
+
+<Cartao rotulo="TEA" titulo="Há rebaixamento intelectual?" cor="ouro">
+
+No TEA, a avaliação intelectual é **recomendada** para especificar se há comprometimento
+intelectual concomitante.
+
+</Cartao>
+
+<Cartao rotulo="intervenção" titulo="Forças e limites" cor="verde">
+
+Os recursos verbais e visuoespaciais orientam o **planejamento** pedagógico e terapêutico.
+
+</Cartao>
+
+</Grade>
+
+<Nota titulo="Raciocínio sem a interferência de memória e velocidade">
+
+No RIAS-2, o raciocínio é medido **separado** da memória e da velocidade, que são muito
+sensíveis a cansaço, estresse e ao ambiente. Isso evita que essas variáveis contaminem o
+resultado de raciocínio.
+
+</Nota>
+
+<Nota tipo="alerta" titulo="Raciocínio clínico, e com limite">
+
+É o papel descrito pela prática clínica: o QI descreve o nível cognitivo, **não diagnostica**
+TEA nem TDI. A integração com o desenvolvimento e o funcionamento adaptativo, vistos a
+seguir, é do clínico.
+
+</Nota>
+
+<!--
+Raciocínio clínico do autor, separado do que o fabricante afirma. Ligação com a introdução: 37,9% das crianças com TEA têm rebaixamento intelectual, por isso o nível cognitivo precisa ser medido.
+Visuoespacial: relativo à percepção e à organização de estímulos visuais no espaço.
+Memória operacional: manter e manipular informação por curto tempo.
 -->
 
 ---
