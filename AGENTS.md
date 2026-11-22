@@ -73,22 +73,38 @@ um componente — a exceção honesta é o desenho que só existe naquele slide.
 
 ## Referências por aula
 
-Cada aula tem, em `referencias/aula-NN/`, duas camadas que não se misturam:
+Cada aula tem, em `referencias/aula-NN/`, três camadas que não se misturam: a produção
+(`AGENTS.md`), o conteúdo próprio (`docs/`) e o material de terceiros (`externos/`):
 
 ```
 referencias/aula-NN/
 ├── AGENTS.md          # mapa: regras da aula, tabela de blocos, protocolo de trabalho
-└── docs/
-    ├── index.md       # sumário do "livro": capítulo → arquivo → resumo de uma linha
-    ├── NN-bloco.md    # um capítulo por bloco da aula
-    ├── glossario.md   # siglas e termos (alimenta as notas dos slides)
-    └── fontes.md      # referências, data da consulta, lacunas [conferir no manual]
+├── docs/
+│   ├── index.md       # sumário do "livro": capítulo → arquivo → resumo de uma linha
+│   ├── NN-bloco.md    # um capítulo por bloco da aula
+│   ├── glossario.md   # siglas e termos (alimenta as notas dos slides)
+│   └── fontes.md      # referências, data da consulta, lacunas [conferir no manual]
+└── externos/          # arquivos de terceiros guardados como consulta (PDFs, manuais, artigos)
 ```
+
+- **`externos/`** guarda o que **vem de fora**: PDF de manual, artigo, captura de página de
+  produto. É o oposto de `docs/`, que é conteúdo do autor, já revisado. Regras:
+  - **Somente leitura para o agente.** Consulta-se e extrai-se o que for confirmado; nunca se
+    edita, renomeia nem se copia o arquivo para `docs/` ou para o slide como se fosse texto
+    próprio. O que se confirmar num arquivo de `externos/` entra em `docs/` (em prosa do autor)
+    e é citado em `docs/fontes.md`, com o nome do arquivo.
+  - Nome de arquivo estável e descritivo (`manual-battelle-3.pdf`), porque `docs/fontes.md`
+    aponta para ele.
+  - Não é publicado: fica fora de `aulas/` e fora do `aulas/public/`, então o site não o serve.
+    Manual de teste e capa de instrumento são material protegido por direitos autorais — a
+    decisão de versionar ou ignorar no git é do autor (hoje o `.gitignore` não os cobre).
+  - O visualizador local (`npm run refs`) não os lista.
 
 - **`AGENTS.md` da aula** é produção, não conteúdo: contexto e público, regras de conteúdo, a
   **tabela de blocos** (nº · bloco · primeiro slide no deck · tempo · orçamento de slides · visão geral
   em 2–3 linhas · capítulo em `docs/` · status no deck) e o protocolo: para trabalhar um bloco,
-  leia só o capítulo dele em `docs/` mais o glossário; mexa só no trecho daquele bloco; rode
+  leia só o capítulo dele em `docs/` mais o glossário (e, só se precisar conferir um dado, o
+  arquivo certo de `externos/`); mexa só no trecho daquele bloco; rode
   `npm run lint`; ao fim liste slides criados, lacunas `[conferir no manual]` e imagens que
   faltaram.
 - **`docs/NN-bloco.md`** é conteúdo, em prosa de livro já revisada, sem instrução a agente e
@@ -102,6 +118,23 @@ referencias/aula-NN/
 - **Aula em construção:** a tabela de blocos tem coluna de status (pronto no deck · pendente ·
   em revisão). Migrar do formato antigo (um arquivo por etapa) é por bloco: o antigo só sai
   quando o capítulo novo o cobre, e o `AGENTS.md` da aula diz qual vale para cada bloco.
+
+## Documente cada mudança no nível certo
+
+Sempre que uma mudança alterar a **estrutura** (pastas, nomes, convenções, scripts, fluxo de
+build) ou a **função** de algo no repositório, o agente a documenta **na mesma tarefa**, no
+nível a que ela pertence:
+
+- **Vale para o projeto todo** → neste `AGENTS.md` da raiz (e, se tocar o visual, em
+  `docs/design-system.md`; se tocar a apresentação do repositório, no `README.md`).
+- **Vale para uma aula só** → no `AGENTS.md` de `referencias/aula-NN/`.
+- **Conteúdo** de uma aula → no capítulo de `docs/` dela, nunca nos `AGENTS.md`.
+
+Na dúvida sobre o nível, pergunte: "se eu abrisse outra aula, isso ainda valeria?" Se sim, é da
+raiz; se não, é da aula. Ao terminar, diga onde documentou. Mudança que deixe um `AGENTS.md`
+descrevendo o que já não existe é erro — corrija o texto junto com a mudança, e atualize
+também o `.vitepress/config.mts` (visualizador local, não versionado) se a estrutura de
+`referencias/` mudar.
 
 ## Neutro quanto a agente
 

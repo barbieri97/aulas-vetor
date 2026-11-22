@@ -129,6 +129,14 @@ Em `aulas/public/aula-01/`. Esquemas autorais em SVG; imagens de terceiros com c
 Imagens **fornecidas pelo autor**; se um arquivo faltar, deixar o slide sem a imagem e avisar —
 não baixar nem gerar outra no lugar.
 
+## Material externo
+
+Arquivos de terceiros desta aula (manuais, artigos, capturas de página) ficam em
+[`externos/`](externos/), somente leitura: consulte para conferir um dado, mas o que se confirmar
+entra em `docs/` e é citado em `docs/fontes.md` com o nome do arquivo. Regras gerais em
+[`AGENTS.md`](../../AGENTS.md) da raiz, seção "Referências por aula". Nenhum arquivo registrado
+ainda.
+
 ## Protocolo de trabalho
 
 1. Leia este arquivo, o capítulo do bloco em `docs/` e `docs/glossario.md`.

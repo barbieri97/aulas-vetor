@@ -11,6 +11,13 @@ Páginas da Vetor Editora, consulta em **2026-11-19**:
 - Coleção TriA: vetoreditora.com.br/produto/colecao-tria-triagem-de-psicopatologia-para-adultos-71543
 - Coleção EIFE: vetoreditora.com.br/produto/colecao-eife-escala-de-independencia-funcional-e-expressiva-71793
 
+Material externo (`externos/`):
+
+- `RIAS-2_modelo relatório completo.pdf`: relatório-modelo da plataforma (Vetor/Giunti), formato
+  completo, 9 páginas, aplicação fictícia de 27/04/2026. Fonte dos nomes dos 8 subtestes e dos 5
+  índices, das descrições dos subtestes, da tabela de classificação da pontuação padrão e da
+  análise de discrepâncias. Os números do caso são fictícios e não entram na aula como dado.
+
 Outras:
 
 - Maenner et al. (2023), *MMWR Surveill Summ* 72(2): prevalência de TEA, ADDM 2020.
@@ -22,9 +29,11 @@ Nada disto vai para o slide enquanto não for conferido.
 
 **RIAS-2**
 - Fundamentação teórica detalhada e relação com o modelo CHC.
-- Nome em português dos três subtestes sem nome confirmado (na edição original: Verbal
-  Reasoning, Guess What, Verbal Memory).
-- Nomes e composição dos índices na edição brasileira.
+- Composição exata de cada índice (quais subtestes entram, como o CIX os combina): o relatório
+  só agrupa os subtestes por domínio.
+- Pontos de corte das classificações dos subtestes (pontuação T): o relatório não os traz.
+- Como o critério "moderada" se separa de "grande e rara" em cada comparação (o relatório dá
+  só a regra geral: ≤ 5 ou ≤ 1).
 - Ajuste da aplicação a pacientes com pouca linguagem.
 
 **PROTEA-R / BINAUT**

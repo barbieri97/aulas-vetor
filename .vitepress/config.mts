@@ -4,7 +4,7 @@
 // raiz do repositório como srcDir e só lê o que está liberado abaixo.
 //   - AGENTS.md da raiz vira a página inicial (rewrites)
 //   - docs/                       → "Raiz"
-//   - referencias/aula-NN/        → uma seção por aula (AGENTS.md + docs/)
+//   - referencias/aula-NN/        → uma seção por aula (AGENTS.md + docs/; externos/ fica de fora)
 // A barra lateral é montada lendo o disco: aula nova em referencias/ aparece sozinha.
 
 import { defineConfig, type DefaultTheme } from 'vitepress'
@@ -90,6 +90,7 @@ export default defineConfig({
     'dist/**',
     'scripts/**',
     'public/**',
+    'referencias/*/externos/**', // arquivos de terceiros: consulta, não conteúdo
   ],
   // O AGENTS.md da raiz é a página inicial; o arquivo continua sendo o mesmo.
   rewrites: { 'AGENTS.md': 'index.md' },

@@ -69,6 +69,7 @@ aulas/
 ├── lib/Moldura.vue               a lombada dos slides (usada pelos layouts)
 └── public/                       imagens (`/foto.svg` no markdown)
 docs/                             design-system.md · temas.md
+referencias/aula-NN/              AGENTS.md (mapa) · docs/ (conteúdo) · externos/ (arquivos de terceiros)
 scripts/                          dev.mjs · lint.mjs · build-site.mjs · lib.mjs
 site.config.json                  a identidade do curso
 ```

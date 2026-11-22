@@ -39,9 +39,14 @@ significado estabelecido; o que depende do manual fica em [fontes.md](fontes.md)
 ## Instrumentos
 
 - **RIAS-2** — Escala Reynolds de Avaliação da Inteligência, 2ª edição.
-- **Subtestes do RIAS-2 com nome em português confirmado** — OIO (Item Diferente), WHM (O que
-  está faltando?), NVM (Memória Não Verbal), SNT (Tarefa de Nomeação Rápida), SPS (Busca
-  Rápida de Imagens).
+- **Subtestes do RIAS-2** — GWH (Adivinhe), VRZ (Analogia), WHM (O Que Está Faltando?), OIO
+  (Item Diferente), VRM (Memória Verbal), NVM (Memória Não Verbal), SNT (Tarefa de Nomeação
+  Rápida), SPS (Busca Rápida de Imagens).
+- **Índices do RIAS-2** — VIX (Inteligência Verbal), NIX (Inteligência Não Verbal), CIX
+  (Inteligência Composta, o QI Total), CMX (Memória Composta), SPI (Velocidade de
+  Processamento).
+- **Porcentagem cumulativa** — frequência, na população de referência, de uma diferença de
+  tamanho igual ou maior; "≤ 5" significa que ocorre em 5% ou menos.
 - **Battelle 3 / BDI-3** — Inventário de Desenvolvimento Infantil, 3ª edição. Domínios: **ADP**
   (Adaptativo), **SE** (Socioemocional), **COM** (Comunicação), **MOT** (Motor), **COG**
   (Cognitivo).
