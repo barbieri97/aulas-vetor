@@ -59,7 +59,7 @@ Se o tema declarado não estiver instalado, o lint erra na cara: `theme: x não 
 
 ## Caminho B — gerar um design system
 
-É o que este repositório já faz. Para criar outro no lugar (ou pedir ao Claude que gere um),
+É o que este repositório já faz. Para criar outro no lugar (ou pedir a um agente que gere um),
 o roteiro é:
 
 1. **`theme: none`** no headmatter de todas as aulas.

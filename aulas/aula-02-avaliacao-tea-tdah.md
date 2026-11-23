@@ -107,7 +107,7 @@ legenda: "Cada etapa tem o seu tempo, e as etapas se sobrepõem: enquanto a poda
   começa, a mielinização ainda está longe do fim."
 ---
 
-<img src="/Neurodesenvolvimento.png" alt="Linha do tempo do neurodesenvolvimento, da concepção à vida adulta, com proliferação e migração neuronal na gestação, sinaptogênese no primeiro biênio, poda sináptica até a adolescência e mielinização até a vida adulta" class="w-full max-h-full object-contain">
+<img src="/aula-02/Neurodesenvolvimento.png" alt="Linha do tempo do neurodesenvolvimento, da concepção à vida adulta, com proliferação e migração neuronal na gestação, sinaptogênese no primeiro biênio, poda sináptica até a adolescência e mielinização até a vida adulta" class="w-full max-h-full object-contain">
 
 <!--
 Proliferação neuronal (neurogênese): produção dos neurônios a partir de células precursoras.
@@ -119,7 +119,7 @@ Mielinização: revestimento dos axônios por mielina, que acelera a condução 
 
 ---
 layout: figura
-imagem: /desenvolvimento-encefalo-mri.png
+imagem: /aula-02/desenvolvimento-encefalo-mri.png
 legenda: "Ressonância magnética ponderada em T1 do encéfalo em cinco idades — 1 semana, 3 meses, 1 ano, 2 anos e 10 anos. O contraste entre substância cinzenta e branca se inverte ao longo do primeiro ano: é a <b>mielinização</b> aparecendo na imagem. National Institutes of Health, <b>domínio público</b>, Wikimedia Commons."
 lado: direita
 ajuste: contain
@@ -259,7 +259,7 @@ title: As quatro trilhas correm juntas
 legenda: "O que chama a atenção não é a criança que anda com 14 meses em vez de 12: é a trilha que para de acompanhar as outras."
 ---
 
-<img src="/marcos-quatro-areas.svg" alt="Quatro trilhas paralelas do desenvolvimento — motor, linguagem, cognitivo e socioemocional — com marcos aos 12, 18, 24 e 36 meses, e a trilha de linguagem interrompida a partir dos 24 meses" class="w-full max-h-full object-contain">
+<img src="/aula-02/marcos-quatro-areas.svg" alt="Quatro trilhas paralelas do desenvolvimento — motor, linguagem, cognitivo e socioemocional — com marcos aos 12, 18, 24 e 36 meses, e a trilha de linguagem interrompida a partir dos 24 meses" class="w-full max-h-full object-contain">
 
 <!--
 Marco do desenvolvimento: habilidade que a maioria das crianças (ao menos 75%, no critério
@@ -337,7 +337,7 @@ legenda: "As curvas ilustram a forma, *não idades exatas*. O que a literatura
   bruscamente."
 ---
 
-<img src="/janelas-oportunidade.svg" alt="Curvas de sensibilidade à experiência ao longo da idade para visão binocular, linguagem, processamento de faces e funções executivas" class="w-full max-h-full object-contain">
+<img src="/aula-02/janelas-oportunidade.svg" alt="Curvas de sensibilidade à experiência ao longo da idade para visão binocular, linguagem, processamento de faces e funções executivas" class="w-full max-h-full object-contain">
 
 <!--
 Período sensível: intervalo do desenvolvimento em que um circuito é especialmente
@@ -372,7 +372,7 @@ title: Por isso a estimulação é método, não só tratamento
 legenda: "Uma avaliação isolada raramente separa atraso de transtorno. A resposta à intervenção, observada por tempo suficiente, separa."
 ---
 
-<img src="/atraso-ou-transtorno.svg" alt="Fluxo de decisão: atraso identificado leva a estimulação dirigida por tempo suficiente, que se ramifica em alcançar os pares — atraso — ou persistir apesar da intervenção — investigar transtorno" class="w-full max-h-full object-contain">
+<img src="/aula-02/atraso-ou-transtorno.svg" alt="Fluxo de decisão: atraso identificado leva a estimulação dirigida por tempo suficiente, que se ramifica em alcançar os pares — atraso — ou persistir apesar da intervenção — investigar transtorno" class="w-full max-h-full object-contain">
 
 <!--
 Resposta à intervenção: modelo em que a persistência da dificuldade apesar de ensino ou
@@ -416,7 +416,7 @@ title: Genes e ambiente não se somam — eles interagem
 legenda: "A herdabilidade é alta e, ainda assim, o desfecho não está escrito: o que a herdabilidade mede é quanto da variação, naquela população, se explica por variação genética."
 ---
 
-<img src="/gene-ambiente.svg" alt="Mesma vulnerabilidade genética levando a duas trajetórias distintas conforme o ambiente seja de acesso e acomodação ou de privação e exigência rígida" class="w-full max-h-full object-contain">
+<img src="/aula-02/gene-ambiente.svg" alt="Mesma vulnerabilidade genética levando a duas trajetórias distintas conforme o ambiente seja de acesso e acomodação ou de privação e exigência rígida" class="w-full max-h-full object-contain">
 
 <!--
 Herdabilidade: proporção da variação de uma característica, em uma população específica,
@@ -525,7 +525,7 @@ title: A estrutura inteira do diagnóstico
 legenda: "Os critérios C, D e E não descrevem sintomas: eles enquadram os dois eixos no tempo, na função e na diferença com outros quadros."
 ---
 
-<img src="/tea-dois-eixos.svg" alt="Estrutura do diagnóstico de TEA: critério A com três déficits sociais exigidos, critério B com dois de quatro padrões restritos e repetitivos, e critérios C, D e E como base" class="w-full max-h-full object-contain">
+<img src="/aula-02/tea-dois-eixos.svg" alt="Estrutura do diagnóstico de TEA: critério A com três déficits sociais exigidos, critério B com dois de quatro padrões restritos e repetitivos, e critérios C, D e E como base" class="w-full max-h-full object-contain">
 
 <!--
 Critério C: presentes precocemente no desenvolvimento.
@@ -577,7 +577,7 @@ ou agitação sem finalidade.
 
 ---
 layout: figura
-imagem: /brincadeira-simbolica.jpg
+imagem: /aula-02/brincadeira-simbolica.jpg
 legenda: "Brincadeira de faz de conta em casa. É nessa cena — e não numa prancha de teste — que se observa se a criança <b>convida</b> o adulto, se responde ao convite dele e se o objeto vira outra coisa nas mãos dela. Shixart1985, <b>CC BY 2.0</b>, Wikimedia Commons."
 lado: esquerda
 ajuste: cover
@@ -725,7 +725,7 @@ title: Por que a palavra é espectro
 legenda: "As três preenchem os mesmos critérios A e B. Se a avaliação for desenhada para o perfil A, ela não encontra a criança C."
 ---
 
-<img src="/tea-variabilidade.svg" alt="Três crianças com o mesmo diagnóstico de TEA e perfis muito diferentes em linguagem, funcionamento intelectual, rigidez, reatividade sensorial e adaptação" class="w-full max-h-full object-contain">
+<img src="/aula-02/tea-variabilidade.svg" alt="Três crianças com o mesmo diagnóstico de TEA e perfis muito diferentes em linguagem, funcionamento intelectual, rigidez, reatividade sensorial e adaptação" class="w-full max-h-full object-contain">
 
 <!--
 O DSM-5 registra que o TEA reúne quadros antes chamados de autismo infantil, autismo de
@@ -947,7 +947,7 @@ title: Um informante nunca basta
 legenda: "Os diagnósticos são mais válidos e confiáveis quando se apoiam em múltiplas fontes: observação do clínico, história do cuidador e, quando possível, autorrelato."
 ---
 
-<img src="/avaliacao-tea-arranjo.svg" alt="História, observação direta, medidas padronizadas e funcionamento adaptativo convergindo, por múltiplos informantes e contextos, para a hipótese diagnóstica" class="w-full max-h-full object-contain">
+<img src="/aula-02/avaliacao-tea-arranjo.svg" alt="História, observação direta, medidas padronizadas e funcionamento adaptativo convergindo, por múltiplos informantes e contextos, para a hipótese diagnóstica" class="w-full max-h-full object-contain">
 
 <Fonte>APA, <em>DSM-5</em> · características diagnósticas do transtorno do espectro autista.</Fonte>
 
@@ -1145,7 +1145,7 @@ title: A sala é parte do instrumento
 legenda: "Os brinquedos são retirados de circulação ao longo da sessão, para que a criança não se disperse — e a caixa só é aberta quando tudo o mais já foi guardado."
 ---
 
-<img src="/protea-ilhas.svg" alt="Planta da sala do PROTEA-R com três arranjos: o chão para brincadeira simbólica, a mesa para encaixes e material gráfico e a caixa do avaliador com estímulos sensoriais" class="w-full max-h-full object-contain">
+<img src="/aula-02/protea-ilhas.svg" alt="Planta da sala do PROTEA-R com três arranjos: o chão para brincadeira simbólica, a mesa para encaixes e material gráfico e a caixa do avaliador com estímulos sensoriais" class="w-full max-h-full object-contain">
 
 <!--
 Setting: o arranjo físico de materiais preparado para eliciar determinado repertório.
@@ -1421,7 +1421,7 @@ title: Duas listas, três apresentações
 legenda: "A apresentação não é um subtipo estável: ela descreve os últimos seis meses e pode mudar ao longo do desenvolvimento."
 ---
 
-<img src="/tdah-triade.svg" alt="Os dois conjuntos de sintomas do TDAH — desatenção e hiperatividade-impulsividade — e as três apresentações resultantes: predominantemente desatenta, combinada e predominantemente hiperativa/impulsiva" class="w-full max-h-full object-contain">
+<img src="/aula-02/tdah-triade.svg" alt="Os dois conjuntos de sintomas do TDAH — desatenção e hiperatividade-impulsividade — e as três apresentações resultantes: predominantemente desatenta, combinada e predominantemente hiperativa/impulsiva" class="w-full max-h-full object-contain">
 
 <!--
 Especificadores adicionais: em remissão parcial, e gravidade atual (leve, moderada, grave).
@@ -1429,7 +1429,7 @@ Especificadores adicionais: em remissão parcial, e gravidade atual (leve, moder
 
 ---
 layout: figura
-imagem: /criancas-brincando-blocos.jpg
+imagem: /aula-02/criancas-brincando-blocos.jpg
 legenda: "Creche, Brasil. É em situação coletiva que a desatenção e a impulsividade ganham consequência — e é por isso que o relato da escola pesa tanto no critério C. Frontierofficial, <b>CC BY 2.0</b>, Wikimedia Commons."
 lado: direita
 ajuste: cover
@@ -1498,7 +1498,7 @@ title: O quadro muda de cara ao longo da vida
 legenda: "Na pré-escola a manifestação principal é a hiperatividade; a desatenção fica mais proeminente e mais prejudicial nos anos do ensino fundamental."
 ---
 
-<img src="/tdah-curso.svg" alt="Curso do TDAH ao longo da vida: hiperatividade motora alta na pré-escola e decrescente, desatenção crescendo no ensino fundamental e impulsividade estável até a vida adulta" class="w-full max-h-full object-contain">
+<img src="/aula-02/tdah-curso.svg" alt="Curso do TDAH ao longo da vida: hiperatividade motora alta na pré-escola e decrescente, desatenção crescendo no ensino fundamental e impulsividade estável até a vida adulta" class="w-full max-h-full object-contain">
 
 <Fonte>APA, <em>DSM-5</em> · desenvolvimento e curso do TDAH.</Fonte>
 
@@ -1727,7 +1727,7 @@ title: Torre de Londres · a tarefa
 legenda: "O objetivo fica visível o tempo todo. O que se mede não é chegar lá, mas chegar lá pelo caminho mínimo — isto é, ter planejado antes de mover."
 ---
 
-<img src="/torre-de-londres.svg" alt="A tarefa da Torre de Londres: estado inicial de três bolas em três hastes que deve ser transformado na configuração-alvo com o menor número de movimentos" class="w-full max-h-full object-contain">
+<img src="/aula-02/torre-de-londres.svg" alt="A tarefa da Torre de Londres: estado inicial de três bolas em três hastes que deve ser transformado na configuração-alvo com o menor número de movimentos" class="w-full max-h-full object-contain">
 
 <!--
 O modelo teórico de referência é o Sistema Atencional Supervisor de Shallice (1982), que
@@ -1762,7 +1762,7 @@ legenda: "É a inversão que separa este teste do CPT clássico: além de atenç
   inibição, ele exige que o avaliado abandone uma regra recém-consolidada."
 ---
 
-<img src="/cpt-flex-regra.svg" alt="A regra do CPT-Flex: figuras azuis exigem resposta a triângulo, círculo e X e inibição ao quadrado; figuras laranjas invertem a regra" class="w-full max-h-full object-contain">
+<img src="/aula-02/cpt-flex-regra.svg" alt="A regra do CPT-Flex: figuras azuis exigem resposta a triângulo, círculo e X e inibição ao quadrado; figuras laranjas invertem a regra" class="w-full max-h-full object-contain">
 
 <!--
 Paradigma Não X-CPT: responder a todos os estímulos, exceto ao alvo.
@@ -1799,7 +1799,7 @@ title: MFFT-BR · velocidade contra precisão
 legenda: "Kagan chamou a dimensão de reflexividade-impulsividade. O teste devolve os dois eixos separados — e é o cruzamento deles que interessa."
 ---
 
-<img src="/mfft-reflexivo-impulsivo.svg" alt="Plano de velocidade por precisão com os quatro estilos de resposta do MFFT: impulsivo, reflexivo, eficiente e ineficiente" class="w-full max-h-full object-contain">
+<img src="/aula-02/mfft-reflexivo-impulsivo.svg" alt="Plano de velocidade por precisão com os quatro estilos de resposta do MFFT: impulsivo, reflexivo, eficiente e ineficiente" class="w-full max-h-full object-contain">
 
 <!--
 MFFT — Matching Familiar Figures Test, proposto por Jerome Kagan em 1964.
@@ -1832,7 +1832,7 @@ title: TAVIS-4 · três tarefas de atenção visual
 legenda: "A Tarefa 1 vem primeiro de propósito: se o rastreamento visual falhar ali, o resultado das outras duas fica contaminado."
 ---
 
-<img src="/tavis-tres-tarefas.svg" alt="As três tarefas do TAVIS-4: seletividade, alternância e sustentação, com as medidas de tempo médio de reação, erros por omissão e erros por ação" class="w-full max-h-full object-contain">
+<img src="/aula-02/tavis-tres-tarefas.svg" alt="As três tarefas do TAVIS-4: seletividade, alternância e sustentação, com as medidas de tempo médio de reação, erros por omissão e erros por ação" class="w-full max-h-full object-contain">
 
 <!--
 TAVIS — Teste de Atenção Visual, 4ª edição.

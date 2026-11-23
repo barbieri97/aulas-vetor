@@ -5,3 +5,11 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
+
+# Arquivos de agente específicos de produto: o repo usa só AGENTS.md (ver AGENTS.md, "Neutro quanto a agente")
+CLAUDE.md
+.claude/
+
+# VitePress (consulta local das referencias)
+.vitepress/cache
+.vitepress/dist

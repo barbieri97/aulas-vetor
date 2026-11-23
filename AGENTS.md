@@ -1,0 +1,232 @@
+# Aulas em Slidev — Giunti Psychometrics · Vetor Editora
+
+Um repositório de decks [Slidev](https://sli.dev/) **agnóstico de tema**. **Uma aula por
+arquivo `.md`** em `aulas/`, publicadas no GitHub Pages, cada uma na sua própria URL — e cada
+uma exportada também em PDF pelo build.
+
+Não há tema npm (`theme: none`): o visual vem de um design system local, escrito em
+`aulas/styles`, `aulas/layouts` e `aulas/components` — papel claro, tinta azul-marinho, ouro
+como ênfase, serifa nos títulos e sans no corpo. Trocar por um tema pronto, ou gerar outro DS,
+é decisão de quem usa o repositório — os scripts não sabem qual é o visual.
+
+Por cima disso corre a **marca da Giunti**, pedida pelo template do evento: a marca-d'água
+(`public/image1.png`) na faixa direita de todo slide, e o logotipo (`public/image2.png`) no
+canto inferior direito — no canto superior esquerdo, se for a capa. Quem as desenha são
+`aulas/slide-bottom.vue` e `aulas/slide-top.vue`, dois nomes que o Slidev procura sozinho e
+renderiza em cada slide: **nenhum layout precisa saber que elas existem.** Por causa delas o
+deck é todo claro (as duas imagens são azuis sobre claro) e o pé direito do slide é reservado
+— quem escreve lá embaixo para em 33% da largura. Detalhes em
+[`docs/design-system.md`](docs/design-system.md#a-marca-da-giunti).
+
+## Antes de escrever ou editar qualquer deck
+
+Leia **[`docs/design-system.md`](docs/design-system.md)** — os layouts, os componentes, os
+tokens e, principalmente, [as armadilhas do
+Slidev](docs/design-system.md#as-armadilhas-do-slidev) que fazem um slide sumir sem erro.
+
+Para ver renderizado em vez de lido: `npm run ref` abre `aulas/_design-system.md`, um slide
+por layout e por componente. O `_` no nome mantém esse deck fora do site.
+
+Se a aula for usar outro visual, o roteiro dos dois caminhos (tema npm ou DS gerado) está em
+**[`docs/temas.md`](docs/temas.md)**.
+
+### As cinco coisas que mais quebram deck
+
+- **`src:` no frontmatter apaga o slide.** É o campo com que o Slidev importa outro `.md`. Um
+  `src: /foto.png` faz o slide desaparecer sem mensagem nenhuma — por isso o layout `figura`
+  chama o campo de `imagem`. O mesmo vale para os outros campos reservados (`title`, `layout`,
+  `zoom`, `level`…): eles nunca chegam como prop. `title` se lê pelo objeto `frontmatter`.
+- **Caminho de imagem que chega por prop precisa passar por `asset()`** (`aulas/lib/asset.ts`).
+  Sem isso a imagem some quando o site é publicado em subdiretório — e continua funcionando
+  localmente, então o erro só aparece depois do deploy.
+- **Todo frontmatter é cercado por `---` em cima e embaixo.** Entre dois slides sem corpo você
+  vê duas linhas `---` seguidas: está certo. Compartilhar um `---` entre dois blocos quebra o
+  parse do arquivo inteiro.
+- **Markdown dentro de componente só funciona com linha em branco** depois da tag de abertura
+  e antes da de fechamento. Sem elas, `**negrito**` aparece com os asteriscos na tela.
+- **Valor de frontmatter com `: ` no meio precisa de aspas** (`meta: "2 horas · leitura: X"`),
+  e dentro de `{ chave: valor }` a vírgula abre outro campo — `valor: "2 anos, lenta"`. Sem
+  aspas o YAML falha e o build para.
+
+`npm run lint` pega todas menos a quarta. Rode antes de commitar.
+
+### Nada de CSS solto no slide
+
+Escolha o `layout:` que casa com a forma do conteúdo e preencha o frontmatter dele; para o que
+vai dentro do slide, use os componentes. `<style>` num slide é sinal de que falta um layout ou
+um componente — a exceção honesta é o desenho que só existe naquele slide.
+
+### Conteúdo técnico das aulas
+
+- **Dado de instrumento psicológico só entra com fonte** (manual ou página oficial da editora),
+  citada em `<Fonte>`. O que não foi confirmado fica marcado `[conferir no manual]` na
+  referência e **fora do slide** — nunca preenchido por dedução.
+- Raciocínio clínico do autor (o que o instrumento *sugere* no diagnóstico) é separado do que o
+  fabricante afirma: se a página do produto não associa o teste a um quadro, o slide diz isso.
+- Sigla e termo técnico recebem glosa no comentário de notas do slide, e a aula traz o
+  aviso de que nenhum instrumento diagnostica sozinho (padrão das aulas 01 e 02).
+- Material de apoio de cada aula fica em `referencias/aula-NN/`, fora de `aulas/`: o site não
+  o publica. A estrutura é a de [Referências por aula](#referências-por-aula): um `AGENTS.md`
+  (mapa e regras) e uma pasta `docs/` (o conteúdo, como um livro).
+- Capa de manual e outras imagens de terceiros são fornecidas pelo autor, em `aulas/public/`;
+  não se baixa imagem de loja nem se gera uma no lugar.
+
+## Referências por aula
+
+Cada aula tem, em `referencias/aula-NN/`, três camadas que não se misturam: a produção
+(`AGENTS.md`), o conteúdo próprio (`docs/`) e o material de terceiros (`externos/`):
+
+```
+referencias/aula-NN/
+├── AGENTS.md          # mapa: regras da aula, tabela de blocos, protocolo de trabalho
+├── docs/
+│   ├── index.md       # sumário do "livro": capítulo → arquivo → resumo de uma linha
+│   ├── NN-bloco.md    # um capítulo por bloco da aula
+│   ├── glossario.md   # siglas e termos (alimenta as notas dos slides)
+│   └── fontes.md      # referências, data da consulta, lacunas [conferir no manual]
+└── externos/          # arquivos de terceiros guardados como consulta (PDFs, manuais, artigos)
+```
+
+- **`externos/`** guarda o que **vem de fora**: PDF de manual, artigo, captura de página de
+  produto. É o oposto de `docs/`, que é conteúdo do autor, já revisado. Regras:
+  - **Somente leitura para o agente.** Consulta-se e extrai-se o que for confirmado; nunca se
+    edita, renomeia nem se copia o arquivo para `docs/` ou para o slide como se fosse texto
+    próprio. O que se confirmar num arquivo de `externos/` entra em `docs/` (em prosa do autor)
+    e é citado em `docs/fontes.md`, com o nome do arquivo.
+  - Nome de arquivo estável e descritivo (`manual-battelle-3.pdf`), porque `docs/fontes.md`
+    aponta para ele.
+  - Não é publicado: fica fora de `aulas/` e fora do `aulas/public/`, então o site não o serve.
+    Manual de teste e capa de instrumento são material protegido por direitos autorais — a
+    decisão de versionar ou ignorar no git é do autor (hoje o `.gitignore` não os cobre).
+  - O visualizador local (`npm run refs`) não os lista.
+
+- **`AGENTS.md` da aula** é produção, não conteúdo: contexto e público, regras de conteúdo, a
+  **tabela de blocos** (nº · bloco · primeiro slide no deck · tempo · orçamento de slides · visão geral
+  em 2–3 linhas · capítulo em `docs/` · status no deck) e o protocolo: para trabalhar um bloco,
+  leia só o capítulo dele em `docs/` mais o glossário (e, só se precisar conferir um dado, o
+  arquivo certo de `externos/`); mexa só no trecho daquele bloco; rode
+  `npm run lint`; ao fim liste slides criados, lacunas `[conferir no manual]` e imagens que
+  faltaram.
+- **`docs/NN-bloco.md`** é conteúdo, em prosa de livro já revisada, sem instrução a agente e
+  sem menção a slide — é o que permite reaproveitá-lo como produto (apostila, e-book) sem
+  retrabalho. Frontmatter: `bloco`, `instrumentos`, `status` (`rascunho` · `revisado` ·
+  `conferido-no-manual`), `fontes`. O raciocínio clínico do autor fica separado do que o
+  fabricante afirma. `docs/` é a fonte da verdade; o slide só resume.
+- **Posição no deck:** o `AGENTS.md` da aula aponta cada bloco pelo **título do primeiro slide**
+  dele (e do último), nunca por número de slide, que muda a cada inserção. Não use comentário
+  HTML como âncora: o Slidev lê o último comentário de cada slide como notas do apresentador.
+- **Aula em construção:** a tabela de blocos tem coluna de status (pronto no deck · pendente ·
+  em revisão). Migrar do formato antigo (um arquivo por etapa) é por bloco: o antigo só sai
+  quando o capítulo novo o cobre, e o `AGENTS.md` da aula diz qual vale para cada bloco.
+
+## Documente cada mudança no nível certo
+
+Sempre que uma mudança alterar a **estrutura** (pastas, nomes, convenções, scripts, fluxo de
+build) ou a **função** de algo no repositório, o agente a documenta **na mesma tarefa**, no
+nível a que ela pertence:
+
+- **Vale para o projeto todo** → neste `AGENTS.md` da raiz (e, se tocar o visual, em
+  `docs/design-system.md`; se tocar a apresentação do repositório, no `README.md`).
+- **Vale para uma aula só** → no `AGENTS.md` de `referencias/aula-NN/`.
+- **Conteúdo** de uma aula → no capítulo de `docs/` dela, nunca nos `AGENTS.md`.
+
+Na dúvida sobre o nível, pergunte: "se eu abrisse outra aula, isso ainda valeria?" Se sim, é da
+raiz; se não, é da aula. Ao terminar, diga onde documentou. Mudança que deixe um `AGENTS.md`
+descrevendo o que já não existe é erro — corrija o texto junto com a mudança, e atualize
+também o `.vitepress/config.mts` (visualizador local, não versionado) se a estrutura de
+`referencias/` mudar.
+
+## Neutro quanto a agente
+
+O repositório não depende de nenhum produto de agente específico. Para isso:
+
+- Instrução a agente vive **só** em `AGENTS.md` (este, e os de `referencias/aula-NN/`); skills
+  em `.agents/skills/`.
+- **Não** versionar `CLAUDE.md`, `GEMINI.md`, `.claude/`, `.cursor/` e equivalentes, e não
+  citar produto ou modelo de agente em docs, referências, prompts ou comentários — escreva
+  "agente". `CLAUDE.md` e `.claude/` estão no `.gitignore` para a regra ser mecânica.
+- Quem usa uma ferramenta que só lê o arquivo com o nome dela (Claude Code, por exemplo, lê
+  `CLAUDE.md`, não `AGENTS.md`) configura isso **localmente**, num arquivo não versionado que
+  aponte para este — nunca no repositório.
+- `.agents/skills/` é cópia de terceiros (`skills-lock.json` guarda o hash): fica intocada,
+  mesmo que o texto de lá cite um produto.
+
+## Convenções
+
+| | |
+|---|---|
+| Decks | `aulas/aula-NN-slug-descritivo.md` |
+| URL | o nome do arquivo (sem `.md`) vira o caminho: `/<repo>/aula-NN-slug-descritivo/` |
+| Deck de bancada | prefixo `_` (`aulas/_design-system.md`) — o site não publica |
+| Tema | `theme: none` + design system local; ou um pacote npm, ver `docs/temas.md` |
+| Cor | claro só: todo deck traz `colorSchema: light` (não existe bloco `.dark` nos tokens); nenhum layout roda sobre fundo escuro |
+| Idioma | conteúdo em português |
+| Imagens | `aulas/public/` — **não** na raiz do repo (veja "Por que `aulas/public/`" abaixo) |
+| Marca | `slide-bottom.vue` (marca-d'água) e `slide-top.vue` (logotipo) na raiz de `aulas/` — automáticos em todo slide |
+| Fontes | `aulas/styles/fontes/*.woff2`, servidas pelo site — nunca o campo `fonts:` (rede) |
+| Headmatter | além de `theme`/`title`, cada aula traz `info:` (ementa de uma linha) e `date:` (`YYYY-MM-DD`, entre aspas) — os dois alimentam a landing page |
+| PDF | `download: true` no headmatter: o build imprime o PDF e o deck ganha o botão de download |
+| Identidade do site | `site.config.json` na raiz (`title`, `institution`, `description`, `intro`) — o único lugar com o nome do conjunto de aulas |
+
+O bloco de abertura de um deck é headmatter **e** frontmatter do primeiro slide ao mesmo
+tempo. O `title:` dele é o título do deck e o que a `capa` mostra — não repita o campo.
+
+## Comandos
+
+```bash
+npm run dev                                  # abre a primeira aula de aulas/ com hot reload
+npm run dev -- 03                            # abre a aula cujo nome contém "03"
+npm run ref                                  # abre o catálogo de layouts/componentes
+npm run lint                                 # valida todos os decks
+npm run build                                # builda tudo em dist/ (lint antes; PDF junto)
+```
+
+`npm run dev` serve **uma aula por vez**, na raiz (`/`). O conjunto das aulas mais a página
+inicial só existe depois do `npm run build` — é o build que dá a cada deck o seu `--base`.
+
+Para adicionar uma aula nova: crie o `.md` em `aulas/`, commit, push. O workflow builda e
+publica — nenhuma config precisa ser tocada.
+
+## Por que `aulas/public/`
+
+O Slidev define `userRoot = dirname(<arquivo do deck>)` e roda o Vite com `root: userRoot` e
+`publicDir: <userRoot>/public`. Ou seja: `public/`, `components/`, `layouts/`, `setup/` e
+`styles/` **seus** são procurados dentro da pasta do deck, não na raiz do repo. Os mesmos
+nomes na raiz são ignorados em silêncio.
+
+O tema npm é a exceção — ele é resolvido por resolução de pacote Node a partir do arquivo
+`.md`, que sobe os diretórios pai até achar o `node_modules/` da raiz. Por isso deck em
+subpasta funciona com tema npm, mas não funcionaria com layouts locais colocados na raiz.
+
+## Build e deploy
+
+`scripts/build-site.mjs` roda um `slidev build` **por aula** (cada uma precisa do seu próprio
+`--base`, que é único por invocação do CLI), com `--router-mode hash` — o modo que o Slidev
+documenta para deploy em subdiretório como o GitHub Pages. Depois gera a landing
+`dist/index.html` lendo o headmatter de cada deck; o CSS dela é pintado com os tokens de
+`aulas/styles/tokens.css` e usa as mesmas fontes (copiadas de `aulas/styles/fontes/` para
+`dist/fontes/`), então a página inicial acompanha o visual das aulas.
+
+**O PDF não é passo do script.** Ele sai do próprio `slidev build`, porque a aula pede:
+`download: true` no headmatter faz o Slidev imprimir `dist/<slug>/slidev-exported.pdf` (pelo
+Chromium do `playwright-chromium`, devDependency) e mostrar o botão de download na barra do
+deck. Aula sem o campo builda mais rápido e sai sem PDF.
+
+A publicação é pelo **artefato do Actions**: o job `build` empacota o `dist/` com
+`upload-pages-artifact` e o job `deploy` o entrega ao Pages com `deploy-pages` (OIDC — daí
+`pages: write` + `id-token: write` e o `environment: github-pages`). Exige **Settings → Pages
+→ Source: `GitHub Actions`**; com a fonte em `Deploy from a branch` o `configure-pages` falha.
+Detalhes no README.
+
+`scripts/lint.mjs` é o lint do repositório, e é agnóstico de tema: a lista de layouts e
+componentes válidos é montada na hora, a partir do Slidev, do tema declarado (se houver) e das
+pastas locais de `aulas/`.
+
+`scripts/lib.mjs` concentra o que os scripts compartilham: onde ficam as aulas (`deckFiles()`
+ignora os `_`; `allDeckFiles()` inclui), como achar binários de `node_modules` sem npx
+(`binOf()`), como ler o `site.config.json` (`siteConfig()`) e o que existe de layout e
+componente (`knownNames()`). Nenhum script tem nome de arquivo de aula fixo.
+
+O `--base` vem da env `SITE_BASE` (`/` local; no CI, o output `base_path` do
+`configure-pages`, que é o caminho da URL real do site). **O nome do repositório no GitHub faz
+parte das URLs** — renomear o repo muda todos os links e exige rodar o workflow de novo.

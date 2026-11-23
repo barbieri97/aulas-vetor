@@ -5,6 +5,20 @@ projeto, e as aulas moram em `aulas/` — então é aqui que entram as imagens, 
 `public/` na raiz do repositório. O caminho dentro do markdown é absoluto e sem o nome da
 pasta: `/curva-normal.svg`.
 
+## Uma pasta por aula
+
+Cada aula guarda as suas imagens em `aula-NN/` — o mesmo número de `referencias/aula-NN/`. No
+markdown, o caminho leva a pasta: `/aula-02/tdah-triade.svg`.
+
+| pasta | conteúdo |
+|---|---|
+| `aula-01/` | imagens da aula 01 (transtornos neurocognitivos) |
+| `aula-02/` | imagens da aula 02 (TEA e TDAH) |
+| `aula-03/` | capas dos manuais da EFA e do EIFE |
+| raiz | só o que não é de uma aula: a marca da Giunti (`image1.png`, `image2.png`) e as figuras do design system, abaixo |
+
+As figuras do design system:
+
 | arquivo | serve para |
 |---|---|
 | `capa-perfil.svg` | a faixa da direita no layout `capa` — barras de um perfil, em ouro sobre marinho |
