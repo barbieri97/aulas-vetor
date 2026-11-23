@@ -20,10 +20,21 @@ Crianças com TEA têm dificuldade de compreender o outro como agente intenciona
 
 Fonte: Bosa e Salles (orgs.), *Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista*, livro de instruções, Vetor Editora (mesmos dados da aula 02).
 
+- **Organizadoras:** Cleonice Alves Bosa e Jerusa Fumagalli de Salles (capa do livro de instruções).
+
 - **O que faz:** sistematiza a observação clínica de comportamentos pré-linguísticos em situação de brincadeira. Os autores são explícitos: é um sistema de **rastreamento**, não de diagnóstico.
 - **Público:** crianças de **24 a 60 meses**, especialmente as não verbais, com suspeita de TEA ou de outros transtornos da comunicação.
 - **Aplicação:** **três sessões, em dias diferentes**, de cerca de 45 minutos. Cada sessão tem dois contextos: brincadeira livre (≈15 min) e semiestruturada (≈30 min).
 - **Resultado:** 17 itens em três áreas, cada um com Escala de Qualidade (A a E) e Escala de Frequência (1 a 3), mais o escore compilado das três sessões.
+
+## A sala e a logística da sessão
+
+Fonte: mesmos dados da aula 02 (livro de instruções).
+
+- **Entrada:** a criança e um cuidador entram primeiro e ficam sozinhos por cerca de um minuto. Só então o avaliador bate na porta, entra, cumprimenta e senta-se na altura da criança, sem tê-la conhecido antes.
+- **Sala:** com poucos estímulos, mobília na escala da criança, brinquedos laváveis e sem partes que se soltem.
+- **Três arranjos:** (1) o **chão**, com kit de chá, carrinhos, bonecos, mesinha e cadeiras em miniatura, mais pote e caixa transparentes fechados de propósito (brincadeira simbólica, atenção compartilhada, busca de auxílio); (2) a **mesa**, com encaixes, quebra-cabeças, lápis de cor e papel (brincadeira funcional, exploração, habilidade gráfica); (3) a **caixa do avaliador**, opaca, sobre o armário e fora do alcance da criança, com brinquedos sonoros, luminosos e que produzem movimento, apresentados um item por vez (reação sensorial, resposta atípica, imitação e troca de turnos).
+- Os brinquedos são retirados de circulação ao longo da sessão, para a criança não se dispersar; a caixa só é aberta quando tudo o mais já foi guardado.
 
 ## Os cinco itens críticos
 

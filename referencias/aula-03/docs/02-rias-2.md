@@ -6,6 +6,12 @@ status: rascunho
 
 # RIAS-2 · Escala Reynolds de Avaliação da Inteligência, 2ª edição
 
+## Ficha
+
+Autores: Cecil R. Reynolds e Randy W. Kamphaus. Adaptação brasileira: Fabián Javier Marín
+Rueda. Faixa etária: de 3 anos a 20 anos e 11 meses. Aplicação individual, exclusivamente
+presencial, em 40 a 45 minutos (Vetor Editora, página da Coleção RIAS-2, consulta em 2026-11-23).
+
 ## Resumo da fundamentação teória
 
 O instrumento utiliza a definiação geral de inteligência de Stenberg (2008) o qual define a inteligência como a capacidade do ser humano a se adaptar, aprender, compreender e lidar com o meio em que vive.

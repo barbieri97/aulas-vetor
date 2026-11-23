@@ -1,15 +1,12 @@
 ---
 theme: none
 title: "Testes psicológicos na avaliação do TEA e do TDI"
-info: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade e
-  sinais do espectro no transtorno do espectro autista e no transtorno do
-  desenvolvimento intelectual
+info: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade e sinais do espectro no transtorno do espectro autista e no transtorno do desenvolvimento intelectual
 date: "2026-11-21"
 colorSchema: light
 download: true
 layout: capa
-kicker: "[PLACEHOLDER] Evento · Curso"
-subtitle: O que cada instrumento mede, como é montado, o que devolve — e onde entra no raciocínio clínico.
+subtitle: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade esinais do espectro no transtorno do espectro autista e no transtorno do desenvolvimento intelectual
 ---
 
 <!--
@@ -22,25 +19,14 @@ DSM-5 — Manual Diagnóstico e Estatístico de Transtornos Mentais, 5ª ediçã
 layout: default
 ---
 
-# Quem fala
+# Prazer,
 
-**André Barbieri**
+**André Peres Barbieri**
 
-- [PLACEHOLDER] Formação
-- [PLACEHOLDER] Atuação clínica
-- [PLACEHOLDER] Instituição
-
-<Nota titulo="Obrigado pelo convite">
-
-[PLACEHOLDER] Agradecimento à organização do evento e à turma.
-
-</Nota>
-
-<!--
-Tempo desta seção: 2 a 5 minutos, junto com o slide de roteiro.
-Substituir os placeholders antes da aula.
-Tema de hoje: os instrumentos usados na avaliação de TEA e de TDI, para quem já atua na área.
--->
+- Mestrando em ciências da saúde pela FCMSCSP
+- Especialista em neuropsicologia pela FCMSCSP
+- Avaliação neuropsicologica e terapeuta analítco-comportamental
+- Professor na Faculdade Santa Marcelina
 
 ---
 layout: roteiro
@@ -50,7 +36,7 @@ itens:
   - { tema: TEA e TDI, desc: "no que se parecem, no que diferem" }
   - { tema: Nível cognitivo, desc: "RIAS-2" }
   - { tema: Desenvolvimento e funcionalidade, desc: "Battelle 3, EFA, EIFE" }
-  - { tema: Sinais do espectro e o que mais está presente, desc: "PROTEA-R, BINAUT, TriC, TriA" }
+  - { tema: Sinais do espectro e problemas emocionais e comportamentais, desc: "PROTEA-R, BINAUT, TriC, TriA" }
 atual: 1
 ---
 
@@ -65,28 +51,14 @@ TriC — Triagem de Problemas Emocionais e Comportamentais em Crianças.
 TriA — Triagem de Psicopatologia para Adultos.
 -->
 
----
-layout: default
----
 
-# O que esta aula é, e o que não é
-
-<Nota tipo="alerta" titulo="Uma advertência que vale para a aula inteira">
-
-Nenhum instrumento apresentado aqui **diagnostica** TEA ou TDI. Os dois diagnósticos são
-clínicos, feitos por critérios do DSM-5, a partir de história, observação e múltiplas fontes.
-Os testes descrevem funções; quem integra é o clínico.
-
-</Nota>
-
-<Fonte>APA, <em>DSM-5</em> · capítulo Transtornos do Neurodesenvolvimento.</Fonte>
 
 ---
 layout: secao
 numero: "01"
 kicker: Introdução
 title: TEA e TDI
-note: Dois diagnósticos que se confundem no consultório. Antes dos testes, o que os aproxima e o que os separa.
+note: Semelhanças e diferenças.
 ---
 
 ---
@@ -111,7 +83,7 @@ Padrões restritos e repetitivos, como a **estereotipia**, aparecem nos dois.
 
 <Cartao rotulo="semelhança 3" titulo="Rebaixamento intelectual" cor="azul">
 
-No TDI ele **sempre** existe; no TEA ele também é **frequente**.
+No TDI ele **sempre** existe; no TEA ele também é **frequente**: 16,4% de prevalência no TEA (MAB, 2026)
 
 </Cartao>
 
@@ -122,19 +94,7 @@ Atraso global do desenvolvimento: atraso em mais de uma área (motora, linguagem
 Estereotipia: movimento ou fala repetidos de forma rígida, sem finalidade aparente (balançar o corpo, bater as mãos).
 -->
 
----
-layout: destaque
-kicker: Rebaixamento intelectual no TEA
-title: <span class="ds-grifo">37,9%</span> das crianças de 8 anos com TEA
-fonte: Maenner et al. (2023), <em>MMWR Surveill Summ</em> 72(2) · rede ADDM, vigilância de 2020, Estados Unidos.
----
 
-<!--
-ADDM — Autism and Developmental Disabilities Monitoring Network, rede de vigilância dos CDC (EUA).
-MMWR — Morbidity and Mortality Weekly Report, boletim dos CDC.
-Dado de crianças norte-americanas de 8 anos; serve para dar a ordem de grandeza, não como taxa brasileira.
-O ponto para a aula: o rebaixamento intelectual é frequente no TEA, e por isso o nível cognitivo precisa ser medido, e não suposto.
--->
 
 ---
 layout: comparacao
@@ -183,9 +143,9 @@ Funcionamento adaptativo: o que a pessoa faz sozinha no dia a dia, nos domínios
 layout: comparacao
 title: Três perguntas, e quem responde cada uma
 colunas:
-  - { titulo: "Qual o nível cognitivo?", sub: pergunta 1, cor: azul }
-  - { titulo: "Como está o desenvolvimento, domínio a domínio, e o que a criança faz sozinha?", sub: pergunta 2, cor: ouro }
-  - { titulo: "Há sinais do espectro, e o que mais está presente?", sub: pergunta 3, cor: verde }
+  - { titulo: "Qual o nível cognitivo?", cor: azul }
+  - { titulo: "Como está o desenvolvimento, e o funcionamento?", cor: ouro }
+  - { titulo: "Há sinais de TEA e/ou problemas emocionais e comportamentais?",  cor: verde }
 linhas:
   - { criterio: Instrumentos, valores: ["<b>RIAS-2</b>", "<b>Battelle 3</b> · <b>EFA</b> · <b>EIFE</b>", "<b>PROTEA-R</b> · <b>BINAUT</b> · <b>TriC</b> · <b>TriA</b>"] }
 ---
@@ -198,10 +158,31 @@ Os slides do RIAS-2 vêm a seguir, antes do Battelle 3.
 -->
 
 ---
-layout: default
+layout: figura
+imagem: /aula-03/capa-rias.webp
+legenda: Coleção RIAS-2 · Vetor Editora e Giunti Psychometrics.
+lado: direita
+ajuste: contain
 ---
 
 # RIAS-2 · Escala Reynolds de Avaliação da Inteligência
+
+- **Autores:** Cecil R. Reynolds e Randy W. Kamphaus
+- **Adaptação brasileira:** Fabián Javier Marín Rueda
+- **Faixa etária:** de **3 a 20 anos e 11 meses**
+- **Aplicação:** individual e presencial, em **40 a 45 minutos**
+
+<Fonte>Vetor Editora, página da Coleção RIAS-2.</Fonte>
+
+<!--
+RIAS-2 — Escala Reynolds de Avaliação da Inteligência, 2ª edição.
+-->
+
+---
+layout: default
+---
+
+# RIAS-2 · o que mede e o que devolve
 
 <Grade :cols="2">
 
@@ -220,8 +201,8 @@ Dois subtestes por domínio: **verbal**, **não verbal**, **memória** e **veloc
 
 <Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
 
-**Individual e presencial**, em sessão única de **40 a 45 minutos**, sem materiais
-manipuláveis. Os escores brutos entram na plataforma **VOL**.
+Em **sessão única**, sem materiais manipuláveis. Os escores brutos entram na plataforma
+**VOL**, que faz a correção.
 
 </Cartao>
 
@@ -240,7 +221,6 @@ classificação nos índices.
 RIAS-2 — Escala Reynolds de Avaliação da Inteligência, 2ª edição.
 VOL — Vetor Online, plataforma de correção da editora.
 Pontuação T: média 50, desvio-padrão 10. Pontuação padrão: média 100.
-[conferir no manual] Faixa etária do RIAS-2: não está no relatório-modelo, por isso não entrou no slide.
 -->
 
 ---
@@ -422,49 +402,7 @@ Cada índice traz pontuação padrão (média 100), intervalo de confiança de 9
 [conferir no manual] Composição exata de cada índice e como o CIX os combina: fora do slide.
 -->
 
----
-layout: default
----
 
-# Do escore à leitura
-
-<Grade :cols="3">
-
-<Cartao rotulo="subtestes" titulo="Pontuação T" cor="azul">
-
-Média **50**, desvio-padrão 10, com classificação de "muito inferior" a "muito superior".
-
-</Cartao>
-
-<Cartao rotulo="índices" titulo="Pontuação padrão" cor="ouro">
-
-Média **100**, com intervalo de confiança de 95%, percentil, escore Z e classificação.
-
-</Cartao>
-
-<Cartao rotulo="perfil" titulo="Discrepâncias" cor="verde">
-
-Compara subtestes e índices entre si: a diferença é **significativa** e **rara** na população?
-
-</Cartao>
-
-</Grade>
-
-<Nota titulo="Faixa de 69 ou menos: muito inferior">
-
-O relatório diz que esse desempenho **pode indicar deficiência intelectual, dependendo de
-outros critérios clínicos**. A pontuação sozinha não fecha o diagnóstico.
-
-</Nota>
-
-<Fonte>Vetor Editora, Coleção RIAS-2 · relatório-modelo da plataforma.</Fonte>
-
-<!--
-Discrepância — diferença entre dois escores do mesmo avaliado. A leitura usa o nível de significância e a porcentagem cumulativa (frequência, na população, de uma diferença daquele tamanho).
-Discrepância grande e rara: perfil heterogêneo; o CIX pode não valer como medida global, e vale descrever forças e fragilidades separadamente.
-Segundo a página do produto, a plataforma também calcula NCEs, stanines e mudança confiável entre aplicações; esses itens não constam do relatório-modelo.
-[conferir no manual] Pontos de corte das classificações dos subtestes: fora do slide.
--->
 
 ---
 layout: default
@@ -504,50 +442,30 @@ resultado de raciocínio.
 
 </Nota>
 
-<Nota tipo="alerta" titulo="Raciocínio clínico, e com limite">
-
-É o papel descrito pela prática clínica: o QI descreve o nível cognitivo, **não diagnostica**
-TEA nem TDI. A integração com o desenvolvimento e o funcionamento adaptativo, vistos a
-seguir, é do clínico.
-
-</Nota>
-
-<!--
-Raciocínio clínico do autor, separado do que o fabricante afirma. Ligação com a introdução: 37,9% das crianças com TEA têm rebaixamento intelectual, por isso o nível cognitivo precisa ser medido.
-Visuoespacial: relativo à percepção e à organização de estímulos visuais no espaço.
-Memória operacional: manter e manipular informação por curto tempo.
--->
-
 ---
-layout: default
+layout: figura
+imagem: /aula-03/battelle-capa.webp
+legenda: Livro de instruções e maleta do Battelle 3 · Vetor Editora e Giunti Psychometrics.
+lado: direita
+ajuste: contain
 ---
 
 # Battelle 3 · Inventário de Desenvolvimento Infantil
 
-<Grade :cols="2">
+- **Autor:** Jean Newborg
+- **Adaptação brasileira:** Leandro Fernandes Malloy-Diniz e Débora Marques de Miranda
+- **Faixa etária:** do **nascimento a 7 anos e 11 meses**
+- **Aplicação:** individual e presencial, com a criança e com os responsáveis; de **10 a 90
+  minutos**, sem tempo fixo
+- **Validação brasileira** com mais de 2 mil crianças
 
-<Cartao rotulo="autoria" titulo="Jean Newborg" cor="azul">
-
-Adaptação brasileira: **Leandro Fernandes Malloy-Diniz** e **Débora Marques de Miranda**.
-Validação brasileira com **mais de 2 mil crianças**.
-
-</Cartao>
-
-<Cartao rotulo="faixa etária" titulo="Do nascimento a 7 anos e 11 meses" cor="ouro">
-
-A versão comercializada no Brasil é a **3ª edição** (BDI-3).
-
-</Cartao>
-
-</Grade>
-
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor (lançamento do Battelle 3).</Fonte>
+<Fonte>Vetor Editora, página da Coleção Battelle 3 e blog da editora (lançamento do Battelle 3).</Fonte>
 
 <!--
-BDI-3 — Battelle Developmental Inventory, 3rd Edition. Battelle 3 é o nome da versão brasileira.
-Números de edições anteriores (como os 450 itens do BDI-2) não valem para esta edição.
-[PENDENTE] Capa do manual: aulas/public/aula-03/capa-battelle-3.* ainda não foi fornecida. Quando existir, trocar este slide para layout figura (campo `imagem`, não `src`).
+Battelle 3 — Inventário de Desenvolvimento Battelle, 3ª edição (BDI-3, a sigla da capa).
+A página da editora não fixa tempo mínimo nem máximo: a duração varia de cerca de 10 a 90 minutos.
 -->
+
 
 ---
 layout: default
@@ -563,7 +481,6 @@ Do contexto clínico ao escolar. Entre os objetivos:
 - **Monitorar** o progresso
 - **Avaliar programas** que atendem crianças
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
 
 ---
 layout: default
@@ -605,13 +522,6 @@ Atenção e memória · Raciocínio e habilidades acadêmicas · Percepção e c
 
 </Grade>
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
-
-<!--
-ADP — domínio Adaptativo. SE — Socioemocional. COM — Comunicação. MOT — Motor. COG — Cognitivo.
-Cada um dos cinco domínios tem um slide a seguir, com os subdomínios e exemplos de itens.
--->
-
 ---
 layout: default
 ---
@@ -643,8 +553,6 @@ Usar comportamentos apropriados, cuidar de pertences pessoais e lidar com dinhei
 
 </Grade>
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
-
 ---
 layout: default
 ---
@@ -652,44 +560,41 @@ layout: default
 # Domínio Socioemocional (SE)
 
 Permite à criança se envolver em interações sociais significativas e desenvolver o autoconceito
-e o senso de papel social: autoconsciência, autogestão, consciência social, relacionamentos
-positivos, tomada de decisão.
+e o senso de papel social.
 
 <Grade :cols="3">
 
 <Cartao rotulo="2.1" titulo="Interação com adultos" cor="ouro">
 
-Qualidade e frequência da interação: apego, resposta e início de contato, uso do adulto como recurso.
+Apego, resposta e início de contato, uso do adulto como recurso.
 
-- Reage à atenção positiva de adultos e à retirada de atenção
-- Imita as expressões faciais de um adulto familiar
+- Reage à atenção positiva de adultos
+- Imita expressões faciais de um adulto familiar
 - Segue as instruções de um adulto
 
 </Cartao>
 
 <Cartao rotulo="2.2" titulo="Interação com pares" cor="ouro">
 
-Amizades, resposta e início de contatos, pequenos grupos, cooperação.
+Amizades, pequenos grupos, cooperação.
 
 - Reveza e compartilha voluntariamente
-- Envolve-se em brincadeiras de faz de conta coordenadas
-- Usa colegas apropriadamente como recursos
+- Brinca de faz de conta coordenado
+- Usa colegas como recursos
 
 </Cartao>
 
 <Cartao rotulo="2.3" titulo="Autoconceito e papel social" cor="ouro">
 
-Autoconsciência, autoestima, moral, sensibilidade às necessidades dos outros, enfrentamento.
+Autoconsciência, autoestima, moral, enfrentamento.
 
 - Expressa emoções
-- Transita de um ambiente ou atividade para outro
+- Transita entre ambientes ou atividades
 - Faz comparações sociais
 
 </Cartao>
 
 </Grade>
-
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
 
 ---
 layout: default
@@ -723,8 +628,6 @@ Produzir sons, palavras ou gestos para transmitir informações a outras pessoas
 </Cartao>
 
 </Grade>
-
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
 
 ---
 layout: default
@@ -770,36 +673,33 @@ Coordenar habilidades motoras e perceptuais: empilhar blocos, colocar argolas, c
 
 </Grade>
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
-
 ---
 layout: default
 ---
 
 # Domínio Cognitivo (COG)
 
-Habilidades comumente chamadas de mentais ou intelectuais: atender, perceber, processar
-informações, lembrar, pensar e saber.
+Habilidades mentais ou intelectuais: atender, perceber, processar informações, lembrar, pensar.
 
 <Grade :cols="3">
 
 <Cartao rotulo="5.1" titulo="Atenção e memória" cor="cinza">
 
-Atender visual e auditivamente a estímulos do ambiente e recuperar informações de curto e longo prazo.
+Atender a estímulos do ambiente e recuperar informações de curto e longo prazo.
 
 - Segue estímulos auditivos e visuais
-- Olha, aponta, nomeia imagens em um livro
-- Localiza itens ocultos em uma imagem complexa
-- Classifica, mediante comando, por cor, forma e tamanho
+- Nomeia imagens em um livro
+- Localiza itens ocultos em uma imagem
+- Classifica por cor, forma e tamanho
 
 </Cartao>
 
 <Cartao rotulo="5.2" titulo="Raciocínio e habilidades acadêmicas" cor="cinza">
 
-Pensamento crítico para identificar e resolver problemas; habilidades acadêmicas básicas.
+Resolver problemas; habilidades acadêmicas básicas.
 
 - Nomeia e combina cores
-- Demonstra habilidades nas quatro operações
+- Demonstra as quatro operações
 - Lê palavras com grafia irregular
 - Identifica letras
 
@@ -807,18 +707,17 @@ Pensamento crítico para identificar e resolver problemas; habilidades acadêmic
 
 <Cartao rotulo="5.3" titulo="Percepção e conceitos" cor="cinza">
 
-Interação sensorial e motora com o ambiente; discriminar tamanho, forma e cor.
+Interação sensorial e motora; discriminar tamanho, forma e cor.
 
-- Compara objetos com base em suas características físicas
-- Identifica diversos tipos de texturas
-- Conhece o lado direito e o esquerdo do corpo
-- Diferencia papéis sociais presentes e futuros
+- Compara objetos por suas características
+- Identifica tipos de texturas
+- Conhece o lado direito e o esquerdo
+- Diferencia papéis sociais
 
 </Cartao>
 
 </Grade>
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
 
 ---
 layout: default
@@ -856,7 +755,20 @@ Em muitos itens adaptativos e socioemocionais, a informação só é acessível 
 Cada item admite ao menos um procedimento; o profissional decide quando usar cada um e pode
 usar mais de um no mesmo item. Quando disponível, prefere-se o estruturado.
 
-<Fonte>Vetor Editora, página da Coleção Battelle 3 · blog da Vetor.</Fonte>
+---
+layout: esquema
+kicker: Battelle 3 · o material
+title: O que o procedimento estruturado usa
+legenda: "Kit de brinquedos e cadernos de aplicação: os <b>materiais padronizados</b>."
+---
+
+<Grade :cols="2">
+
+<img src="/aula-03/battelle-brinquedos.webp" alt="Kit de brinquedos do Battelle 3: bola de tênis, sino, argolas de empilhar, blocos coloridos, tesoura, giz de cera e a bolsa transparente da coleção" class="w-full max-h-80 object-contain">
+
+<img src="/aula-03/bettelle-livros-aplicacao.webp" alt="Cadernos de aplicação em espiral do Battelle 3, com o caderno do aluno, o formulário de registro do desenvolvimento e o livro de instruções" class="w-full max-h-80 object-contain">
+
+</Grade>
 
 ---
 layout: default
@@ -872,20 +784,10 @@ orienta a leitura de potencialidades e dificuldades.
 
 </Nota>
 
-<Nota tipo="alerta" titulo="Raciocínio clínico, não afirmação do fabricante">
-
-A página do produto não associa o Battelle 3 a um diagnóstico. O papel descrito aqui é o da
-prática clínica: descrever o perfil de desenvolvimento, não diagnosticar.
-
-</Nota>
-
-<!--
-Ligação com a introdução: atraso global é uma semelhança entre TEA e TDI; o perfil por domínio ajuda a ver se o quadro é global ou localizado.
--->
 
 ---
 layout: figura
-imagem: /aula-03/capa-efa.png
+imagem: /aula-03/capa-efa.webp
 legenda: Capa do manual da EFA · Vetor Editora.
 lado: direita
 ajuste: contain
@@ -912,7 +814,7 @@ layout: default
 
 # EFA · a medida do funcionamento adaptativo
 
-<Grade :cols="2">
+<Grade :cols="3">
 
 <Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
 
@@ -922,17 +824,10 @@ intelectual** e **TEA**.
 
 </Cartao>
 
-<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
-
-Crianças e adolescentes de **6 a 15 anos**.
-
-</Cartao>
-
 <Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
 
-**Escala de relato parental**, respondida pelo cuidador. 50 itens (*Sim*, *Só com ajuda*,
-*Não*, *Não sei*), em ~30 minutos. Aplicação por link, com **correção automática on-line**
-na VOL.
+**50 itens** (*Sim*, *Só com ajuda*, *Não*, *Não sei*), em ~30 minutos. Aplicação por link,
+com **correção automática on-line** na VOL.
 
 </Cartao>
 
@@ -968,15 +863,9 @@ layout: default
 Conjunto de habilidades **conceituais, sociais e práticas**, aprendidas e executadas na vida
 diária. É atingir o padrão da comunidade em autonomia, independência pessoal e
 responsabilidade social, **em comparação com pares da mesma idade e de antecedentes
-socioculturais semelhantes**.
+socioculturais semelhantes** sem avisos, suportes ou lembretes.
 
 </Termo>
-
-<Nota titulo="O critério prático">
-
-Realizar as tarefas cotidianas **sem avisos, suportes ou lembretes**.
-
-</Nota>
 
 <Grade :cols="3">
 
@@ -1020,47 +909,63 @@ contexto e à sua realidade.
 <Nota tipo="alerta" titulo="No TDI, o critério adaptativo é diagnóstico">
 
 No TDI, a avaliação do funcionamento adaptativo **faz parte dos critérios diagnósticos**, e a
-EFA ajuda a identificar o **nível de comprometimento**. Lembra a introdução: a gravidade se
+EFA ajuda a identificar o **nível de comprometimento**. A gravidade se
 classifica pelo funcionamento adaptativo, não pelo QI.
 
 </Nota>
 
-<!--
-Raciocínio clínico do autor: a EFA complementa o nível cognitivo (RIAS-2) e o perfil por domínio (Battelle 3), respondendo a terceira peça do TDI, o déficit adaptativo.
--->
-
 ---
 layout: figura
-imagem: /aula-03/capa-eife.png
+imagem: /aula-03/capa-eife.jpg
 legenda: Capa do manual da EIFE · Vetor Editora.
 lado: direita
 ajuste: contain
 ---
 
-# EIFE · a escala para quem passou da faixa da EFA
+# EIFE · Escala de Independência Funcional e Expressiva
 
-A **Escala de Independência Funcional e Expressiva** é comentada aqui como a versão para
-**adolescentes, adultos e idosos**: a mesma pergunta (o que a pessoa faz sozinha), em outra
-faixa de idade.
+- **Autora:** Sabrina Martins Barroso
+- **Faixa etária:** de **12 a 98 anos**
+- **Informante:** cuidadores ou responsáveis, a partir da sua percepção
+- **Aplicação:** autoadministrada, individual ou coletiva, em ~**10 minutos**; vira entrevista
+  se o cuidador tiver baixa escolaridade
 
-<Nota tipo="alerta" titulo="Não é específica de TEA nem de TDI">
-
-A página da Vetor não associa a EIFE a um quadro diagnóstico. Retomamos isso no encerramento.
-
-</Nota>
+A mesma pergunta da EFA (o que a pessoa faz **sozinha**) para adolescentes, adultos e idosos.
 
 <Fonte>Vetor Editora, página da Coleção EIFE.</Fonte>
 
 <!--
 EIFE — Escala de Independência Funcional e Expressiva.
-[conferir no manual] Faixa etária exata, autoria e formato da EIFE: ainda não confirmados, por isso não estão no slide.
+Correção manual (somatório dos itens) ou digital, com relatório automático na VOL.
+-->
+
+---
+layout: figura
+imagem: /aula-03/protea-r-capa.webp
+legenda: Capa do livro de instruções do PROTEA-R · Vetor Editora.
+lado: direita
+ajuste: contain
+---
+
+# PROTEA-R · Sistema de Avaliação da Suspeita de TEA
+
+- **Organizadoras:** Cleonice Alves Bosa e Jerusa Fumagalli de Salles
+- **Faixa etária:** de **24 a 60 meses**, especialmente crianças **não verbais**
+- **Aplicação:** observação em **três sessões**, em dias diferentes, de ~45 minutos cada
+- **Natureza:** sistema de **rastreamento**, não de diagnóstico
+
+<Fonte>Bosa C. A. e Salles J. F. (orgs.), <em>Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+<!--
+PROTEA-R — Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista (já visto na aula 02).
+Rastreamento: levanta a suspeita; quem fecha o diagnóstico é o clínico, com outras fontes.
 -->
 
 ---
 layout: default
 ---
 
-# PROTEA-R · de onde vem a observação
+# PROTEA-R · Observação clínica estruturada
 
 <Grade :cols="2">
 
@@ -1104,28 +1009,20 @@ layout: default
 
 # PROTEA-R · a observação clínica sistematizada
 
-<Grade :cols="2">
+<Grade :cols="3">
 
 <Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
 
 **Sistematiza a observação clínica** de comportamentos pré-linguísticos em situação de
-brincadeira. Os autores são explícitos: é um sistema de **rastreamento**, não de
-diagnóstico.
-
-</Cartao>
-
-<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
-
-Crianças de **24 a 60 meses**, especialmente as **não verbais**, com suspeita de TEA ou de
-outros transtornos da comunicação.
+brincadeira, na suspeita de TEA ou de outros transtornos da comunicação.
 
 </Cartao>
 
 <Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
 
-**Três sessões, em dias diferentes**, de ~45 minutos — tempo para a criança se ambientar e o
-avaliador notar mudanças. Cada sessão tem dois contextos: brincadeira livre (≈15 min) e
-semiestruturada (≈30 min).
+As **três sessões** em dias diferentes dão tempo para a criança se ambientar e o avaliador notar mudanças. Cada
+sessão tem dois contextos: brincadeira livre (≈15 min) e semiestruturada (≈30 min). A
+**anamnese** com os responsáveis também compõe a aplicação.
 
 </Cartao>
 
@@ -1151,6 +1048,96 @@ Retomada da aula 02: mesmos números.
 layout: default
 ---
 
+# PROTEA-R · a logística de cada sessão
+
+<Fluxo :etapas="[
+  { titulo: 'Anamnese', desc: 'Entrevista com os responsáveis: <b>parte da aplicação</b> do PROTEA-R.', cor: 'azul' },
+  { titulo: 'Entrada combinada', desc: 'Criança e cuidador entram primeiro e ficam <b>a sós por cerca de 1 minuto</b>.', cor: 'azul' },
+  { titulo: 'Entrada do avaliador', desc: 'Bate na porta, entra, cumprimenta e <b>senta na altura da criança</b> — sem tê-la conhecido antes.', cor: 'azul' },
+  { titulo: 'Brincadeira livre', desc: '≈ 15 min. Contexto de brincadeira sem tarefa proposta.', cor: 'ouro' },
+  { titulo: 'Semiestruturada', desc: '≈ 30 min. Contexto com atividades propostas pelo avaliador.', cor: 'ouro' },
+]" />
+
+<Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+<!--
+Setting: o arranjo físico de materiais preparado para eliciar determinado repertório.
+Mesma logística vista na aula 02.
+-->
+
+---
+layout: esquema
+kicker: PROTEA-R · a sala
+title: Três ambientes na mesma sala
+legenda: "Os brinquedos saem de circulação ao longo da sessão, para a criança não se dispersar — e a caixa só é aberta quando tudo o mais já foi guardado."
+---
+
+<img src="/aula-03/protea-sala.svg" alt="Planta da sala do PROTEA-R com a porta e três ambientes: o chão com brinquedos de faz de conta e potes transparentes fechados, a mesa com encaixes e material gráfico e a caixa opaca do avaliador sobre o armário, fora do alcance da criança" class="w-full max-h-full object-contain">
+
+<!--
+Ilhas de brincadeira: chão → faz de conta, atenção compartilhada, busca de auxílio (potes
+transparentes fechados de propósito: a criança precisa pedir ajuda).
+Mesa → brincadeira funcional, exploração, habilidade gráfica.
+Caixa → reação sensorial, resposta atípica, imitação e troca de turnos; um item por vez.
+Ambiente 1 = brincadeira livre; ambientes 2 e 3 = semiestruturada.
+-->
+
+---
+layout: figura
+imagem: /aula-03/protea-r-brinquedos.webp
+legenda: Kit de materiais para a avaliação PROTEA-R.
+lado: esquerda
+ajuste: contain
+---
+
+# PROTEA-R · os brinquedos
+
+<Nota titulo="A sala é parte do instrumento">
+
+Pouco estímulo, mobília na escala da criança, brinquedos laváveis e sem partes que se soltem.
+
+</Nota>
+
+Faz de conta, encaixes, material gráfico e brinquedos sonoros e luminosos: o mesmo conjunto
+se distribui pelos **três ambientes** da sala.
+
+<Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+---
+layout: default
+---
+
+# PROTEA-R · o que se observa em cada ambiente
+
+<Grade :cols="3">
+
+<Cartao rotulo="1 · o chão · brincadeira livre" titulo="Faz de conta e busca de auxílio" cor="ouro">
+
+Faz de conta, **atenção compartilhada** e **busca de auxílio** — os potes transparentes ficam
+fechados para a criança precisar pedir ajuda.
+
+</Cartao>
+
+<Cartao rotulo="2 · a mesa · semiestruturada" titulo="Brincadeira funcional e grafismo" cor="azul">
+
+**Brincadeira funcional**, exploração dos materiais e **habilidade gráfica**.
+
+</Cartao>
+
+<Cartao rotulo="3 · a caixa · semiestruturada" titulo="Estímulos sensoriais" cor="azul">
+
+**Reação sensorial**, resposta atípica, **imitação** e troca de turnos — um item por vez.
+
+</Cartao>
+
+</Grade>
+
+<Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · Livro de instruções, Vetor Editora.</Fonte>
+
+---
+layout: default
+---
+
 # Os cinco itens críticos do PROTEA-R
 
 <Criterios :itens="[
@@ -1162,13 +1149,6 @@ layout: default
 ]" />
 
 <Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · Livro de instruções, Vetor Editora.</Fonte>
-
-<!--
-As três áreas do protocolo: comportamentos sociocomunicativos, qualidade da brincadeira e
-movimentos repetitivos e estereotipados do corpo.
-IAC / RAC — iniciativa / resposta de atenção compartilhada. IM — imitação. BS — brincadeira simbólica. MRC — movimentos repetitivos de outras partes do corpo.
-Estereotipia: movimento repetido de forma rígida, sem finalidade aparente.
--->
 
 ---
 layout: default
@@ -1211,16 +1191,26 @@ desenvolvimento e o funcionamento adaptativo vistos até aqui.
 
 </Nota>
 
-<Nota tipo="alerta" titulo="Raciocínio clínico, e com limite">
+---
+layout: figura
+imagem: /aula-03/binaut-capa.jpg
+legenda: Livro de instruções e cadernos das Escalas I e II do BINAUT · Vetor Editora.
+lado: direita
+ajuste: contain
+---
 
-É sistema de **rastreamento**, como dizem os autores. Organiza a observação; quem integra
-com a anamnese e as outras fontes é o clínico.
+# BINAUT · Modelo Binário de Investigação da Sintomatologia Autística
 
-</Nota>
+- **Autora:** L. M. Jorge
+- **Faixa etária:** de **2 a 12 anos**, com normas brasileiras
+- **Aplicação:** entrevista semiestruturada com pais ou responsáveis, conduzida pelo
+  profissional
+- **Duas escalas:** a Escala I em 30 a 40 minutos; a aplicação completa em cerca de **2h30**
+
+<Fonte>Jorge L. M., <em>BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças</em> · Manual técnico, Vetor Editora.</Fonte>
 
 <!--
-Raciocínio clínico do autor, separado do que o fabricante afirma: o ponto de partida do TEA é a reciprocidade social desproporcional ao nível geral (slide da introdução), e é isso que a observação sistematizada busca ver.
-[conferir no manual] Se o manual orienta a leitura pela idade de desenvolvimento, e não pela cronológica: não está no slide.
+BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças (já visto na aula 02).
 -->
 
 ---
@@ -1270,7 +1260,7 @@ layout: default
 
 # BINAUT · a entrevista com os responsáveis
 
-<Grade :cols="2">
+<Grade :cols="3">
 
 <Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
 
@@ -1280,16 +1270,9 @@ infantil.
 
 </Cartao>
 
-<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
-
-Crianças de **2 a 12 anos**, com normas construídas para a população brasileira.
-
-</Cartao>
-
 <Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
 
-**Entrevista semiestruturada com os pais ou responsáveis**: o profissional lê cada item,
-esclarece os termos e registra as respostas. O material **nunca** vai para casa — o processo,
+O profissional **lê cada item**, esclarece os termos e registra as respostas. O material **nunca** vai para casa — o processo,
 não o questionário, é o instrumento.
 
 </Cartao>
@@ -1305,11 +1288,6 @@ classificação. Correção manual ou pela plataforma VOL Vetor Online.
 
 <Fonte>Jorge L. M., <em>BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças</em> · Manual técnico, Vetor Editora.</Fonte>
 
-<!--
-Escore T: escala padronizada com média 50 e desvio-padrão 10.
-Percentil: posição do avaliado em relação à amostra normativa, de 0 a 100.
-VOL — Vetor Online, plataforma de aplicação e correção da editora.
--->
 
 ---
 layout: comparacao
@@ -1318,17 +1296,11 @@ colunas:
   - { titulo: Escala I, sub: a triagem sintomática, cor: azul }
   - { titulo: Escala II, sub: o aprofundamento desenvolvimental, cor: ouro }
 linhas:
-  - { criterio: O que investiga, valores: ["<b>12 itens gerais</b> de sintomatologia autística, cada um com subitens e derivações", "itens mais finos, organizados do mais novo para o mais velho, com descrições de nível <b>leve, moderado e severo</b>"] }
+  - { criterio: O que investiga, valores: ["<b>12 itens gerais</b> de sintomatologia autística, cada um com subitens e derivações. Foco na atipia comportamental", "itens mais finos, organizados do mais novo para o mais velho, com descrições de nível <b>leve, moderado e severo</b>. Foco no desenvolvimento."] }
   - { criterio: Pontuação, valores: ["<b>frequência</b> (0 a 12 itens gerais) e <b>intensidade</b> (soma dos pesos dos subitens)", "grau de comprometimento por item (1 leve · 2 moderado · 3 severo)"] }
   - { criterio: Tempo, valores: ["30 a 40 minutos", "o restante das cerca de <b>2h30</b> da aplicação completa"] }
-  - { criterio: Quando usar, valores: ["sempre primeiro — conclui sobre o potencial autístico dos dados", "criança <b>menor de 5 anos</b>: detalha áreas e intervenções; separa atípico de falha desenvolvimental"] }
+  - { criterio: Quando usar, valores: ["sempre primeiro — conclui sobre o potencial autístico dos dados", "criança <b>menor de 5 anos</b>: separa atípico de falha desenvolvimental"] }
 ---
-
-<!--
-Derivação: exemplo concreto de comportamento listado sob cada subitem; assinalar uma
-derivação já compromete o subitem, e um subitem comprometido já pontua o item geral.
-Escala I olha sobretudo a atipia comportamental; Escala II, sobretudo a perspectiva desenvolvimental.
--->
 
 ---
 layout: destaque
@@ -1405,50 +1377,54 @@ dia a dia, e quando as falhas começaram.
 
 </Nota>
 
-<Nota tipo="alerta" titulo="Nenhum dos dois diagnostica">
+---
+layout: figura
+imagem: /aula-03/capa-tric.jpg
+legenda: Capa do livro de instruções do TriC · Vetor Editora.
+lado: direita
+ajuste: contain
+---
 
-Os dois apontam **risco** e organizam a investigação. A integração com o nível cognitivo, o
-desenvolvimento e o funcionamento adaptativo é clínica.
+# TriC · Triagem de problemas emocionais e comportamentais em crianças
 
-</Nota>
+- **Autores:** Lucas de Francisco Carvalho e Tatiana Pontrelli Mecca
+- **Faixa etária:** de **2 a 5 anos**
+- **Informante:** adultos responsáveis pela criança (cuidadores ou profissionais)
+- **Aplicação:** individual ou coletiva, em papel ou on-line, em cerca de **10 minutos**;
+  correção na VOL
+
+<Fonte>Vetor Editora, <em>Coleção TriC — Triagem de problemas emocionais e comportamentais em crianças</em> · página do produto.</Fonte>
 
 <!--
-Raciocínio clínico do autor, separado do que o fabricante afirma. Ecoa o aviso do início da aula.
-[conferir no manual] Se "BINAUT-II" é a Escala II ou uma edição do instrumento: o slide diz "Escala II".
+TriC — Triagem de problemas emocionais e comportamentais em crianças.
+VOL — Vetor Online, plataforma de correção da editora.
 -->
 
 ---
 layout: default
 ---
 
-# TriC · Triagem de problemas emocionais e comportamentais em crianças
+# TriC · o que o instrumento faz
 
-<Grade :cols="2">
+<Grade :cols="3">
 
-<Cartao rotulo="objetivo" titulo="O que o instrumento faz" cor="azul">
+<Cartao rotulo="objetivo" titulo="Uma triagem" cor="azul">
 
 Levanta **sintomas emocionais e comportamentais** que possam levar a prejuízo. Não busca
-diagnóstico nosológico específico: é uma **triagem**.
-
-</Cartao>
-
-<Cartao rotulo="público" titulo="Idade de referência" cor="azul">
-
-Crianças de **2 a 5 anos**.
+diagnóstico nosológico específico.
 
 </Cartao>
 
 <Cartao rotulo="aplicação" titulo="Como se aplica" cor="ouro" :destaque="true">
 
-**Heterorrelato**: responde quem acompanha a criança (responsáveis ou pessoas próximas).
-Cada item é assinalado de **1 a 3**, conforme a intensidade com que o comportamento ocorre.
+**Heterorrelato**: cada item é assinalado de **1 a 3**, conforme a intensidade com que o
+comportamento ocorre.
 
 </Cartao>
 
 <Cartao rotulo="resultado" titulo="O que se extrai" cor="ouro">
 
-Correção on-line, na plataforma VOL, com **quatro resultados**: externalizantes,
-internalizantes, pró-social e geral.
+**Quatro resultados**: externalizantes, internalizantes, pró-social e geral.
 
 </Cartao>
 
@@ -1457,7 +1433,6 @@ internalizantes, pró-social e geral.
 <Fonte>Vetor Editora, <em>Coleção TriC — Triagem de problemas emocionais e comportamentais em crianças</em> · página do produto.</Fonte>
 
 <!--
-TriC — Triagem de problemas emocionais e comportamentais em crianças.
 Heterorrelato: o instrumento é respondido por outra pessoa que não o avaliado.
 Triagem: levanta a possibilidade de um problema; não fecha diagnóstico.
 VOL — Vetor Online, plataforma de correção da editora.
@@ -1530,6 +1505,24 @@ Resultado clínico em triagem não é diagnóstico: indica que vale investigar.
 -->
 
 ---
+layout: figura
+imagem: /aula-03/capa-tria.jpg
+legenda: Capa do livro de instruções do TriA · Vetor Editora.
+lado: direita
+ajuste: contain
+---
+
+# TriA · a versão para adultos
+
+- **Autores:** Lucas de Francisco Carvalho e André Pereira Gonçalves
+- **Faixa etária:** de **18 a 70 anos**
+- **Formato:** **autorrelato**, 89 itens, em cerca de 15 minutos; correção na VOL
+
+
+
+<Fonte>Vetor Editora, <em>Coleção TriA — Triagem de psicopatologia para adultos</em>.</Fonte>
+
+---
 layout: default
 ---
 
@@ -1543,38 +1536,15 @@ presente**: ansiedade, retraimento, agressividade, e também o que a criança te
 
 </Nota>
 
-<Nota tipo="alerta" titulo="Atenção à faixa etária">
+<Fonte>Vetor Editora, <em>Coleção TriC</em> e <em>Coleção TriA — Triagem de psicopatologia para adultos</em>.</Fonte>
 
-O TriC cobre de **2 a 5 anos**. O **TriA**, a versão para **adultos**, tem **89 itens**
-(segundo a Vetor). **De 6 a 17 anos não há triagem equivalente nesta série**: nessa faixa, a
-triagem de comorbidade precisa de outro instrumento.
-
-</Nota>
-
-<Nota tipo="erro" titulo="Nenhum instrumento diagnostica sozinho">
-
-Uma triagem aponta por onde investigar. A integração com nível cognitivo, desenvolvimento e
-funcionamento adaptativo é clínica.
-
-</Nota>
-
-<Fonte>Vetor Editora, <em>Coleção TriC</em> e <em>Coleção TriA — Triagem de psicopatologia para adultos</em> · páginas dos produtos.</Fonte>
-
-<!--
-Raciocínio clínico do autor, separado do que o fabricante afirma: usar o TriC como rastreio de comorbidade em crianças pequenas com suspeita ou diagnóstico de TEA ou TDI.
-TriA — Triagem de Psicopatologia para Adultos.
-Comorbidade: presença de outro quadro junto ao principal.
-[conferir no manual] Número de itens do TriA: 89 segundo a Vetor; revendedores citam 76. No slide, só 89, com a fonte.
-[conferir no manual] Idade mínima do TriA: o slide diz só "adultos".
--->
 
 ---
 layout: agradecimento
 kicker: Obrigado
 title: Vamos continuar a conversa.
-nome: André Barbieri
+nome: André Peres Barbieri
 contatos:
   - { rotulo: Instagram, valor: "@barbieri.psi", href: "https://instagram.com/barbieri.psi" }
   - { rotulo: E-mail, valor: "andrepb636@gmail.com", href: "mailto:andrepb636@gmail.com" }
-nota: As dúvidas que ficaram desta aula cabem em qualquer um dos dois.
 ---

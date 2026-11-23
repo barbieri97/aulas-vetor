@@ -20,10 +20,14 @@ const itens = (props.itens ?? []).map((item, i) => ({
   ...item,
   letra: item.letra ?? LETRAS[i] ?? '·',
 }))
+
+// Siglas (IAC, MRC…) não cabem no selo quadrado de uma letra: o selo alarga,
+// e todos alargam juntos para o texto seguir alinhado.
+const siglas = itens.some(item => item.letra.length > 1)
 </script>
 
 <template>
-  <ol class="ds-criterios">
+  <ol class="ds-criterios" :class="{ siglas }">
     <li v-for="(item, i) in itens" :key="i">
       <span class="letra">{{ item.letra }}</span>
       <span class="texto">
@@ -72,6 +76,12 @@ const itens = (props.itens ?? []).map((item, i) => ({
   font-weight: 600;
   line-height: 1.75rem;
   text-align: center;
+}
+
+.siglas .letra {
+  width: 3.1rem;
+  font-size: var(--ds-text-xs, 0.8rem);
+  letter-spacing: 0.04em;
 }
 
 .texto {

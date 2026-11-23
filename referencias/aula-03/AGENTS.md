@@ -28,9 +28,14 @@ devolve e **onde entra no raciocínio clínico**.
 - **A aula 02 é referência** e pode ser consultada e reaproveitada em qualquer bloco. Em
   particular, **reaproveitar a aula 02** (`aulas/aula-02-avaliacao-tea-tdah.md`) para PROTEA-R, BINAUT e
   EFA: mesma estrutura de cartões, mesmos números, sem reescrever.
-- Capas de manual: `aulas/public/aula-03/capa-<instrumento>.<ext>`, layout `figura` com o campo
-  `imagem` (nunca `src`). **As imagens são fornecidas pelo autor**; se o arquivo não existir,
-  deixar o slide sem a imagem e avisar — não inventar nem baixar de loja.
+- Capas de manual: em `aulas/public/aula-03/` (os nomes variam: `capa-<instrumento>`,
+  `<instrumento>-capa`), layout `figura` com o campo `imagem` (nunca `src`). **As imagens são
+  fornecidas pelo autor**; se o arquivo não existir, deixar o slide sem a imagem e avisar — não
+  inventar nem baixar de loja.
+- **Ficha de apresentação:** todo instrumento abre com um slide `figura` com a capa e uma lista
+  curta — autoria, faixa etária, informante ou formato, tempo — com `<Fonte>`. O que está na
+  ficha **não se repete** nos slides seguintes (o cartão "público" saiu deles). Fotos de
+  material de aplicação entram em slide próprio, perto do procedimento que usam.
 
 ## Blocos
 
@@ -43,12 +48,12 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
 | # | Bloco | Primeiro slide no deck | Tempo | Capítulo | Status no deck |
 |---|---|---|---|---|---|
 | 1 | Abertura e introdução do tema | capa | 7–15 min | [`01`](docs/01-abertura-e-introducao.md) | pronto |
-| 2 | RIAS-2 | "RIAS-2 · Escala Reynolds de Avaliação da Inteligência" (último: "O que o RIAS-2 acrescenta ao TEA e ao TDI") | — | [`02`](docs/02-rias-2.md) | pronto (7 slides, versão resumida; ver nota) |
-| 3 | Battelle 3 | "Battelle 3 · Inventário de Desenvolvimento Infantil" | — | [`03`](docs/03-battelle-3.md) | pronto (9 slides; ver nota) |
-| 4 | EFA e EIFE | "EFA · Escala de Funcionamento Adaptativo" | — | [`04`](docs/04-efa-eife.md) | pronto |
-| 5 | PROTEA-R (retomada) | "PROTEA-R · de onde vem a observação" (último: "O que o PROTEA-R acrescenta ao TEA e ao TDI") | ~2,5 min | [`05`](docs/05-protea-r.md) | pronto (5 slides, acima do orçamento; ver nota) |
-| 6 | BINAUT (retomada) | "BINAUT · de onde vem o modelo binário" (último: "O que o BINAUT acrescenta ao TEA e ao TDI") | ~2,5 min | [`06`](docs/06-binaut.md) | pronto (6 slides, acima do orçamento; ver nota) |
-| 7 | TriC e TriA | "TriC · Triagem de problemas emocionais e comportamentais em crianças" (último: "O que o TriC acrescenta ao TEA e ao TDI") | — | [`07`](docs/07-tric-tria.md) | pronto (4 slides) |
+| 2 | RIAS-2 | "RIAS-2 · Escala Reynolds de Avaliação da Inteligência" (último: "O que o RIAS-2 acrescenta ao TEA e ao TDI") | — | [`02`](docs/02-rias-2.md) | pronto (8 slides, versão resumida; ver nota) |
+| 3 | Battelle 3 | "Battelle 3 · Inventário de Desenvolvimento Infantil" (último: "O que o Battelle 3 acrescenta ao TEA e ao TDI") | — | [`03`](docs/03-battelle-3.md) | pronto (11 slides; ver nota) |
+| 4 | EFA e EIFE | "EFA · Escala de Funcionamento Adaptativo" (último: "EIFE · Escala de Independência Funcional e Expressiva") | — | [`04`](docs/04-efa-eife.md) | pronto |
+| 5 | PROTEA-R (retomada) | "PROTEA-R · Sistema de Avaliação da Suspeita de TEA" (último: "O que o PROTEA-R acrescenta ao TEA e ao TDI") | ~2,5 min | [`05`](docs/05-protea-r.md) | pronto (10 slides, acima do orçamento; ver nota) |
+| 6 | BINAUT (retomada) | "BINAUT · Modelo Binário de Investigação da Sintomatologia Autística" (último: "O que o BINAUT acrescenta ao TEA e ao TDI") | ~2,5 min | [`06`](docs/06-binaut.md) | pronto (7 slides, acima do orçamento; ver nota) |
+| 7 | TriC e TriA | "TriC · Triagem de problemas emocionais e comportamentais em crianças" (último: "O que o TriC acrescenta ao TEA e ao TDI") | — | [`07`](docs/07-tric-tria.md) | pronto (6 slides, com a ficha do TriA) |
 | 8 | Fechamento, encerramento e revisão | depois dos slides do bloco 7 ("Obrigado", layout `agradecimento`) | 2–3 min | [`08`](docs/08-encerramento-e-revisao.md) | pronto (versão simples: só agradecimento e contatos; revisão geral não feita) |
 
 > **Migração em andamento.** Os capítulos 02 e 05 a 08 já estão em `docs/` (fonte da
@@ -65,7 +70,7 @@ retomada. O tempo economizado vai para RIAS-2 e Battelle 3, que a turma ainda n�
   números do caso fictício do relatório, a composição exata dos índices e os pontos de corte
   dos subtestes (`[conferir no manual]`).
 - **3 · Battelle 3** — O desenho (ficha, aplicações, um slide por domínio, procedimentos,
-  importância) já deu 9 slides, acima do orçamento. Se o tempo apertar, cortar é decisão do
+  importância) já deu 9 slides, mais o slide de material (fotos do kit), acima do orçamento. Se o tempo apertar, cortar é decisão do
   autor.
 - **4 · EFA e EIFE** — O foco é o EFA (reutilizar o slide da aula 02); o EIFE é comentado como
   a versão para adolescentes, adultos e idosos.

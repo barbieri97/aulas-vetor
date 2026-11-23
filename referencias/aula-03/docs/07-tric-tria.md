@@ -6,6 +6,19 @@ status: rascunho
 
 # TriC · Triagem de problemas emocionais e comportamentais em crianças
 
+## Fichas
+
+**TriC.** Autores: Lucas de Francisco Carvalho e Tatiana Pontrelli Mecca. Crianças de 2 a 5
+anos. Escala preenchida por adultos responsáveis (cuidadores ou profissionais), em aplicação
+individual ou coletiva, no papel ou on-line, em cerca de 10 minutos; correção informatizada
+pela VOL.
+
+**TriA.** Autores: Lucas de Francisco Carvalho e André Pereira Gonçalves. Adultos de 18 a 70
+anos. Autorrelato com 89 itens, em cerca de 15 minutos; correção pela VOL. Entre os 5 anos do
+TriC e os 18 do TriA fica uma lacuna de 6 a 17 anos.
+
+Fonte: Vetor Editora, páginas das Coleções TriC e TriA, consulta em 2026-11-23.
+
 # Resumo da fundamentação teórica
 
 O instrumento defende que problemas emocionais e comportamentais em crianças são especialmente prejudiciais ao desenvolvimento infantil e ao desempenho e qualidade de vida na vida adulta. Por este motivo, defendem que a investigação destes problemas emocionais, como caracteristicas transdiagnóstica é relevante para levantar, precocemente, vulnerabilidades desta população, logo, o instrumento não tem o propósito de um diagnóstico nosológico especifico, mas sim o levantamento de sintomas emocionais e comportamentais que possam levar a prejuízos.
