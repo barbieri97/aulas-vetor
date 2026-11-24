@@ -6,7 +6,7 @@ date: "2026-11-21"
 colorSchema: light
 download: true
 layout: capa
-subtitle: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade esinais do espectro no transtorno do espectro autista e no transtorno do desenvolvimento intelectual
+subtitle: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade e sinais emocionais e comportamentais no transtorno do espectro autista e no transtorno do desenvolvimento intelectual
 ---
 
 <!--
@@ -103,7 +103,7 @@ colunas:
   - { titulo: TDI, sub: transtorno do desenvolvimento intelectual, cor: azul }
   - { titulo: TEA, sub: transtorno do espectro autista, cor: ouro }
 linhas:
-  - { criterio: Reciprocidade social, valores: ["<b>acompanha</b> o nível de desenvolvimento", "prejuízo <b>desproporcional</b> ao nível de desenvolvimento geral"] }
+  - { criterio: Comunicação social, valores: ["<b>acompanha</b> o nível de desenvolvimento", "prejuízo <b>desproporcional</b> ao nível de desenvolvimento geral"] }
   - { criterio: Rebaixamento intelectual, valores: ["sempre presente", "frequente, mas não obrigatório"] }
   - { criterio: Leitura clínica, valores: ["desenvolvimento socioemocional e relações sociais compatíveis com a <b>idade mental</b>", "comunicação social <b>abaixo do esperado</b> para o nível geral"] }
 ---
@@ -800,7 +800,7 @@ ajuste: contain
 - **Informante:** cuidadores ou responsáveis, a partir da sua percepção
 - **Foco da pergunta:** o que a pessoa faz **sozinha**, no dia a dia
 
-<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em> · guia de aplicação on-line e modelos de relatório.</Fonte>
+<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em></Fonte>
 
 <!--
 EFA — Escala de Funcionamento Adaptativo. Já apresentada na aula 02; aqui ganha o ângulo da aula 03.
@@ -840,7 +840,7 @@ Escore bruto, escore z, escore padronizado, percentil e classificação nos dom�
 
 </Grade>
 
-<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em> · guia de aplicação on-line e modelos de relatório.</Fonte>
+<Fonte>Vetor Editora, <em>Escala de Funcionamento Adaptativo (EFA)</em></Fonte>
 
 <!--
 Domínio conceitual: conhecimentos acadêmicos, memória, linguagem, leitura, escrita,
@@ -951,7 +951,7 @@ ajuste: contain
 
 - **Organizadoras:** Cleonice Alves Bosa e Jerusa Fumagalli de Salles
 - **Faixa etária:** de **24 a 60 meses**, especialmente crianças **não verbais**
-- **Aplicação:** observação em **três sessões**, em dias diferentes, de ~45 minutos cada
+- **Aplicação:** observação em **três sessões**, em dias diferentes, de ~45 minutos cada + entrevista
 - **Natureza:** sistema de **rastreamento**, não de diagnóstico
 
 <Fonte>Bosa C. A. e Salles J. F. (orgs.), <em>Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista</em> · Livro de instruções, Vetor Editora.</Fonte>
@@ -1393,7 +1393,7 @@ ajuste: contain
 - **Aplicação:** individual ou coletiva, em papel ou on-line, em cerca de **10 minutos**;
   correção na VOL
 
-<Fonte>Vetor Editora, <em>Coleção TriC — Triagem de problemas emocionais e comportamentais em crianças</em> · página do produto.</Fonte>
+<Fonte>Vetor Editora, <em>Coleção TriC — Triagem de problemas emocionais e comportamentais em crianças</em></Fonte>
 
 <!--
 TriC — Triagem de problemas emocionais e comportamentais em crianças.
@@ -1522,6 +1522,14 @@ ajuste: contain
 
 <Fonte>Vetor Editora, <em>Coleção TriA — Triagem de psicopatologia para adultos</em>.</Fonte>
 
+<!--
+• Fator externalizante: comportamentos impulsivos e desconforto social.
+
+• Fator transtornos do pensamento: distorções da realidade, delírios e alucinações.
+
+• Fator internalizante: sofrimento psíquico voltado ao self, como ansiedade e depressão.
+-->
+
 ---
 layout: default
 ---
@@ -1546,5 +1554,5 @@ title: Vamos continuar a conversa.
 nome: André Peres Barbieri
 contatos:
   - { rotulo: Instagram, valor: "@barbieri.psi", href: "https://instagram.com/barbieri.psi" }
-  - { rotulo: E-mail, valor: "andrepb636@gmail.com", href: "mailto:andrepb636@gmail.com" }
+  - { rotulo: E-mail, valor: "andre.barbieri@santamarcelina.edu.br", href: "mailto:andre.barbieri@santamarcelina.edu.br"}
 ---
