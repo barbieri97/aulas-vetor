@@ -9,12 +9,6 @@ layout: capa
 subtitle: Instrumentos para avaliar nível cognitivo, desenvolvimento, funcionalidade e sinais emocionais e comportamentais no transtorno do espectro autista e no transtorno do desenvolvimento intelectual
 ---
 
-<!--
-TEA — transtorno do espectro autista.
-TDI — transtorno do desenvolvimento intelectual (no DSM-5, o que antes se chamava deficiência intelectual).
-DSM-5 — Manual Diagnóstico e Estatístico de Transtornos Mentais, 5ª edição (APA).
--->
-
 ---
 layout: default
 ---
@@ -24,7 +18,7 @@ layout: default
 **André Peres Barbieri**
 
 - Mestrando em ciências da saúde pela FCMSCSP
-- Especialista em neuropsicologia pela FCMSCSP
+- Especialização em neuropsicologia pela FCMSCSP
 - Avaliação neuropsicologica e terapeuta analítco-comportamental
 - Professor na Faculdade Santa Marcelina
 
@@ -83,7 +77,7 @@ Padrões restritos e repetitivos, como a **estereotipia**, aparecem nos dois.
 
 <Cartao rotulo="semelhança 3" titulo="Rebaixamento intelectual" cor="azul">
 
-No TDI ele **sempre** existe; no TEA ele também é **frequente**: 16,4% de prevalência no TEA (MAB, 2026)
+No TDI ele **sempre** existe; no TEA ele também **aparece**: 16,4% de prevalência no TEA (MAB, 2026)
 
 </Cartao>
 
