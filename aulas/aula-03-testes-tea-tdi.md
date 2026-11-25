@@ -23,31 +23,6 @@ layout: default
 - Professor na Faculdade Santa Marcelina
 
 ---
-layout: roteiro
-kicker: Roteiro
-title: O caminho de hoje
-itens:
-  - { tema: TEA e TDI, desc: "no que se parecem, no que diferem" }
-  - { tema: Nível cognitivo, desc: "RIAS-2" }
-  - { tema: Desenvolvimento e funcionalidade, desc: "Battelle 3, EFA, EIFE" }
-  - { tema: Sinais do espectro e problemas emocionais e comportamentais, desc: "PROTEA-R, BINAUT, TriC, TriA" }
-atual: 1
----
-
-<!--
-RIAS-2 — Escala Reynolds de Avaliação da Inteligência, 2ª edição.
-Battelle 3 — Inventário de Desenvolvimento Battelle, 3ª edição (BDI-3). Nome no Brasil: Battelle 3 · Inventário de Desenvolvimento Infantil.
-EFA — Escala de Funcionamento Adaptativo (já vista na aula 02).
-EIFE — Escala de Independência Funcional e Expressiva.
-PROTEA-R — Sistema PROTEA-R de Avaliação da Suspeita de Transtorno do Espectro Autista (aula 02).
-BINAUT — Modelo Binário de Investigação da Sintomatologia Autística em Crianças (aula 02).
-TriC — Triagem de Problemas Emocionais e Comportamentais em Crianças.
-TriA — Triagem de Psicopatologia para Adultos.
--->
-
-
-
----
 layout: secao
 numero: "01"
 kicker: Introdução
@@ -107,31 +82,7 @@ Idade mental: a idade em que a criança funciona, cognitivamente, segundo a norm
 O critério de desproporção é o mesmo que a aula 02 já usa para o TEA.
 -->
 
----
-layout: default
----
 
-# O que o DSM-5 pede para o TDI
-
-<Termo palavra="Transtorno do desenvolvimento intelectual (TDI)" origem="DSM-5">
-
-Déficits **intelectuais e adaptativos, juntos**, com início no período do desenvolvimento.
-
-</Termo>
-
-<Nota titulo="A gravidade não vem do QI">
-
-A gravidade é classificada pelo **funcionamento adaptativo**, não pelo QI. Por isso as escalas
-adaptativas têm peso nesta aula.
-
-</Nota>
-
-<Fonte>APA, <em>DSM-5</em> · Deficiência Intelectual (Transtorno do Desenvolvimento Intelectual).</Fonte>
-
-<!--
-QI — quociente de inteligência.
-Funcionamento adaptativo: o que a pessoa faz sozinha no dia a dia, nos domínios conceitual, social e prático.
--->
 
 ---
 layout: comparacao
@@ -461,19 +412,7 @@ A página da editora não fixa tempo mínimo nem máximo: a duração varia de c
 -->
 
 
----
-layout: default
----
 
-# Para que se usa
-
-Do contexto clínico ao escolar. Entre os objetivos:
-
-- **Avaliar** a criança com desenvolvimento típico
-- **Identificar** crianças com deficiência ou atrasos no desenvolvimento
-- **Planejar** instruções e intervenções
-- **Monitorar** o progresso
-- **Avaliar programas** que atendem crianças
 
 
 ---
@@ -1156,14 +1095,6 @@ Soma dos códigos de qualidade convertidos dos cinco itens (A = 0 · B = 1 · C 
 **9 a 15** indica **risco** para TEA; **1 a 8**, risco **relativo**; **0**, ausência de risco.
 
 </Termo>
-
-<Nota tipo="alerta" titulo="O escore não é o resultado">
-
-O manual insiste que o valor **não pode ser lido isolado**: a leitura é qualitativa, apoiada
-na codificação global das três sessões, na anamnese e em outras fontes. Soma abaixo de 9
-**não descarta** risco — apenas torna o critério menos acurado.
-
-</Nota>
 
 <Fonte>Bosa e Salles (orgs.), <em>PROTEA-R</em> · instruções para codificação. Reavaliação sugerida em intervalo mínimo de <b>6 meses</b>.</Fonte>
 
